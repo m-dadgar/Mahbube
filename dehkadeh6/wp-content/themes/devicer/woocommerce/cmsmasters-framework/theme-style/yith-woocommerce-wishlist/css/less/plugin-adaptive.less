@@ -1,0 +1,330 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Responsive Design Yith WooCommerce Wishlist CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "../../../../../../theme-framework/theme-style/css/less/general.less";
+
+
+@media only screen {
+	/*-------------------------------------------------------------------------*/
+	/*	1.	Small Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_tablet_small {
+		html {
+			.cmsmasters_wishlist_wrap {
+				display:inline-block;
+				vertical-align:top;
+				margin:0 8px 20px;
+				float:none;
+				
+				.cmsmasters_wishlist_button {
+					height:20px;
+				}
+			}
+			
+			/***************** Free Version - Wishlist Table ******************/
+			#yith-wcwl-form {
+				&.woocommerce {
+					table.wishlist_table {
+						.bd(0);
+						
+						tbody {
+							.bd;
+							.bdb(0);
+							.bdrs(10px);
+							tr {
+								.bdb();
+							}
+						}
+						
+						tfoot {
+							display:block;
+						}
+						
+						tr {
+							position:relative;
+							
+							td {
+								.tac;
+								
+								&:first-child,
+								&:last-child {
+									.bd(0);
+								}
+								
+								&.product-remove {
+									padding:0;
+									z-index:1;
+									position:absolute;
+									left:auto;
+									right:2px;
+									top:5px;
+								}
+								
+								&.product-thumbnail {
+									padding:15px;
+								}
+								
+								&.product-price,
+								&.product-stock-status {
+									display:inline-block;
+									width:50%;
+									margin:0 -2px;
+									padding:15px;
+									vertical-align:middle;
+									.bd(0);
+								}
+								
+								&.product-price {
+									.tar;
+								}
+								
+								&.product-stock-status {
+									.tal;
+								}
+								
+								&.product-add-to-cart {
+									.dateadded {
+										padding:0 0 10px 0;
+									}
+									
+									> a,
+									> a + a.button {
+										float:none;
+										display:inline-block!important;
+										width:auto;
+									}
+									
+									.variations_form {
+										.tac;
+									}
+									
+									.variations {
+										display:inline-block;
+										
+										+ .variations {
+											margin-left:10px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			
+			/***************** Premium Version - Wishlist Table ******************/
+			#yith-wcwl-form {
+				&.woocommerce {
+					table.wishlist_table {
+						tr {
+							td {
+								&.product-checkbox {
+									padding:0;
+									z-index:1;
+									position:absolute;
+									left:10px;
+									right:auto;
+									top:7px;
+								}
+								
+								&.product-add-to-cart {
+									> a,
+									> a + a.button,
+									> a + select + a.selectBox,
+									> a.selectBox + a.button {
+										float:none;
+										display:inline-block!important;
+										width:auto;
+									}
+									
+									> a + select + a.selectBox  {
+										width:auto !important;
+									}
+									
+									> .dateadded + select + a.selectBox,
+									> select:first-child + a.selectBox {
+										width:auto !important;
+										
+										+ a.button {
+											width:auto;
+										}
+									}
+								}	
+								
+								&.product-thumbnail a img {
+									width:120px;
+								}
+							}
+						}
+						
+						tfoot {
+							td {
+								.custom-add-to-cart-button-cotaniner {
+									margin:0 0 10px;
+									.tac;
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			
+			/***************** Premium Version - Manage Wishlist ******************/
+			#yith-wcwl-form {
+				.wishlist_manage_table {
+					tbody {
+						tr {
+							font-size:0;
+							line-height:0;
+							padding:10px 0;
+							.bdb;
+							
+							&:first-child {
+								.dn;
+							}
+							
+							td {
+								display:inline-block;
+								width:33.33%;
+								vertical-align:middle;
+								.tac;
+								
+								a.selectBox {
+									margin:0;
+								}
+							}
+						}
+					}
+					
+					tfoot {
+						display:block;
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	/*-------------------------------------------------------------------------*/
+	/*	2. Phone Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_phone {
+		html {
+			/***************** Free Version - Single Product Quick View ******************/
+			#yith-wcwl-form {
+				&.woocommerce {
+					table.wishlist_table {
+						tbody {
+							td {
+								&.product-add-to-cart{
+									> a,
+									> a + a.button {
+										width:100%;
+										margin:0;
+									}
+									
+									> a + a.button {
+										margin:15px 0 0;
+									}
+								}
+							}
+						}
+						
+						tfoot {
+							tr {
+								td {
+									.ask-an-estimate-button-container,
+									.yith-wcwl-share {
+										float:none;
+										.tac;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			
+			/***************** Premium Version - Wishlist Table ******************/
+			#yith-wcwl-form {
+				&.woocommerce {
+					table.wishlist_table {
+						tr {
+							td {
+								&.product-add-to-cart {
+									> a,
+									> a + a.button,
+									> a + select + a.selectBox,
+									> a.selectBox + a.button {
+										float:none;
+										display:inline-block!important;
+										width:100%;
+										margin:0 0 15px;
+										
+										&:last-child {
+											margin:0;
+										}
+									}
+									
+									> a + select + a.selectBox  {
+										width:100% !important;
+									}
+									
+									> .dateadded + select + a.selectBox,
+									> select:first-child + a.selectBox {
+										width:100% !important;
+										
+										+ a.button {
+											width:100%;
+										}
+									}
+								}	
+							}
+						}
+					}
+				}
+			}
+			
+			
+			/***************** Premium Version - Manage Wishlist ******************/
+			#yith-wcwl-form {
+				.wishlist_manage_table {
+					tbody {
+						tr {
+							td {
+								width:100%;
+							}
+						}
+					}
+					
+					tfoot {
+						td {
+							.tac;
+							
+							> .button,
+							> button,
+							.button + button {
+								float:none;
+								display:block;
+								width:100%;
+								margin:10px 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

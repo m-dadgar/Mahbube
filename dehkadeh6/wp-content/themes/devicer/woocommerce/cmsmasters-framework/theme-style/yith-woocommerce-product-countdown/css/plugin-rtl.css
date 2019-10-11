@@ -1,0 +1,18 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Product Countdown RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+ .ywpc-countdown-loop > .ywpc-timer > div:last-child {
+	margin: 0;
+}
+
+.ywpc-countdown-loop > .ywpc-timer > .ywpc-days, .ywpc-countdown-loop > .ywpc-timer > .ywpc-hours, .ywpc-countdown-loop > .ywpc-timer > .ywpc-minutes, .ywpc-countdown-loop > .ywpc-timer > .ywpc-seconds {
+    margin: 0 0 0 15px;
+}

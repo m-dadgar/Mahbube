@@ -1,0 +1,590 @@
+/***************************************************
+	scss file: /assets/scss/theme/_post.scss
+		+ Style for post
+			- Post in blog page
+			- Post in signle page
+****************************************************/
+article.type-page,
+article.type-post{
+	h3.post-title{
+		margin: 0 0 10px; position: relative; font-size: 1.5em; border:none;
+		@media(max-width: $screen-sm-max){
+			font-size: 1.2em;
+		}
+	}
+	.page-links{  margin-bottom: 15px; clear: left; font-weight: bold;
+		a{display: inline-block; padding: 0 3px; margin: 0 0 3px;}
+	}
+	blockquote{
+		font-size: 1.2857em; color: $color; margin: 0 0 20px; padding: 0 0 0 25px; border: none; font-style: italic; position: relative;
+		&:before{ @include font-awesome('f10d', 14px); position: absolute; left: 0px; top: 7px; }
+	}
+	.post-meta{
+		display: block; margin: 0 0 0px; @include clearfix();
+		> span{
+			padding-left: 20px; margin-right: 10px; position: relative; float: left;
+			&:after{ position: absolute; left: 0px; top: 11.5px; height: 1px; width: 10px; content: ""; background: $color; }
+			&:first-child{
+				padding-left: 0px;
+				&:after{
+					display: none;
+				}
+			}
+			&:last-child{ margin-right: 0px; }
+			a{ color: $color;
+				&:hover{ color: $color1; }
+			}
+		}
+		.post-author{ 
+			a{
+				color: $color1;
+				&:hover{ text-decoration: underline; }
+			}
+		}
+		span.entry-date{ 
+			a{ color: $color1;
+				&:hover{ text-decoration: underline; }
+			}
+		}
+		span.edit-post{
+			a{
+				color: $color1;
+				&:hover{ text-decoration: underline; }
+			}
+		}
+		.post-comment-count{
+			a{
+				padding-left: 3px;
+				&:before{
+					@include font-awesome('f0e5', 13px); text-indent: -6px; position: relative; top: -1px;
+				}
+			}
+		}
+		span.sticky-post{
+			position: relative; padding-left: 15px; color: $color1;
+			&:before{
+				position: absolute; @include font-awesome('f08d', 14px); font-size: 14px; left: 0px; top: calc(50% - 7px); text-align: left; color: $color;
+			}
+		}
+		.cat-links{
+			position: relative;
+			span{ padding: 0 8px 0 0;}
+			ul{ list-style: none; margin: 0 0; padding: 0 0; display: inline-block;
+				li{ display: inline; padding: 0 0 0; 
+					&:after{ content: ","}
+					a{
+						color: $color1;
+						&:hover{ text-decoration: underline; }
+					}
+					&:last-child{
+						&:after{ display: none; }
+					}
+				}
+			}
+		}
+		.tags-links{ position: relative;
+			color: $color1;
+			&:hover{ text-decoration: underline; }
+		}
+	}
+	.post-excerpt{
+		p{ 
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+	.post-content{
+		@include clearfix();
+	}
+	.gallery-thumb,
+	.video-thumb,
+	.audio-thumb,
+	.post-thumb,
+	.quote-info,
+	.link-info{
+		margin-bottom: 30px; position: relative;
+	}
+	.gallery-thumb{
+		position: relative;	overflow: hidden; margin: 0 0 30px;
+		@include owl-nav1();
+		.owl-nav{ 
+			@include transition(all 0.25s ease-out); position: absolute; z-index: 2; width: 100%; height: 40px; top: 50%; margin-top: -20px; @include opacity(0);
+			.owl-prev{
+				left: 15px; 
+			}
+			.owl-next{
+				right: 15px; left: auto;
+			}
+		}
+		&:hover{
+			@include opacity(1);
+		}
+		body:not(.single-post) & {
+			.thumb-container{ position: relative; z-index: auto;
+				&:before{position: absolute;content: ""; height: 100%; width: 100%; left: 0px; top: 0px;
+					background: rgba(0,0,0,0.2); @include opacity(0); @include transition(all 0.25s ease-out); z-index: 1;
+				}
+				&:hover{
+					&:before{ @include opacity(1); }
+				}
+			}
+		}
+	}
+	.link-info{
+		padding: 80px 30px; text-align: center; background: url(#{$base-url}/global.png) #f5f5f5 no-repeat -10px 35%; position: relative; @include transition(all 0.25s ease-out);
+		a{
+			display: block; font-size: 1.3846em; font-weight: bold; text-transform: uppercase;
+		}
+	}
+	.quote-info{
+		padding: 50px 35px 50px; background: #f5f5f5; text-align: center; font-size: 1.1428em; position: relative; @include transition(all 0.25s ease-out);
+		.quote-content{
+			display: block; margin-bottom: 20px; position: relative; font-style: italic;
+			i{ 
+				margin: 0 7px 0 0; position: relative; top: -2px;
+			}
+		}
+		.quote-author{
+			display: inline-block; margin: 0px; padding: 0; font-weight: bold; @include transition(all 0.25s ease-out); color: $color; position: relative; text-transform: uppercase;
+		}
+	}
+	.post-thumb{
+		position: relative; overflow: hidden;
+		body:not(.single-post) &{
+			a{ display: inline-block; position: relative;
+				&:before{position: absolute;content: ""; height: 100%; width: 100%; left: 0px; top: 0px;
+					background: rgba(0,0,0,0.2); @include opacity(0); @include transition(all 0.25s ease-out); z-index: 1;
+				}
+				&:hover{
+					&:before{ @include opacity(1); }
+				}
+			}
+		}
+	}
+	
+	body:not(.single-post) &{
+		&:hover{
+			.post-thumb{
+				&:before{ @include opacity(0); @include scale(0); }
+			}
+			.gallery-thumb{
+				.owl-nav{ @include opacity(1); }
+				.thumb-container{
+					&:after{ @include opacity(0); @include scale(0); }
+				}
+			}
+		}
+	}
+}
+// Blog standard
+.blog-standard{
+	> article{
+		margin-bottom: 70px;
+		h3.post-title{
+			margin: 0 0 15px;font-size: 1.8571em;
+		}
+		.gallery-thumb,
+		.video-thumb,
+		.audio-thumb,
+		.post-thumb,
+		.quote-info,
+		.link-info{
+			margin-bottom: 20px;
+		}
+		.more-link{
+			@include transition(all 0.25s ease); @include border-radius(40px); padding: 0 25px; height: 40px; line-height: 40px;
+			text-transform: uppercase; display: table; margin: 27px 0 0; font-weight: bold; color: #FFF; border: 1px solid $color1; background: $color1;
+		    &:hover{
+		    	background: $link-color; color: #FFF; border-color: $link-color;
+		    }
+		}
+	}
+}
+// Blog standard
+.blog-list{
+	> article{
+		.inner-post{
+			@include clearfix();
+			.part-left{
+				float: left; width: 50%; padding: 0 15px 0 0;
+			}
+			.part-right{ float: left; width: 50%; padding: 0 0 0 15px;}
+			@media(max-width: $screen-xs-max){
+				.part-left,
+				.part-right{
+					float: none; width: 100%; padding: 0 0;
+				}
+			}
+		}
+		margin-bottom: 60px;
+		h3.post-title{
+			margin: 0 0 15px; font-size: 1.5em;
+		}
+		.post-meta{ margin: -3px 0 3px; }
+		.gallery-thumb,
+		.video-thumb,
+		.audio-thumb,
+		.post-thumb,
+		.quote-info,
+		.link-info{
+			@media(min-width: $screen-lg){
+				margin-bottom: 0px;
+			}
+		}
+		.link-info{
+			padding: 100px 10px;
+		}
+		.more-link{
+			@include transition(all 0.25s ease); @include border-radius(40px); padding: 0 27px; height: 40px; line-height: 40px;
+			text-transform: uppercase; display: table; margin: 25px 0 0; font-weight: bold; color: #FFF; border: 1px solid $color1; background: $color1;
+		    &:hover{
+		    	background: $link-color; color: #FFF; border-color: $link-color;
+		    }
+		}
+	}
+}
+// Blog Masonry
+.sns-grid-masonry{
+	margin: 0 -7.5px 55px;
+	article{
+		margin-bottom: 20px; text-align: center;
+		.post-meta{ display: inline-block;
+		}
+		.gallery-thumb,
+		.video-thumb,
+		.audio-thumb,
+		.post-thumb,
+		.quote-info,
+		.link-info{
+			margin: 0 0;
+		}
+		.post-content{
+			padding: 20px 15px 20px; border: 1px solid $base-border-color;
+		}
+		.post-meta{
+			margin: 0 0 -2px;
+		}
+		h3.post-title{
+			margin: 0 0; font-size: 1.1428em;
+		}
+	}
+	.sns-grid-item{
+		width: 33.33%;
+		padding-right: 10px;
+		padding-left: 10px;
+		overflow: hidden;
+		@media(max-width: $screen-md-min){
+			width: 50%;
+		}
+		@media(max-width: $screen-phone){
+			width: 100%;
+		}
+		body.layout-type-l-m-r & ,
+		body.layout-type-m-r & ,
+		body.layout-type-l-m & {
+			width: 50%;
+			@media(max-width: $screen-phone){
+				width: 100%;
+			}
+		}
+	}
+	&+.navigation{
+		margin-top: 10px;
+	}
+}
+// Single post
+body.single-post .post-content ul, 
+body.single-post .post-content ol{
+	line-height: 1.9;
+}
+.single{
+	article.post{ margin: 0 0 80px;
+		h1.post-title{
+			margin: 0 0 10px; font-size: 2.3076em; line-height: 1.1;
+			@media(max-width: $screen-sm-max){
+				font-size: 1.2em;
+			}
+		}
+		.post-meta{ margin-bottom: 25px; }
+		.gallery-thumb,
+		.video-thumb,
+		.audio-thumb,
+		.post-thumb,
+		.quote-info,
+		.link-info{
+			margin-bottom: 30px;
+		}
+		.gallery-thumb{
+			.owl-nav{ @include opacity(1); }
+		}
+		.post-content{
+			margin-bottom: 15px;
+		}
+		.post-foot{ 
+			@include clearfix();
+			.post-share-block{ 
+				float: right; height: 40px;
+				// override style
+				.ssbp-wrap,
+				.ssba-wrap{ font-size: 1em !important;
+					.ssba-share-text{ 
+						font-size: 1em; position: relative; color: $color; font-weight: bold; margin-right: 0px;
+					}
+					br{ display: none; }
+					a{ display: inline-block; @include square(32px !important); line-height: 32px !important; margin: 0; text-align: center; @include border-radius(100%);
+						img{
+							padding: 0 0 !important; width: 100% !important; height: 100% !important;
+						}
+						&:before{ font-size: 14px !important; @include square(32px !important); line-height: 32px !important; }
+					}
+				}
+			}
+			.tags-links{ float: left; margin: 0 0; 
+				.label-tag{ float: left; margin: 4px 10px 0 0; font-weight: bold; }
+				a{ padding: 4px 10px; background: #f5f5f5; display: inline-block; margin: 0 10px 10px 0; float: left; color: $color;
+					&:hover{ background: $color1; color: #FFF; }
+				}
+				@media(max-width: $screen-phone){
+					float: none; display: block; margin: 0 0;
+				}
+			}
+		}
+		.author-info{
+			margin: 70px 0 0; padding: 20px; @include clearfix(); border: 1px solid $base-border-color; background: #f9f9f9;
+			h4{
+				margin: 5px 0 10px; font-size: 1em; color: $link-color; text-transform: uppercase;
+			}
+			p.author-bio{ margin-bottom: 0;}
+			.author-avatar{
+				float: left; margin: 0 20px 0 0; @include border-radius(5px); overflow: hidden;
+				@media(max-width: $screen-xs-max){
+					margin-right: 15px;
+				}
+			}
+			.author-desc{
+				display: block;
+			}
+		}
+		.post-related{
+			position: relative; margin: 70px 0 0; padding-top: 70px; border-top: 1px solid $base-border-color;
+			h2.related-title{
+				padding: 0 0; margin: 0 0 15px; font-size: 1.5714em;
+			    display: block;
+			}
+			.related-content{ margin: 0 -15px;}		
+			.item{ padding: 0 15px;
+				.image{
+					display: block; max-width: 100%; position: relative; margin-bottom: 20px;
+					&:before{
+						content: ""; position: absolute; background: rgba($color1, 0.3);width: 100%; height: 100%; z-index: 1;
+						@include opacity(0); @include transition(0.25s ease-out);
+					}
+				}
+				.title{
+					margin: 0 0 10px; font-size: 1em; text-transform: uppercase;
+				}
+				&:hover{
+					.image{
+						&:before{
+							@include opacity(1);
+						}
+					}
+				}
+				.post-meta{ margin-bottom: 0px; }
+			}
+			@include owl-nav1();
+			.owl-nav{ @include transition(all 0.25s ease-out); visibility: none; @include opacity(0);
+				.owl-prev{ left: 25px; }
+				.owl-next{ left: auto; right: 25px; }
+			}
+			&:hover{
+				.owl-nav{ @include opacity(1); visibility: visible;}
+			}
+		}
+		
+		.post-navigation{
+			@include clearfix(); margin: 30px 0 0; width: 100%; padding-top: 70px; border-top: 1px solid $base-border-color;
+			h2{ display: none;}
+			.nav-next,
+			.nav-previous{
+				float: left; text-align: right; padding: 0 30px 0 0; width: 50%; position: relative;
+				&:before{
+					position: absolute; content: ""; height: 100%; width: 1px; top: 0px; right: -0.5px; background-color: $base-border-color;
+				}
+				.nav-post-link{
+					position: relative;padding: 0 0 0 20px; margin: 0 0 5px; color: inherit; display: inline-block;
+					a{ color: $color1; text-transform: uppercase; font-weight: bold; 
+						&:hover{ text-decoration: underline; }
+					}
+					&:before{
+						@include font-awesome('f060', 14px); font-size: 14px;position: absolute; top: calc(50% - 7px); left: 0px; color: inherit; @include transition(all 0.25s ease-out); color: $color1;
+					}
+					.screen-reader-text{ text-transform: uppercase;}
+					@media(max-width: $screen-sm-max){
+						.post-title{
+							display: none;
+						}
+					}
+				}
+				.nav-post-title{ font-size: 1em; font-weight: bold;  text-transform: uppercase;}
+			}
+			.nav-next{
+				float: right; text-align: left; padding: 0 0 0 30px;
+				&:before{
+					right: auto; left: -0.5px;
+				}
+				.nav-post-link{
+					padding: 0 20px 0 0;
+					&:before{
+						@include font-awesome('f061', 14px);
+						right: 0px; left: auto
+					}
+				}
+			}
+		}
+	}
+}
+
+.archive,
+.blog{
+	.format-status,
+	.format-aside{
+		.post-title{ display: none;}
+	}
+}
+article.type-attachment{
+	h1.post-title{
+		margin: 0 0 30px; font-size: 2em; text-transform: uppercase;
+		@media(max-width: $screen-sm-max){
+			font-size: 1.2em;
+		}
+	}
+	.more-link{
+		margin:15px 0 0; display: inline-block; color: #FFF; border: 1px solid $color1; background: $color1;
+	    @include border-radius(0px); text-transform: none; @include transition(all 0.25s ease); font-weight: bold;
+	    position: relative; padding: 0 0 0 18px;
+	    &:before{
+	    	position: absolute; left: -2px; top: 5px; @include font-awesome('f178', 14px); @include transition(all 0.25s ease);
+	    }
+	    &:hover{
+	    	background: $link-color; border-color: $color1; color: #FFF;
+	    	&:before{
+		    	left: 0px;
+		    }
+	    }
+		.meta-nav{
+			display: none;
+		}
+	}
+	.post-meta{
+		display: block; margin: 0 0 0px; @include clearfix();
+		> span{
+			padding-left: 20px; margin-right: 10px; position: relative; float: left;
+			&:after{ position: absolute; left: 0px; top: 11.5px; height: 1px; width: 10px; content: ""; background: $color; }
+			&:first-child{
+				padding-left: 0px;
+				&:after{
+					display: none;
+				}
+			}
+			&:last-child{ margin-right: 0px; }
+			a{ color: $color;
+				&:hover{ color: $color1; }
+			}
+		}
+		a{
+			&:hover{ color: $color1; text-decoration: underline; }
+		}
+		a.author-link{ 
+			color: $color1;
+			&:hover{
+				color: $color1; text-decoration: underline;
+			}
+		}
+		.post-author{ 
+			a{
+				color: $color1;
+				&:hover{ text-decoration: underline; }
+			}
+		}
+		span.entry-date{ 
+			a{ color: $color1;
+				&:hover{ text-decoration: underline; }
+			}
+		}
+		span.edit-post{
+			a{
+				color: $color1;
+				&:hover{ text-decoration: underline; }
+			}
+		}
+	}
+	.entry-caption{
+		margin: 10px 0 15px;
+	}
+	.image-navigation{
+		@include clearfix(); margin: 50px 0; width: 100%;
+		h2{ display: none;}
+		.nav-next,
+		.nav-previous{
+			float: left; text-align: right; padding: 0 30px 0 0; width: 50%; position: relative;
+			&:before{
+				position: absolute; content: ""; height: 100%; width: 1px; top: 0px; right: -0.5px; background-color: $base-border-color;
+			}
+			.nav-post-link{
+				position: relative;padding: 0 0 0 16px; margin: 0 0 10px; color: inherit;display: inline-block;
+				a{ color: $color1; }
+				&:before{
+					@include font-awesome('f100', 13px); font-size: 13px;position: absolute; top: 4px; left: 0px; color: inherit; @include transition(all 0.25s ease-out); color: $color1;
+				}
+				.screen-reader-text{ text-transform: uppercase;}
+				@media(max-width: $screen-sm-max){
+					.post-title{
+						display: none;
+					}
+				}
+			}
+			.nav-post-title{ text-transform: uppercase; font-weight: bold; }
+			
+		}
+		.nav-next{
+			float: right; text-align: left; padding: 0 0 0 30px;
+			&:before{
+				right: auto; left: -0.5px;
+			}
+			.nav-post-link{
+				padding: 0 16px 0 0;
+				&:before{
+					@include font-awesome('f101', 13px);
+					right: 0px; left: auto
+				}
+			}
+		}
+	}
+}
+
+.video-responsive{
+	position: relative; padding-bottom: 55.5%;overflow: hidden; padding-top: 3px;height: 0;
+	embed,
+	iframe,
+	object,
+	video{
+		width: 100%; height: 100%;position: absolute; left: 0px; top: 0px;
+	}
+}
+.audio-responsive{
+	position: relative;padding-bottom: 54.5%;padding-top: 8px;height: 0;
+	embed,
+	iframe,
+	object,
+	audio{
+		width: 100%; height: 100%;position: absolute; left: 0px; top: 0px;
+	}
+}
+
+.page.type-page{
+	.page-links{ margin-bottom: 15px; clear: left; font-weight: bold;
+		a{display: inline-block; padding: 0 3px; margin: 0 0 3px;}
+	}
+}

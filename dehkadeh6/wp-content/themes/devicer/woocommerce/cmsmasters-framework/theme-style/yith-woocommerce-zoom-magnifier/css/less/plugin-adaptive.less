@@ -1,0 +1,70 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Responsive Design Yith WooCommerce Zoom Magnifier CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "../../../../../../theme-framework/theme-style/css/less/general.less";
+
+
+@media only screen {
+	/*-------------------------------------------------------------------------*/
+	/*	Small Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_tablet_small {
+		.pp_woocommerce {
+			.pp_content_container {
+				.pp_close {
+					right:0;
+					top:-22px;
+				}
+			}
+		}
+		
+		#page .cmsmasters_single_product {
+			.yith_magnifier_zoom_magnifier, 
+			.yith_magnifier_mousetrap, 
+			.yith_magnifier_loading {
+				display:none !important;
+			}
+		}
+		
+		.yith_magnifier_lens {
+			border:none !important;
+		}
+	}
+	
+	
+	
+	/*-------------------------------------------------------------------------*/
+	/*	Tablet Monitor 600
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_tablet_600 {
+		.cmsmasters_product_left_column {
+			.images {
+				&.right.inside {
+					.yith_magnifier_zoom_magnifier {
+						margin:0;
+					}
+				}
+				
+				&.inside.default,
+				&.right.default {
+					.yith_magnifier_zoom_magnifier {
+						max-width:50% !important;
+						max-height:50% !important;
+						margin:0;
+						left:auto !important;
+						right:0;
+						top:0 !important;
+					}
+				}
+			}
+		}
+	}
+}

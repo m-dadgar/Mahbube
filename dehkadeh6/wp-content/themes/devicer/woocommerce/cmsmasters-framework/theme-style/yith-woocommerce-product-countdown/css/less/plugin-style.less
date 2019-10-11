@@ -1,0 +1,90 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Product Countdown CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "../../../../../../theme-framework/theme-style/css/less/general.less";
+
+.ywpc-countdown,
+.ywpc-countdown-loop {
+    max-width: 290px;
+    padding: 35px 30px 30px;
+    margin: 0;
+    margin-top: 15px;
+    .tal;
+    .bdrs(15px);
+
+    >.ywpc-header {
+        padding: 0 0 5px;
+    }
+
+    >.ywpc-timer {
+        >.ywpc-days,
+        >.ywpc-hours,
+        >.ywpc-minutes,
+        >.ywpc-seconds {
+            width: auto;
+            margin: 0 33px 0 0;
+        }
+
+        >.ywpc-seconds {
+            margin: 0;
+        }
+
+        >div {
+            >.ywpc-label {
+                .tac;
+            }
+
+            >.ywpc-amount {
+                >span {
+                    .bd(0);
+                    margin: 0;
+                    width: auto;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+.ywpc-sale-bar {
+    >.ywpc-header {
+        padding: 0 0 5px;
+    }
+}
+
+.ywpc-countdown-loop {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    >.ywpc-header {
+        padding: 0;
+        .tac;
+    }
+    
+    >.ywpc-timer {
+
+        >.ywpc-days,
+        >.ywpc-hours,
+        >.ywpc-minutes,
+        >.ywpc-seconds {
+            margin: 0 15px 0 0;
+        }
+
+        >div {
+            &:last-child {
+                margin: 0;
+            }
+        }
+
+    }
+}

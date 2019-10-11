@@ -1,0 +1,230 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Responsive Design Yith WooCommerce Quick View CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "../../../../../../theme-framework/theme-style/css/less/general.less";
+
+
+@media only screen {
+	/*-------------------------------------------------------------------------*/
+	/*	Small Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_tablet_small {
+		html {
+			/***************** Free Version - Single Product Quick View ******************/
+			#yith-quick-view-modal {
+				.single-product {
+					div.summary {
+						.product_meta {
+							> span {
+								.cmsmasters_product_meta_title {
+									width:auto;
+								}
+							}
+						}
+					}
+				}
+
+				&.open {
+					.yith-wcqv-wrapper {
+						min-height: 90%;
+					}
+				}
+			}
+			
+			.woocommerce .products .product:nth-child(2n), .woocommerce-page .products .product:nth-child(2n) {
+				.fl;
+			}
+			
+			
+			/***************** Premium Version - Single Product Quick View ******************/
+			.yith-quick-view.slide-in,
+			.yith-quick-view.fade-in,
+			.yith-quick-view.scale-up {
+				.single-product {
+					overflow-y:hidden;
+					
+					div.summary {
+						.product_meta {
+							> span {
+								.cmsmasters_product_meta_title {
+									width:auto;
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			div.pp_woocommerce {
+				width:100% !important;
+				left:auto !important;
+				right:auto !important;
+			}
+
+			#yith-quick-view-modal {
+				.single-product {
+					 div.summary {
+						 .cart {
+							.tac;
+
+							.quantity {
+								margin-bottom: 10px;
+							}
+
+							.single_add_to_cart_button {
+								display: block;
+								margin: auto;
+							}
+						 }
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	/*-------------------------------------------------------------------------*/
+	/*	Tablet Monitor 600
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_tablet_600 {
+		html {
+			/***************** Premium Version - Single Product Quick View ******************/
+			.yith-quick-view.slide-in,
+			.yith-quick-view.fade-in,
+			.yith-quick-view.scale-up {
+				.yith-wcqv-wrapper {
+					.yith-wcqv-main {
+						padding:60px 0 20px;
+					}
+				}
+				
+				.single-product {
+					padding:0 20px;
+					overflow-y:scroll;
+					
+					> .product {
+						> .product {
+							> div {
+								&.images,
+								&.summary {
+									float:none;
+									width:100%;
+									padding:0;
+								}
+								
+								&.images {
+									margin:0 0 40px;
+									padding:0;
+								}
+								
+								&.summary {
+									width:100% !important;
+									height:auto;
+									max-height:none;
+									
+									.cmsmasters_product_title_wrap {
+										padding-right:0;
+									}
+									
+									.cmsmasters_product_info_wrap {
+										float:none;
+										.tal;
+									}
+									
+									.cmsmasters_star_rating {
+										.fr;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	/*-------------------------------------------------------------------------*/
+	/*	Phone Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_phone {
+		html {
+			/***************** Free Version - Single Product Quick View ******************/
+			#yith-quick-view-modal {
+				.single-product {
+					> .product {
+						> .product {
+							> div {
+								&.images,
+								&.summary {
+									float:none;
+									width:100%;
+								}
+								
+								&.images {
+									margin:0 0 40px;
+									padding:0;
+								}
+							}
+						}
+					}
+
+					div.summary {
+						.product_meta_title {
+							min-width: auto;
+						}
+
+						.product_meta {
+							> span {
+								.tac;
+							}
+						}
+					}
+				}
+			}
+
+			.yith-quick-view.yith-inline {
+				.yith-wcqv-wrapper {
+					.yith-wcqv-main {
+						padding:40px 0 0;
+						
+						.yith-wcqv-head {
+							.yith-quick-view-close {
+								top:40px;
+							}
+						}
+					}
+				}
+				
+				.single-product {
+					> .product {
+						> .product {
+							> div {
+								&.images,
+								&.summary {
+									float:none;
+									width:100%;
+								}
+								
+								&.images {
+									margin:0 0 40px;
+									padding:0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

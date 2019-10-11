@@ -1,0 +1,160 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Wishlist RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+
+.products .product .cmsmasters_add_wishlist_button {
+	float: left;
+	margin-left: 0;
+}
+
+.products .product .cmsmasters_add_wishlist_button a:before {
+	left: 0;
+	right: 0;
+}
+
+.yith-wcwl-add-to-wishlist .yith-wcwl-add-button a.add_to_wishlist.button i {
+	float: left;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tbody td {
+	text-align: right;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-name a:not([class]) + .yith-wcqv-button {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart {
+	text-align: center;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart > a {
+	margin-left: 1.7%;
+	margin-right: 0;
+	float: right;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart > a:last-child {
+	float: none;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart > a + a.button {
+	margin-left: 0;
+	margin-right: 1.7%;
+	float: right;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tfoot td .ask-an-estimate-button-container {
+	float: left;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tfoot td .yith-wcwl-share-title + ul {
+	margin-left: 0;
+	margin-right: 35px;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tfoot td ul li a:before {
+	left: 0;
+	right: 0;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart > a {
+	float: right;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart > a:last-child {
+	float: none;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart > a.selectBox {
+	padding-left: 30px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart > a.selectBox + a.button {
+	float: none;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart > a + a.button {
+	float: right;
+}
+
+#yith-wcwl-form.woocommerce table.wishlist_table .custom-add-to-cart-button-cotaniner {
+	float: right;
+	margin-left: 20px;
+}
+
+#yith-wcwl-form .yith-wcwl-wishlist-new input[type="text"] {
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+#yith-wcwl-form .yith-wcwl-wishlist-new button i:before {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#yith-wcwl-form .wishlist_manage_table tfoot .button,
+#yith-wcwl-form .wishlist_manage_table tfoot button {
+	float: right;
+}
+
+#yith-wcwl-form .wishlist_manage_table tfoot .button i:before,
+#yith-wcwl-form .wishlist_manage_table tfoot button i:before {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#yith-wcwl-form .wishlist_manage_table tfoot .button + button {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+#yith-wcwl-form .yith-wcwl-wishlist-search-form #wishlist_search {
+	float: none;
+}
+
+#yith-wcwl-form .yith-wcwl-wishlist-search-form .wishlist-search-button {
+	float: none;
+}
+
+#yith-wcwl-form .yith-wcwl-wishlist-search-form .wishlist-search-button i:before {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.wishlist-ask-an-estimate-popup .ask-an-estimate-button-popup {
+	float: right;
+}
+
+.wishlist-ask-an-estimate-popup .ask-an-estimate-button-popup i:before {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.yes-js .pp_woocommerce .yith-wcwl-popup-content .yith-wcwl-popup-new {
+	text-align: right;
+}
+
+.yes-js .pp_woocommerce .yith-wcwl-popup-content .yith-wcwl-popup-new label {
+	margin-left: 15px;
+}
+
+.yes-js .pp_woocommerce .yith-wcwl-popup-footer > .yith-wcwl-popup-button > .popup_button {
+	margin-left: 10px;
+	margin-right: 0;
+	float: right;
+}
+

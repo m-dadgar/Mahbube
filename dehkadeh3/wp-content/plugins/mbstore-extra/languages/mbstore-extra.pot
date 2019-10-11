@@ -1,0 +1,99 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: MBStore Extra\n"
+"POT-Creation-Date: 2018-09-13 20:49+0700\n"
+"PO-Revision-Date: 2018-09-13 20:49+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: mbstore-extra.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: mbstore-extra.php:37 mbstore-extra.php:38 mbstore-extra.php:48
+#: mbstore-extra.php:76
+msgid "Post WCode"
+msgstr ""
+
+#: mbstore-extra.php:39 mbstore-extra.php:40
+msgid "Add New Post WCode"
+msgstr ""
+
+#: mbstore-extra.php:41
+msgid "Edit Post WCode"
+msgstr ""
+
+#: mbstore-extra.php:42
+msgid "New Post WCode"
+msgstr ""
+
+#: mbstore-extra.php:43
+msgid "View Post WCode"
+msgstr ""
+
+#: mbstore-extra.php:44
+msgid "Search Post WCode"
+msgstr ""
+
+#: mbstore-extra.php:45
+msgid "No Post WCode found"
+msgstr ""
+
+#: mbstore-extra.php:46
+msgid "No Post WCode found in Trash"
+msgstr ""
+
+#: mbstore-extra.php:47
+msgid "Parent Post WCode:"
+msgstr ""
+
+#: mbstore-extra.php:77
+msgid "Display somes shortcodes via slug of Post WCode"
+msgstr ""
+
+#: mbstore-extra.php:109 mbstore-extra.php:190
+msgid "Title:"
+msgstr ""
+
+#: mbstore-extra.php:115
+msgid "Slug of Post WCode:"
+msgstr ""
+
+#: mbstore-extra.php:126
+msgid "MBStore Vertical Menu"
+msgstr ""
+
+#: mbstore-extra.php:127
+msgid "Add a vertical menu to your sidebar."
+msgstr ""
+
+#: mbstore-extra.php:194
+msgid "Select Menu:"
+msgstr ""
+
+#: mbstore-extra.php:196
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MBStore Extra"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://snstheme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extra some featured for MBStore theme."
+msgstr ""

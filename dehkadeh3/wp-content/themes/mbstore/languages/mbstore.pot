@@ -1,0 +1,1978 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: MBStore\n"
+"POT-Creation-Date: 2018-12-28 14:37+0700\n"
+"PO-Revision-Date: 2018-12-28 14:36+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:11 404.php:12
+msgid "Return to the Home page"
+msgstr ""
+
+#: author-bio.php:20 framework/tpl/posts/post-masonry.php:100
+#: framework/tpl/posts/post.php:107 framework/tpl/posts/post2.php:130
+#: framework/tpl/single/single.php:84
+#, php-format
+msgid "<a class=\"author-link\" href=\"%s\" ref=\"author\">%s</a>"
+msgstr ""
+
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:17
+msgid "1 comment"
+msgstr ""
+
+#: comments.php:21
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:53
+msgid "Name *"
+msgstr ""
+
+#: comments.php:54
+msgid "E-Mail *"
+msgstr ""
+
+#: comments.php:55
+msgid "Your website"
+msgstr ""
+
+#: comments.php:57
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: comments.php:62
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:63
+msgid "Your comment *"
+msgstr ""
+
+#: comments.php:64
+msgid "Submit comment"
+msgstr ""
+
+#: comments.php:65
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:65
+msgid " Required fields are marked "
+msgstr ""
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:393
+#: framework/class-tgm-plugin-activation.php:915
+#: framework/class-tgm-plugin-activation.php:2621
+#: framework/class-tgm-plugin-activation.php:3668
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:394
+#: framework/class-tgm-plugin-activation.php:3247
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:395
+#: framework/class-tgm-plugin-activation.php:3040
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1022
+#: framework/class-tgm-plugin-activation.php:1025
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1025
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1209
+#: framework/class-tgm-plugin-activation.php:3036
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2361
+msgid "Required"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2364
+msgid "Recommended"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2380
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2383
+msgid "External Source"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2386
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2403
+msgid "Not Installed"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2407
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2409
+msgid "Active"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2415
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2418
+msgid "Requires Update"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2421
+msgid "Update recommended"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2430
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2476
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2480
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2484
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2488
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2570
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2578
+msgid "Installed version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2586
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2598
+msgid "Available version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2621
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2635
+msgid "Plugin"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2636
+msgid "Source"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2637
+#: framework/sns-woocomerce.php:746 framework/sns-woocomerce.php:770
+msgid "Type"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2641
+msgid "Version"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2642
+msgid "Status"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2691
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2702
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2772
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2805
+msgid "Install"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2811
+msgid "Update"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2814
+msgid "Activate"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2845
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2847
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2888
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2890
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2996
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3022
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3246
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3589
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3595
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3598
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3600
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3603
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3606
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3608
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/mega-menu/admin.php:44
+msgid "sub item"
+msgstr ""
+
+#: framework/mega-menu/admin.php:60
+msgid "Move up"
+msgstr ""
+
+#: framework/mega-menu/admin.php:75
+msgid "Move down"
+msgstr ""
+
+#: framework/mega-menu/admin.php:77 framework/mega-menu/admin.php:79
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/mega-menu/admin.php:88
+msgid "URL"
+msgstr ""
+
+#: framework/mega-menu/admin.php:95
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/mega-menu/admin.php:101
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/mega-menu/admin.php:108
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/mega-menu/admin.php:113
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/mega-menu/admin.php:119
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/mega-menu/admin.php:125 framework/sns-woocomerce.php:496
+msgid "Description"
+msgstr ""
+
+#: framework/mega-menu/admin.php:127
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: framework/mega-menu/admin.php:134
+msgid "Use Icon?"
+msgstr ""
+
+#: framework/mega-menu/admin.php:136 framework/sns-metabox.php:130
+#: framework/sns-metabox.php:254 framework/sns-metabox.php:263
+#: framework/sns-metabox.php:280 framework/sns-metabox.php:290
+#: framework/sns-metabox.php:316 framework/sns-woocomerce.php:592
+#: framework/sns-woocomerce.php:600 framework/sns-woocomerce.php:660
+#: framework/sns-woocomerce.php:670
+msgid "No"
+msgstr ""
+
+#: framework/mega-menu/admin.php:137
+msgid "Icon Font"
+msgstr ""
+
+#: framework/mega-menu/admin.php:138
+msgid "Icon Image"
+msgstr ""
+
+#: framework/mega-menu/admin.php:144
+msgid "Menu Item's Icon"
+msgstr ""
+
+#: framework/mega-menu/admin.php:154
+msgid "Select Icon"
+msgstr ""
+
+#: framework/mega-menu/admin.php:157
+msgid "Select Image"
+msgstr ""
+
+#: framework/mega-menu/admin.php:158
+msgid "Remove Icon"
+msgstr ""
+
+#: framework/mega-menu/admin.php:164
+msgid "Enable Mega Menu(Apply for level 1)"
+msgstr ""
+
+#: framework/mega-menu/admin.php:172
+msgid "Use Post WCode for Mega Menu?"
+msgstr ""
+
+#: framework/mega-menu/admin.php:175
+msgid "Select position to display..."
+msgstr ""
+
+#: framework/mega-menu/admin.php:176
+msgid "Show in left"
+msgstr ""
+
+#: framework/mega-menu/admin.php:177
+msgid "Show in right"
+msgstr ""
+
+#: framework/mega-menu/admin.php:178
+msgid "Show in bottom"
+msgstr ""
+
+#: framework/mega-menu/admin.php:185
+msgid "Post WCode(Slug of Post WCode)"
+msgstr ""
+
+#: framework/mega-menu/admin.php:193
+msgid "Background Image for dropdown content"
+msgstr ""
+
+#: framework/mega-menu/admin.php:200
+msgid "Select Background"
+msgstr ""
+
+#: framework/mega-menu/admin.php:201
+msgid "Remove Background"
+msgstr ""
+
+#: framework/mega-menu/admin.php:207
+msgid "Custom style for dropdown content(Just apply for this element)"
+msgstr ""
+
+#: framework/mega-menu/admin.php:215
+msgid "Hide Title(Apply for level 2 Mega Menu Columns Style)"
+msgstr ""
+
+#: framework/mega-menu/admin.php:234
+msgid "Remove"
+msgstr ""
+
+#: framework/mega-menu/admin.php:235
+msgid "Cancel"
+msgstr ""
+
+#: framework/plugins-need-active.php:7
+msgid "Redux Framework"
+msgstr ""
+
+#: framework/plugins-need-active.php:12
+msgid "Meta Box"
+msgstr ""
+
+#: framework/plugins-need-active.php:17
+msgid "Slider Revolution"
+msgstr ""
+
+#: framework/plugins-need-active.php:23
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: framework/plugins-need-active.php:29
+msgid "MBStore Extra"
+msgstr ""
+
+#: framework/plugins-need-active.php:35
+msgid "MBStore Shortcodes"
+msgstr ""
+
+#: framework/plugins-need-active.php:41
+msgid "WooCommerce - excelling eCommerce"
+msgstr ""
+
+#: framework/plugins-need-active.php:46
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: framework/plugins-need-active.php:51
+msgid "YITH WooCommerce Compare"
+msgstr ""
+
+#: framework/plugins-need-active.php:56
+msgid "YITH WooCommerce Quick View"
+msgstr ""
+
+#: framework/plugins-need-active.php:61
+msgid "YITH WooCommerce Ajax Product Filter"
+msgstr ""
+
+#: framework/plugins-need-active.php:66
+msgid "Newsletter"
+msgstr ""
+
+#: framework/plugins-need-active.php:71
+msgid "Contact Form 7"
+msgstr ""
+
+#: framework/plugins-need-active.php:76
+msgid "Instagram Feed"
+msgstr ""
+
+#: framework/plugins-need-active.php:81
+msgid "Simple Share Buttons Adder"
+msgstr ""
+
+#: framework/sns-functions.php:263
+msgid "Load more"
+msgstr ""
+
+#: framework/sns-functions.php:264
+msgid "Loading"
+msgstr ""
+
+#: framework/sns-functions.php:375
+msgctxt "Previous post link"
+msgid "Previous post"
+msgstr ""
+
+#: framework/sns-functions.php:390
+msgctxt "Next post link"
+msgid "Next post"
+msgstr ""
+
+#: framework/sns-menu.php:144
+msgid "FontAwesome Icons"
+msgstr ""
+
+#: framework/sns-metabox.php:33
+msgid "Don't use"
+msgstr ""
+
+#: framework/sns-metabox.php:60
+msgid "Product Config"
+msgstr ""
+
+#: framework/sns-metabox.php:73 framework/sns-options.php:588
+msgid "Background Box Styles"
+msgstr ""
+
+#: framework/sns-metabox.php:78 framework/sns-metabox.php:89
+#: framework/sns-metabox.php:107 framework/sns-metabox.php:228
+#: framework/sns-metabox.php:252 framework/sns-metabox.php:301
+#: framework/sns-options.php:381 framework/sns-woocomerce.php:590
+#: framework/sns-woocomerce.php:598 framework/sns-woocomerce.php:628
+#: framework/sns-woocomerce.php:658 framework/sns-woocomerce.php:668
+#: framework/sns-woocomerce.php:705
+msgid "Default"
+msgstr ""
+
+#: framework/sns-metabox.php:79 framework/sns-options.php:590
+msgid "Background color for Second block of Product"
+msgstr ""
+
+#: framework/sns-metabox.php:80 framework/sns-options.php:591
+msgid "Background color for Main content of Product"
+msgstr ""
+
+#: framework/sns-metabox.php:84 framework/sns-options.php:660
+msgid "Gallery Thumbnail Type"
+msgstr ""
+
+#: framework/sns-metabox.php:90 framework/sns-options.php:663
+msgid "Horizontal"
+msgstr ""
+
+#: framework/sns-metabox.php:91 framework/sns-options.php:664
+msgid "Vertical"
+msgstr ""
+
+#: framework/sns-metabox.php:95
+msgid "Want to use second box for Product Main Content?"
+msgstr ""
+
+#: framework/sns-metabox.php:99
+msgid ""
+"Enter slug of Post WCode(Use Post WCode to make content). Example: product-"
+"content-sidebar"
+msgstr ""
+
+#: framework/sns-metabox.php:102 framework/sns-options.php:615
+msgid "Zoom Type for Cloud Zoom"
+msgstr ""
+
+#: framework/sns-metabox.php:108 framework/sns-options.php:617
+msgid "Lens"
+msgstr ""
+
+#: framework/sns-metabox.php:109 framework/sns-options.php:618
+msgid "Inner"
+msgstr ""
+
+#: framework/sns-metabox.php:115
+#: woocommerce/single-product/product-image.php:76
+msgid "Product Video"
+msgstr ""
+
+#: framework/sns-metabox.php:119
+msgid "Enter your video url(youtube, video)"
+msgstr ""
+
+#: framework/sns-metabox.php:124
+msgid "Use Variation Thumbnail for Variable product"
+msgstr ""
+
+#: framework/sns-metabox.php:129 framework/sns-metabox.php:253
+#: framework/sns-metabox.php:262 framework/sns-metabox.php:279
+#: framework/sns-metabox.php:289 framework/sns-metabox.php:315
+#: framework/sns-woocomerce.php:591 framework/sns-woocomerce.php:599
+#: framework/sns-woocomerce.php:659 framework/sns-woocomerce.php:669
+msgid "Yes"
+msgstr ""
+
+#: framework/sns-metabox.php:132
+msgid "Just applies for Variable Product"
+msgstr ""
+
+#: framework/sns-metabox.php:141
+msgid "Layout Config"
+msgstr ""
+
+#: framework/sns-metabox.php:155
+msgid "Layout Type"
+msgstr ""
+
+#: framework/sns-metabox.php:160 framework/sns-options.php:329
+msgid "Without Sidebar"
+msgstr ""
+
+#: framework/sns-metabox.php:161 framework/sns-options.php:333
+msgid "Use Left Sidebar"
+msgstr ""
+
+#: framework/sns-metabox.php:162 framework/sns-options.php:337
+msgid "Use Right Sidebar"
+msgstr ""
+
+#: framework/sns-metabox.php:167
+msgid "--- Select a layout type ---"
+msgstr ""
+
+#: framework/sns-metabox.php:171 framework/sns-options.php:345
+#: framework/sns-woocomerce.php:620 framework/sns-woocomerce.php:694
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/sns-metabox.php:177 framework/sns-metabox.php:187
+msgid "--- Select a sidebar ---"
+msgstr ""
+
+#: framework/sns-metabox.php:181 framework/sns-options.php:354
+#: framework/sns-woocomerce.php:621 framework/sns-woocomerce.php:695
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/sns-metabox.php:194
+msgid "Default Menu..."
+msgstr ""
+
+#: framework/sns-metabox.php:204
+msgid "Page Config"
+msgstr ""
+
+#: framework/sns-metabox.php:217
+msgid "Want use custom logo?"
+msgstr ""
+
+#: framework/sns-metabox.php:220
+msgid "It priority more than Logon in theme option"
+msgstr ""
+
+#: framework/sns-metabox.php:223 framework/sns-options.php:240
+msgid "Header Style"
+msgstr ""
+
+#: framework/sns-metabox.php:229 framework/sns-options.php:243
+msgid "Style1"
+msgstr ""
+
+#: framework/sns-metabox.php:230 framework/sns-options.php:244
+msgid "Style2"
+msgstr ""
+
+#: framework/sns-metabox.php:231 framework/sns-options.php:245
+msgid "Style3"
+msgstr ""
+
+#: framework/sns-metabox.php:233
+msgid "Select Header style. "
+msgstr ""
+
+#: framework/sns-metabox.php:236
+msgid "The type show content of Vertical menu"
+msgstr ""
+
+#: framework/sns-metabox.php:241
+msgid "Hover show content"
+msgstr ""
+
+#: framework/sns-metabox.php:242
+msgid "Always show content"
+msgstr ""
+
+#: framework/sns-metabox.php:244
+msgid "The type show content of Vertical menu in header"
+msgstr ""
+
+#: framework/sns-metabox.php:247 framework/sns-options.php:252
+msgid "Enable Search Category for Live Ajax Search"
+msgstr ""
+
+#: framework/sns-metabox.php:258
+msgid "Use Slideshow"
+msgstr ""
+
+#: framework/sns-metabox.php:268
+msgid "Select Slideshow"
+msgstr ""
+
+#: framework/sns-metabox.php:275
+msgid "Show Title"
+msgstr ""
+
+#: framework/sns-metabox.php:285
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: framework/sns-metabox.php:293
+msgid "Dont apply for Front page."
+msgstr ""
+
+#: framework/sns-metabox.php:296
+msgid "Footer Style"
+msgstr ""
+
+#: framework/sns-metabox.php:302 framework/sns-options.php:294
+msgid "Footer 1"
+msgstr ""
+
+#: framework/sns-metabox.php:303 framework/sns-options.php:295
+msgid "Footer 2"
+msgstr ""
+
+#: framework/sns-metabox.php:304 framework/sns-options.php:296
+msgid "Footer 3"
+msgstr ""
+
+#: framework/sns-metabox.php:305 framework/sns-options.php:297
+msgid "Footer 4"
+msgstr ""
+
+#: framework/sns-metabox.php:306 framework/sns-options.php:298
+msgid "Blank"
+msgstr ""
+
+#: framework/sns-metabox.php:308
+msgid "Select Footer layout. \"Default\" to use in Theme Options."
+msgstr ""
+
+#: framework/sns-metabox.php:311
+msgid "Config Theme Color for this page?"
+msgstr ""
+
+#: framework/sns-metabox.php:321
+msgid "Sellect Theme Color"
+msgstr ""
+
+#: framework/sns-metabox.php:324
+msgid "It will priority than Theme Color in Theme Option panel"
+msgstr ""
+
+#: framework/sns-metabox.php:327
+msgid "Want to use page class?"
+msgstr ""
+
+#: framework/sns-metabox.php:331
+msgid "It is a class css to add some special style, and just for this page"
+msgstr ""
+
+#: framework/sns-metabox.php:338
+msgid "Gallery Settings"
+msgstr ""
+
+#: framework/sns-metabox.php:356
+msgid "Featured Video"
+msgstr ""
+
+#: framework/sns-metabox.php:364
+msgid "Video"
+msgstr ""
+
+#: framework/sns-metabox.php:376
+msgid "Featured Audio"
+msgstr ""
+
+#: framework/sns-metabox.php:384
+msgid "Audio"
+msgstr ""
+
+#: framework/sns-metabox.php:396
+msgid "Featured Quote"
+msgstr ""
+
+#: framework/sns-metabox.php:404
+msgid "Quote Content"
+msgstr ""
+
+#: framework/sns-metabox.php:411
+msgid "Quote author"
+msgstr ""
+
+#: framework/sns-metabox.php:420
+msgid "Link Settings"
+msgstr ""
+
+#: framework/sns-metabox.php:428
+msgid "Link URL"
+msgstr ""
+
+#: framework/sns-metabox.php:435
+msgid "Link Title"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: framework/sns-options.php:20 framework/sns-options.php:21
+msgid "MBStore"
+msgstr ""
+
+#: framework/sns-options.php:66
+msgid "Theme Information 1"
+msgstr ""
+
+#: framework/sns-options.php:67 framework/sns-options.php:72
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: framework/sns-options.php:71
+msgid "Theme Information 2"
+msgstr ""
+
+#: framework/sns-options.php:78
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: framework/sns-options.php:118
+msgid "Demo content"
+msgstr ""
+
+#: framework/sns-options.php:136
+msgid "General"
+msgstr ""
+
+#: framework/sns-options.php:142
+msgid "Color, Layout"
+msgstr ""
+
+#: framework/sns-options.php:151
+msgid "Theme Color"
+msgstr ""
+
+#: framework/sns-options.php:158
+msgid "Use Boxed Layout"
+msgstr ""
+
+#: framework/sns-options.php:167
+msgid "Body Background"
+msgstr ""
+
+#: framework/sns-options.php:174
+msgid "Body Background Image"
+msgstr ""
+
+#: framework/sns-options.php:176
+msgid "No image"
+msgstr ""
+
+#: framework/sns-options.php:177
+msgid "Image"
+msgstr ""
+
+#: framework/sns-options.php:186
+msgid "Body Background type img"
+msgstr ""
+
+#: framework/sns-options.php:194
+msgid "Fonts"
+msgstr ""
+
+#: framework/sns-options.php:202
+msgid "Body font"
+msgstr ""
+
+#: framework/sns-options.php:218
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/sns-options.php:234
+msgid "Header"
+msgstr ""
+
+#: framework/sns-options.php:247
+msgid "Select Header Style"
+msgstr ""
+
+#: framework/sns-options.php:260
+msgid "Search by Title only"
+msgstr ""
+
+#: framework/sns-options.php:269
+msgid "Logo"
+msgstr ""
+
+#: framework/sns-options.php:270
+msgid ""
+"If this is not selected, This theme will be display logo with \"theme/"
+"mbstore/img/logo.png\""
+msgstr ""
+
+#: framework/sns-options.php:271
+msgid "Image that you want to use as logo"
+msgstr ""
+
+#: framework/sns-options.php:276
+msgid "Enable Sticky Menu"
+msgstr ""
+
+#: framework/sns-options.php:277
+msgid "Keep menu on top when scroll down/up"
+msgstr ""
+
+#: framework/sns-options.php:285
+msgid "Footer"
+msgstr ""
+
+#: framework/sns-options.php:289
+msgid "Style"
+msgstr ""
+
+#: framework/sns-options.php:306
+msgid "Main Sidebar"
+msgstr ""
+
+#: framework/sns-options.php:307
+msgid "Product Sidebar"
+msgstr ""
+
+#: framework/sns-options.php:308 functions.php:143
+msgid "Blog Sidebar"
+msgstr ""
+
+#: framework/sns-options.php:309 functions.php:127
+msgid "Woo Sidebar"
+msgstr ""
+
+#: framework/sns-options.php:312
+msgid "Blog"
+msgstr ""
+
+#: framework/sns-options.php:318
+msgid "Blog Pages"
+msgstr ""
+
+#: framework/sns-options.php:326
+msgid "Default Blog Layout"
+msgstr ""
+
+#: framework/sns-options.php:362
+msgid "Blog Style"
+msgstr ""
+
+#: framework/sns-options.php:368
+msgid "Blog Default"
+msgstr ""
+
+#: framework/sns-options.php:369
+msgid "Blog List"
+msgstr ""
+
+#: framework/sns-options.php:370
+msgid "Blog Masonry"
+msgstr ""
+
+#: framework/sns-options.php:375
+msgid "Page Navigation"
+msgstr ""
+
+#: framework/sns-options.php:376
+msgid "Choose Type of navigation for blog and any listing page."
+msgstr ""
+
+#: framework/sns-options.php:382
+msgid "Ajax click load more"
+msgstr ""
+
+#: framework/sns-options.php:383
+msgid "Ajax auto load more"
+msgstr ""
+
+#: framework/sns-options.php:389
+msgid "Number post with each load more"
+msgstr ""
+
+#: framework/sns-options.php:396
+msgid "Show Categories for Blog Entries Page"
+msgstr ""
+
+#: framework/sns-options.php:404
+msgid "Show Date for Blog Entries Page"
+msgstr ""
+
+#: framework/sns-options.php:413
+msgid "Show Author for Blog Entries Page"
+msgstr ""
+
+#: framework/sns-options.php:421
+msgid "Show Tags for Blog Entries Page"
+msgstr ""
+
+#: framework/sns-options.php:429
+msgid "Show Comment Count"
+msgstr ""
+
+#: framework/sns-options.php:437
+msgid "Blog Excerpt Length"
+msgstr ""
+
+#: framework/sns-options.php:438
+msgid "Just apply for Blog Style is Blog List"
+msgstr ""
+
+#: framework/sns-options.php:446
+msgid "Single Post"
+msgstr ""
+
+#: framework/sns-options.php:454
+msgid "Enable Author Info on Post Detail"
+msgstr ""
+
+#: framework/sns-options.php:462
+msgid "Enable Related Posts on Post Detail"
+msgstr ""
+
+#: framework/sns-options.php:469
+msgid "Related Post By"
+msgstr ""
+
+#: framework/sns-options.php:470
+msgid "Get related post by Categories or Tags"
+msgstr ""
+
+#: framework/sns-options.php:483
+msgid "Related Posts Number"
+msgstr ""
+
+#: framework/sns-options.php:490
+msgid "Enable Share Box on Post Detail"
+msgstr ""
+
+#: framework/sns-options.php:499
+msgid "Woo"
+msgstr ""
+
+#: framework/sns-options.php:502
+msgid "These are really basic fields!"
+msgstr ""
+
+#: framework/sns-options.php:507
+msgid "Archives Pages"
+msgstr ""
+
+#: framework/sns-options.php:515
+msgid "Use lazyload for Product Image"
+msgstr ""
+
+#: framework/sns-options.php:523 framework/sns-woocomerce.php:588
+#: framework/sns-woocomerce.php:655
+msgid "Use pageing before Toolbar Top"
+msgstr ""
+
+#: framework/sns-options.php:531 framework/sns-woocomerce.php:596
+#: framework/sns-woocomerce.php:665
+msgid "Use filter horizontal"
+msgstr ""
+
+#: framework/sns-options.php:532
+msgid ""
+"To use this option you need add Widget for sidebar Woo Sidebar - Horizontal"
+msgstr ""
+
+#: framework/sns-options.php:540
+msgid "Default mode view for archives page"
+msgstr ""
+
+#: framework/sns-options.php:542 framework/sns-woocomerce.php:88
+#: framework/sns-woocomerce.php:89
+msgid "Grid"
+msgstr ""
+
+#: framework/sns-options.php:543 framework/sns-woocomerce.php:93
+#: framework/sns-woocomerce.php:94
+msgid "List"
+msgstr ""
+
+#: framework/sns-options.php:550
+msgid "Default Grid columns"
+msgstr ""
+
+#: framework/sns-options.php:551
+msgid "We are using grid bootstap - 12 cols layout"
+msgstr ""
+
+#: framework/sns-options.php:565
+msgid "Click to show short description?"
+msgstr ""
+
+#: framework/sns-options.php:566
+msgid "Apply for product grid"
+msgstr ""
+
+#: framework/sns-options.php:574 framework/sns-woocomerce.php:638
+#: framework/sns-woocomerce.php:717
+msgid "Number products per listing page"
+msgstr ""
+
+#: framework/sns-options.php:580
+msgid "Single Product"
+msgstr ""
+
+#: framework/sns-options.php:598
+msgid "Enable Image Zoom"
+msgstr ""
+
+#: framework/sns-options.php:606
+msgid "Enable Image Zoom on Mobile"
+msgstr ""
+
+#: framework/sns-options.php:626
+msgid "Lens Shape"
+msgstr ""
+
+#: framework/sns-options.php:628
+msgid "Round"
+msgstr ""
+
+#: framework/sns-options.php:629
+msgid "Square"
+msgstr ""
+
+#: framework/sns-options.php:637
+msgid "Lens Size"
+msgstr ""
+
+#: framework/sns-options.php:644
+msgid "Enable Popup Image"
+msgstr ""
+
+#: framework/sns-options.php:652
+msgid "Enable Thumbnail"
+msgstr ""
+
+#: framework/sns-options.php:671
+msgid "Number Thumbnail to display"
+msgstr ""
+
+#: framework/sns-options.php:678
+msgid "Re-design Variations Form"
+msgstr ""
+
+#: framework/sns-options.php:686
+msgid "Enable Share box"
+msgstr ""
+
+#: framework/sns-options.php:694
+msgid "Enable Upsells Products"
+msgstr ""
+
+#: framework/sns-options.php:702
+msgid "Number limit of Upsells Products"
+msgstr ""
+
+#: framework/sns-options.php:709
+msgid "Enable Related Products"
+msgstr ""
+
+#: framework/sns-options.php:717
+msgid "Number limit of Related Products"
+msgstr ""
+
+#: framework/sns-options.php:725
+msgid "Page Not Found"
+msgstr ""
+
+#: framework/sns-options.php:732
+msgid "Image for 404 not found page"
+msgstr ""
+
+#: framework/sns-options.php:737
+msgid "Title"
+msgstr ""
+
+#: framework/sns-options.php:738
+msgid "OOPS!"
+msgstr ""
+
+#: framework/sns-options.php:743
+msgid "Message Content"
+msgstr ""
+
+#: framework/sns-options.php:744
+msgid "It looks like that page no longer exists"
+msgstr ""
+
+#: framework/sns-options.php:750
+msgid "Advance"
+msgstr ""
+
+#: framework/sns-options.php:756
+msgid "Enable Tooltip"
+msgstr ""
+
+#: framework/sns-options.php:764
+msgid "Enable Cpanel"
+msgstr ""
+
+#: framework/sns-options.php:772
+msgid "Link to purchase theme"
+msgstr ""
+
+#: framework/sns-options.php:773
+msgid ""
+"https://1.envato.market/c/1267228/275988/4415?subId1=from_demo&u=https%3A%2F"
+"%2Fthemeforest.net%2Fitem%2Fmbstore-digital-woocommerce-wordpress-theme"
+"%2F22510477"
+msgstr ""
+
+#: framework/sns-options.php:779
+msgid "Enable Button Scroll To Top"
+msgstr ""
+
+#: framework/sns-options.php:787
+msgid "SCSS Compile"
+msgstr ""
+
+#: framework/sns-options.php:789
+msgid "Only compile when don't have the css file"
+msgstr ""
+
+#: framework/sns-options.php:790
+msgid "Alway compile"
+msgstr ""
+
+#: framework/sns-options.php:797
+msgid "CSS Format"
+msgstr ""
+
+#: framework/sns-options.php:799
+msgid "scss_formatter"
+msgstr ""
+
+#: framework/sns-options.php:800
+msgid "scss_formatter_nested"
+msgstr ""
+
+#: framework/sns-options.php:801
+msgid "scss_formatter_compressed"
+msgstr ""
+
+#: framework/sns-woocomerce.php:235 tpl-head-3.php:69
+msgid "Compare"
+msgstr ""
+
+#: framework/sns-woocomerce.php:303
+msgid "Sale! "
+msgstr ""
+
+#: framework/sns-woocomerce.php:325 framework/sns-woocomerce.php:347
+#: framework/sns-woocomerce.php:368
+msgid "Days"
+msgstr ""
+
+#: framework/sns-woocomerce.php:326 framework/sns-woocomerce.php:348
+#: framework/sns-woocomerce.php:369
+msgid "Hours"
+msgstr ""
+
+#: framework/sns-woocomerce.php:327 framework/sns-woocomerce.php:349
+#: framework/sns-woocomerce.php:370
+msgid "Mins"
+msgstr ""
+
+#: framework/sns-woocomerce.php:328 framework/sns-woocomerce.php:350
+#: framework/sns-woocomerce.php:371
+msgid "Secs"
+msgstr ""
+
+#: framework/sns-woocomerce.php:345
+msgid "Offer end in:"
+msgstr ""
+
+#: framework/sns-woocomerce.php:499
+msgid "Additional"
+msgstr ""
+
+#: framework/sns-woocomerce.php:519 woocommerce/single-product/rating.php:36
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: framework/sns-woocomerce.php:520
+msgid "out of 5"
+msgstr ""
+
+#: framework/sns-woocomerce.php:535
+msgid "View detail"
+msgstr ""
+
+#: framework/sns-woocomerce.php:604 framework/sns-woocomerce.php:675
+msgid "Slideshow"
+msgstr ""
+
+#: framework/sns-woocomerce.php:613 framework/sns-woocomerce.php:685
+msgid "Select Slideshow."
+msgstr ""
+
+#: framework/sns-woocomerce.php:616 framework/sns-woocomerce.php:689
+msgid "Layout"
+msgstr ""
+
+#: framework/sns-woocomerce.php:618 framework/sns-woocomerce.php:692
+msgid "Default (Layout of Shop page)"
+msgstr ""
+
+#: framework/sns-woocomerce.php:619 framework/sns-woocomerce.php:693
+msgid "Fullwidth"
+msgstr ""
+
+#: framework/sns-woocomerce.php:623 framework/sns-woocomerce.php:698
+msgid "Set the layout fullwidth or has sidebar (Woo Sidebar)."
+msgstr ""
+
+#: framework/sns-woocomerce.php:626 framework/sns-woocomerce.php:702
+msgid "Grid columns"
+msgstr ""
+
+#: framework/sns-woocomerce.php:635 framework/sns-woocomerce.php:713
+msgid ""
+"We are using grid bootstap - 12 cols layout. Default use in Theme Options."
+msgstr ""
+
+#: framework/sns-woocomerce.php:748 framework/sns-woocomerce.php:773
+msgid "Text"
+msgstr ""
+
+#: framework/sns-woocomerce.php:749 framework/sns-woocomerce.php:754
+#: framework/sns-woocomerce.php:774 framework/sns-woocomerce.php:780
+msgid "Color Picker"
+msgstr ""
+
+#: framework/tpl/page/content.php:10 framework/tpl/posts/post.php:151
+#: framework/tpl/posts/post2.php:175 framework/tpl/single/single.php:101
+msgid "Pages:"
+msgstr ""
+
+#: framework/tpl/posts/post-masonry.php:62 framework/tpl/posts/post.php:69
+#: framework/tpl/posts/post2.php:87
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: framework/tpl/posts/post-masonry.php:76 framework/tpl/posts/post.php:83
+#: framework/tpl/posts/post2.php:106
+msgid "Featured"
+msgstr ""
+
+#: framework/tpl/posts/post-masonry.php:83 framework/tpl/posts/post.php:90
+#: framework/tpl/posts/post2.php:113 framework/tpl/posts/related_post.php:24
+#: framework/tpl/single/single.php:69 image.php:16
+msgid "On "
+msgstr ""
+
+#: framework/tpl/posts/post-masonry.php:92 framework/tpl/posts/post.php:99
+#: framework/tpl/posts/post2.php:122 framework/tpl/single/single.php:77
+msgid "In "
+msgstr ""
+
+#: framework/tpl/posts/post-masonry.php:98 framework/tpl/posts/post.php:105
+#: framework/tpl/posts/post2.php:128 framework/tpl/single/single.php:83
+msgid "By "
+msgstr ""
+
+#: framework/tpl/posts/post-masonry.php:120 framework/tpl/posts/post.php:127
+#: framework/tpl/posts/post2.php:150
+msgid "0 Comments"
+msgstr ""
+
+#: framework/tpl/posts/post-masonry.php:120 framework/tpl/posts/post.php:127
+#: framework/tpl/posts/post2.php:150
+msgid "1 Comment"
+msgstr ""
+
+#: framework/tpl/posts/post-masonry.php:120 framework/tpl/posts/post.php:127
+#: framework/tpl/posts/post2.php:150
+msgid " Comments"
+msgstr ""
+
+#: framework/tpl/posts/post-masonry.php:127 framework/tpl/posts/post.php:134
+#: framework/tpl/posts/post2.php:157 framework/tpl/single/single.php:94
+#: functions.php:592 image.php:24
+msgid "Edit"
+msgstr ""
+
+#: framework/tpl/posts/post-masonry.php:130 framework/tpl/posts/post.php:137
+#: framework/tpl/posts/post2.php:160
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: framework/tpl/posts/post.php:144 framework/tpl/posts/post2.php:168
+#: framework/tpl/posts/post2.php:180 functions.php:567
+msgid "Read More"
+msgstr ""
+
+#: framework/tpl/posts/related_post.php:5
+msgid "Related Post"
+msgstr ""
+
+#: framework/tpl/single/single.php:111
+msgid "Tags: "
+msgstr ""
+
+#: functions.php:56
+msgid "Main navigation"
+msgstr ""
+
+#: functions.php:57
+msgid "Categories navigation"
+msgstr ""
+
+#: functions.php:58
+msgid "Main Categories navigation"
+msgstr ""
+
+#: functions.php:118
+msgid "Widget Area"
+msgstr ""
+
+#: functions.php:120
+msgid "These are widgets for the Widget Area."
+msgstr ""
+
+#: functions.php:135
+msgid "Woo Sidebar - Horizontal"
+msgstr ""
+
+#: functions.php:356 functions.php:357
+msgid "Quick view"
+msgstr ""
+
+#: functions.php:383
+#, php-format
+msgid "All posts by: %s"
+msgstr ""
+
+#: functions.php:397
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: functions.php:410
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:537
+msgid "0 view"
+msgstr ""
+
+#: functions.php:539
+msgid " View"
+msgstr ""
+
+#: functions.php:587
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:591
+msgid "Reply"
+msgstr ""
+
+#: functions.php:599
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:666 functions.php:670
+msgid "Enter keywords ..."
+msgstr ""
+
+#: functions.php:672 tpl-head-1.php:52 tpl-head-2.php:44
+msgid "All categories"
+msgstr ""
+
+#: functions.php:685
+msgid "Search"
+msgstr ""
+
+#: functions.php:835
+#, php-format
+msgid "View all %d results"
+msgstr ""
+
+#: functions.php:850
+msgid "No products were found matching your selection"
+msgstr ""
+
+#: functions.php:852 search.php:24
+msgid "No post were found matching your selection"
+msgstr ""
+
+#: image.php:42
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:42
+msgid "Next Image"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:4
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: sidepage.php:10
+msgid "Shortcodes Demo"
+msgstr ""
+
+#: tpl-breadcrumb.php:14
+msgid "Home"
+msgstr ""
+
+#: tpl-breadcrumb.php:77 tpl-breadcrumb.php:80 tpl-breadcrumb.php:83
+#: tpl-breadcrumb.php:87 tpl-breadcrumb.php:90 tpl-breadcrumb.php:93
+msgid " Archives"
+msgstr ""
+
+#: tpl-breadcrumb.php:100
+msgid "Author: "
+msgstr ""
+
+#: tpl-breadcrumb.php:103
+msgid "Page "
+msgstr ""
+
+#: tpl-breadcrumb.php:103
+msgid "Page"
+msgstr ""
+
+#: tpl-breadcrumb.php:106
+msgid "Search results for: "
+msgstr ""
+
+#: tpl-breadcrumb.php:109
+msgid "Error 404"
+msgstr ""
+
+#: tpl-breadcrumb.php:112
+msgid "blog"
+msgstr ""
+
+#: tpl-breadcrumb.php:114
+msgid "shop"
+msgstr ""
+
+#: tpl-cpanel.php:7
+msgid "Buy theme now"
+msgstr ""
+
+#: tpl-cpanel.php:9 tpl-cpanel.php:10
+msgid "View on mobile"
+msgstr ""
+
+#: tpl-cpanel.php:13
+msgid "Lets explore our demos!"
+msgstr ""
+
+#: tpl-cpanel.php:15 tpl-cpanel.php:16 tpl-cpanel.php:18 tpl-cpanel.php:19
+msgid "Home #1"
+msgstr ""
+
+#: tpl-cpanel.php:23 tpl-cpanel.php:24 tpl-cpanel.php:26 tpl-cpanel.php:27
+msgid "Home #2"
+msgstr ""
+
+#: tpl-cpanel.php:31 tpl-cpanel.php:32 tpl-cpanel.php:34 tpl-cpanel.php:35
+msgid "Home #3"
+msgstr ""
+
+#: tpl-cpanel.php:42 tpl-cpanel.php:43
+msgid "Buy Theme Now"
+msgstr ""
+
+#: tpl-cpanel.php:45
+msgid "View All Demos"
+msgstr ""
+
+#: tpl-cpanel.php:48
+msgid "Live Documentation"
+msgstr ""
+
+#: tpl-footer.php:7
+#, php-format
+msgid ""
+"<div class=\"row\"><div class=\"col-md-12 copyright\">© 2018 SNSTheme. All "
+"Rights Reserved. Developed By <a href=\"%s\">%s</a></div></div>"
+msgstr ""
+
+#: tpl-footer.php:25 tpl-footer.php:29 tpl-footer.php:32
+msgid "SNSTheme"
+msgstr ""
+
+#: tpl-head-1.php:37
+msgid "Please sellect menu for Main Categories Navigation"
+msgstr ""
+
+#: tpl-head-1.php:65 tpl-head-2.php:57 tpl-head-3.php:103
+msgid "More Categories"
+msgstr ""
+
+#: tpl-head-1.php:66 tpl-head-2.php:58 tpl-head-3.php:104
+msgid "Less Categories"
+msgstr ""
+
+#: tpl-head-1.php:70 tpl-head-2.php:62
+msgid "Please sellect menu for Categories navigation"
+msgstr ""
+
+#: tpl-head-1.php:85 tpl-head-1.php:102 tpl-head-2.php:77 tpl-head-2.php:94
+#: tpl-head-3.php:120 tpl-head-3.php:137
+msgid "Please sellect menu for Main navigation"
+msgstr ""
+
+#: tpl-head-1.php:109 tpl-head-2.php:102
+msgid " item(s)"
+msgstr ""
+
+#: tpl-head-1.php:114 tpl-head-2.php:107 tpl-head-3.php:46
+msgid "My cart"
+msgstr ""
+
+#: tpl-head-3.php:92
+msgid "All Categories"
+msgstr ""
+
+#: tpl-paging.php:22
+msgid "Posts navigation"
+msgstr ""
+
+#: tpl-paging.php:32
+msgid "&lt;"
+msgstr ""
+
+#: tpl-paging.php:33
+msgid "&gt;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:62
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:76
+msgid "Your cart is <span class=\"no-product-item\">0</span> items"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:84
+msgid "Subtotal:"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:89
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:90
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:41
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:69
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:38
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:39
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:42
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:25
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/up-sells-list.php:7
+#: woocommerce/single-product/up-sells.php:24
+msgid "Upsells Product"
+msgstr ""
+
+#: woocommerce/vc/item-grid-deal2.php:63
+msgid "View Detail"
+msgstr ""
+
+#: woocommerce/vc/item-list.php:60
+msgid "View More"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themeforest.net/collections/5409167-wordpress"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "MBStore - Digital WooCommerce WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "snstheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://snstheme.com"
+msgstr ""

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: IRSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/IRSans.eot');
+    src: url('fonts/IRSans.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('fonts/IRSans.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('fonts/IRSans.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('fonts/IRSans.ttf') format('truetype');
+}
+body, body.rtl, .rtl #wpadminbar, body.rtl #wpwrap ,body.rtl .press-this a.wp-switch-editor, .rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6, .rtl #wpwrap  h1, .rtl #wpwrap  h2, .rtl #wpwrap  h3,
+.rtl #wpwrap  h4, .rtl #wpwrap h5, .rtl #wpwrap  h6, #tinymce, input, textarea, .rtl .vc_ui-font-open-sans, .rtl .editor-styles-wrapper {
+    font-family: IRSans,tahoma !important;
+}
+.rtl #wpadminbar * {
+    font-family: IRSans,tahoma;
+}

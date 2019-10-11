@@ -1,0 +1,160 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Zoom Magnifier CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "../../../../../../theme-framework/theme-style/css/less/general.less";
+
+
+
+/* -------------------------------- Start Yith WooCommerce Zoom Magnifier Styles -------------------------------- */
+
+
+/*-------------------------------------------------------------------------*/
+/*  Single Product */
+/*-------------------------------------------------------------------------*/
+
+/***************** Single Product Thumbnail Slider ******************/
+html span.onsale {
+	z-index:1;
+}
+
+.cmsmasters_product_left_column {
+	.thumbnails.slider {
+		margin:0 -5px;
+	}
+	
+	.caroufredsel_wrapper {
+		height:auto !important;
+		position:relative;
+	}
+	
+	.yith_magnifier_gallery {
+		height:auto !important;
+		position:relative !important;
+		
+		li {
+			margin:10px 5px 0;
+			padding:0;
+			max-width: 70px;
+			
+			&.last {
+				margin:10px 5px 0;
+			}
+			
+			&:before {
+				content:none;
+			}
+			
+			a {
+				margin:0;
+				.tac;
+				.bd;
+				.bdrs(10px);
+				.ovh;
+			}
+		}
+	}
+	
+	.yith_magnifier_zoom_magnifier {
+		.bd(0);
+		.bdrs(15px);
+	}
+	
+	.images {
+		.tac;
+		
+		&.right {
+			.yith_magnifier_zoom_magnifier {
+				margin:0 0 0 60px;
+			}
+		}
+		
+		.yith_magnifier_zoom_wrap {
+			.tac;
+
+			a {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.yith_magnifier_zoom {
+	display:inline-block !important;
+	.bd;
+	.bdrs(15px);
+	.ovh; 
+}
+
+
+/***************** Single Product Thumbnail Slider Button ******************/
+.single-product.woocommerce {
+	.cmsmasters_single_product {
+		.thumbnails {
+			.ovh;
+
+			#slider-prev,
+			#slider-next {
+				font-size:20px;
+				display:block !important;
+				background-image:none;
+				width:22px;
+				height:43px;
+				margin:auto !important;
+				top:10px;
+				bottom:0;
+				.bd;
+				.tac;
+				.op(0);
+				
+				&:before {
+					font-family:'fontello';
+					line-height:1em;
+					.pos_abs();
+				}
+			}
+			
+			#slider-prev {
+				left:5px;
+				right:auto;
+				
+				&:before {
+					content:'\eb21';
+				}
+			}
+			
+			#slider-next {
+				left:auto;
+				right:5px;
+				
+				&:before {
+					content:'\eb22';
+				}
+			}
+			
+			&:hover {
+				#slider-prev,
+				#slider-next {
+					.op(1);
+				}
+			}
+		}
+	}
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	CSS3 Animations	*/
+/*-------------------------------------------------------------------------*/
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-prev,
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-next {
+	.trans(~'color .3s ease-in-out, opacity .3s ease-in-out');
+}

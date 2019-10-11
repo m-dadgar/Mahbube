@@ -1,0 +1,22 @@
+{
+  "public.js": "public.071bc811.js",
+  "mp2migrator.js": "mp2migrator.b83a2053.js",
+  "vendor.js": "vendor.84dfeb1a.js",
+  "admin_vendor_chunk.js": "admin_vendor_chunk.84dfeb1a.chunk.js",
+  "admin.js": "admin.84dfeb1a.chunk.js",
+  "admin_vendor.js": "admin_vendor.84dfeb1a.chunk.js",
+  "form_editor.js": "form_editor.84dfeb1a.chunk.js",
+  "mailpoet.js": "mailpoet.84dfeb1a.chunk.js",
+  "newsletter_editor.js": "newsletter_editor.84dfeb1a.chunk.js",
+  "skins/ui/oxide/content.css": "skins/ui/oxide/content.css",
+  "skins/ui/oxide/content.inline.css": "skins/ui/oxide/content.inline.css",
+  "skins/ui/oxide/content.inline.min.css": "skins/ui/oxide/content.inline.min.css",
+  "skins/ui/oxide/content.min.css": "skins/ui/oxide/content.min.css",
+  "skins/ui/oxide/content.mobile.css": "skins/ui/oxide/content.mobile.css",
+  "skins/ui/oxide/content.mobile.min.css": "skins/ui/oxide/content.mobile.min.css",
+  "skins/ui/oxide/fonts/tinymce-mobile.woff": "skins/ui/oxide/fonts/tinymce-mobile.woff",
+  "skins/ui/oxide/skin.css": "skins/ui/oxide/skin.css",
+  "skins/ui/oxide/skin.min.css": "skins/ui/oxide/skin.min.css",
+  "skins/ui/oxide/skin.mobile.css": "skins/ui/oxide/skin.mobile.css",
+  "skins/ui/oxide/skin.mobile.min.css": "skins/ui/oxide/skin.mobile.min.css"
+}

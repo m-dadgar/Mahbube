@@ -1,0 +1,650 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Wishlist CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "../../../../../../theme-framework/theme-style/css/less/general.less";
+ 
+
+/*-------------------------------------------------------------------------
+
+	1. 	Free Version
+		1.1 Button Wishlist In Product
+		1.2 Button Wishlist In Open Product
+		1.3 Wishlist Table
+	2. 	Premium Version
+		2.1 Wishlist Table
+		2.2 Create New Wishlist
+		2.3 Manage Wishlist
+		2.4 Search Wishlist
+		2.5 Wishlist Popup
+
+-------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------*/
+/*	1. Free Version */
+/*-------------------------------------------------------------------------*/
+
+.cmsmasters_wishlist_wrap {
+	margin:0 8px 0 15px;
+	.fr;
+	height:100%;
+	position:relative;
+	
+	&:after {
+		.valign_after;
+	}
+	
+	.cmsmasters_wishlist_button {
+		font-size:16px;
+		display:inline-block;
+		vertical-align:middle;
+		position:relative;
+		
+		&:before {
+			display:inline-block;
+			vertical-align:middle;
+			content:'\e836';
+			font-family:'fontello-custom' !important;
+		}
+	}
+}
+
+
+/***************** 1.1 Button Wishlist In Product ******************/
+.cmsmasters_theme_icon_wishlist:before {content:'\eab0';}
+
+
+.cmsmasters_product {
+	.cmsmasters_add_wishlist_button {
+		.fr;
+		margin:0 0 0 7px;
+		padding:0;
+		height:37px;
+		width:37px;
+		position:relative;
+		
+		+ a,
+		+ a.added + a {
+		}
+		
+		a {
+			min-width:20px;
+			height:37px;
+			width:37px;
+			padding:0;
+			position:relative;
+			
+			&:before {
+				font-size:17px;
+				line-height:1em;
+				.pos_abs;
+			}
+			
+			&.add_to_wishlist {
+				z-index:2;
+				.bdrs(50%);
+				.bd(0);
+			}
+		}
+		
+		.yith-wcwl-add-button {
+			position:relative;
+			height:20px;
+			
+			img {
+				z-index:3;
+				width: 20px;
+				height: 20px;
+				margin: auto !important;
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 17px;
+				bottom: 0;
+				min-width: auto;
+				.bdrs(50%);
+			}
+		}
+	}
+}
+
+
+/***************** 1.2 Button Wishlist In Open Product ******************/
+#yith-wcwl-popup-message {
+	display:none !important;
+}
+
+.yith-wcwl-add-to-wishlist {
+	position:relative;
+	
+	.yith-wcwl-add-button {
+		a.add_to_wishlist {
+			.bdrs(0);
+			
+			&:not(.button) {
+				padding-left:30px;
+				
+				&:after {
+					content:'\e836';
+					font-family:'fontello-custom';
+					font-size:18px;
+					.tac;
+					.pos_abs(20px, 20px, 0, auto, 0, 0);
+				}
+			}
+			
+			&.button {
+				i {
+					float:right;
+					margin:0 0 0 10px;
+				}
+			}
+		}
+	}
+}
+
+.thumbnails  + .yith-wcwl-add-to-wishlist,
+.cmsmasters_woo_tabs  + .yith-wcwl-add-to-wishlist {
+	margin:30px 0 0;
+}
+
+
+/***************** 1.3 Wishlist Table ******************/
+#yith-wcwl-form {
+	h2  {
+		margin-bottom:30px;
+	}
+	
+	&.woocommerce {
+		table.wishlist_table {
+			font-size:inherit;
+			
+			&.cart {
+				tfoot {
+					td {
+						padding:10px 0;
+						.bd(0);
+						.bdrs(0 0 10px 10px);
+						
+						> * {
+							padding-top:10px;
+							padding-bottom:10px;
+						}
+					}
+				}
+			}
+			
+			thead {
+				th {
+					position:relative;
+					padding:15px 20px;
+					.bd(0);
+				}
+			}
+			
+			tbody {
+
+				tr {
+					&:last-child {
+						td {
+							&.wishlist-empty {
+								.bdrs(0 0 10px 10px) !important;
+							}
+
+							&:first-child {
+								.bdrs(0 0 0 10px);
+							}
+
+							&:last-child {
+								.bdrs(0 0 10px 0);
+							}
+						}
+					}
+				}
+				td {
+					.tal;
+					padding:13px 20px;
+					
+					&.product-remove {
+						width:30px;
+						padding-left:10px;
+						padding-right:10px;
+					}
+					
+					&.product-thumbnail {
+						padding-left:0;
+						padding-right:0;
+						
+						a {
+							max-width:none;
+							
+							img {
+								width:60px;
+								max-width:none;
+								image-rendering:auto;
+							}
+						}
+					}
+					
+					&.product-name {
+						a {
+							dispaly:inline-block;
+							vertical-align:middle;
+							position:relative;
+							
+							&.yith-wcqv-button {
+								display:none;
+							}
+							
+							&:not([class]) + .yith-wcqv-button {
+								margin:0 0 0 20px;
+							}
+						}
+					}
+					
+					&.product-price {
+						ins,
+						del {
+							display:inline-block;
+							vertical-align:bottom;
+						}
+						
+						ins {
+							text-decoration:none;
+						}
+					}
+					
+					&.product-add-to-cart {
+
+						> a {
+							.bdrs(15px);
+						}
+						
+						.variations {
+							margin:5px 0;
+						}
+					}
+				}
+			}
+			
+			tfoot {
+				td {
+					.ask-an-estimate-button-container {
+						.fr;
+						
+						.button {
+							padding:0 20px;
+							.bdrs(0);
+						}
+					}
+					
+					.yith-wcwl-share {
+						padding:0;
+						margin:0;
+						.cl;
+					}
+					
+					.yith-wcwl-share-title {
+						display:inline-block;
+						margin:0;
+						vertical-align:middle;
+						
+						+ ul {
+							margin:0 0 0 35px;
+						}
+					}
+					
+					ul {
+						display:inline-block;
+						height:auto;
+						margin:0;
+						vertical-align:middle;
+						
+						li {
+							display:inline-block;
+							margin:0;
+							padding:0;
+							vertical-align:middle;
+							
+							&:before {
+								content:none;
+							}
+							
+							a {
+								background-image:none;
+								
+								&:before {
+									font-family:'fontello';
+									line-height:1em;
+									.pos_abs();
+								}
+								
+								&.facebook:before {
+									content:'\ea58';
+								}
+								
+								&.twitter:before {
+									content:'\ea97';
+								}
+								
+								&.pinterest:before {
+									content:'\ea7b';
+								}
+								
+								&.googleplus:before {
+									content:'\ea64';
+								}
+								
+								&.email:before {
+									content:'\e8a5';
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.wishlist_table .add_to_cart.button {
+	white-space:nowrap;
+}
+
+
+/*-------------------------------------------------------------------------*/
+/*	2. Premium Version */
+/*-------------------------------------------------------------------------*/
+
+/***************** 2.1 Wishlist Table ******************/
+#yith-wcwl-form {
+	&.woocommerce {
+		table.wishlist_table {
+			tbody {
+				td {
+					&.product-checkbox {
+						&:after {
+							content:'';
+							display:table-cell;
+							height:100%;
+							vertical-align:middle;
+						}
+						
+						input {
+							display:inline-block;
+							vertical-align:middle;
+						}
+					}
+					
+					&.product-add-to-cart {
+						> a {
+							.bdrs(15px);
+						}
+						
+						.variations {
+							margin:5px 0;
+						}
+					}
+				}
+			}
+			
+			.custom-add-to-cart-button-cotaniner {
+				.fl;
+				margin-right:20px;
+			}
+		}
+	}
+}
+
+
+/***************** 2.2 Create New Wishlist ******************/
+#yith-wcwl-form {
+	.yith-wcwl-wishlist-new {
+		margin:0 0 55px;
+		padding:20px 0;
+		
+		label {
+			display:block;
+			margin:0;
+		}
+		
+		input[type="text"] {
+			margin:8px 20px 0 0;
+			.bdrs(0);
+		}
+		
+		.selectBox {
+			padding:5px 0;
+			margin:8px 0 0;
+			.bdrs(0);
+		}
+		
+		button {
+			display:block;
+			margin:20px 0;
+			padding:0 20px;
+			.bdrs(0);
+			
+			i {
+				margin:0;
+				
+				&:before {
+					margin:0 10px 0 0;
+				}
+			}
+		}
+	}
+}
+
+
+/***************** 2.3 Manage Wishlist ******************/
+#yith-wcwl-form {
+	.wishlist_manage_table {
+		td,
+		th {
+			padding:13px 25px;
+		}
+		
+		thead {
+			th {
+				padding:15px 25px;
+			}
+		}
+		
+		tfoot {
+			td {
+				padding:13px 25px;
+			}
+			
+			.button,
+			button {
+				padding-top:0;
+				padding-bottom:0;
+				.fl;
+				.bdrs(0);
+				
+				i {
+					margin:0;
+					
+					&:before {
+						margin:0 10px 0 0;
+					}
+				}
+			}
+			
+			.button + button {
+				margin:0 0 0 20px;
+			}
+		}
+		
+		.submit-wishlist-changes {
+			border-color:inherit;
+		}
+	}
+}
+
+.woocommerce {
+	a.selectBox {
+		.bdrs(0);
+		padding:5px 0;
+	}
+	
+	.selectBox-dropdown-menu {
+		.bdrs(0);
+	}
+	
+	.selectBox-options {
+		li {
+			&:before {
+				content:none;
+			}
+			
+			a {
+				.bdrs(0);
+			}
+		}
+	}
+}
+
+
+/***************** 2.4 Search Wishlist ******************/
+#yith-wcwl-form {
+	.yith-wcwl-wishlist-search-form {
+		margin:0 0 55px;
+		padding:30px 0;
+		position:relative;
+		.ovh;
+		
+		#wishlist_search {
+			float:none;
+			display:block;
+			.bdrs(0);
+		}
+		
+		.wishlist-search-button {
+			float:none;
+			margin:20px 0 0;
+			padding:0 20px;
+			.bdrs(0);
+			.bd(0);
+			
+			i {
+				margin:0;
+				
+				&:before {
+					margin:0 10px 0 0;
+				}
+			}
+		}
+	}
+}
+
+
+/***************** 2.5 Wishlist Popup ******************/
+.wishlist-ask-an-estimate-popup {
+	position:relative;
+	.ovh;
+	
+	label {
+		display:block;
+		margin:0 0 8px;
+	}
+	
+	textarea {
+		display:block;
+		width:100%;
+		margin:0 0 20px;
+	}
+	
+	.ask-an-estimate-button-popup {
+		display:block;
+		margin:0 !important;
+		.fl;
+		
+		i:before {
+			margin:0 10px 0 0;
+		}
+	}
+}
+
+.yes-js {
+	.pp_woocommerce {
+		.yith-wcwl-popup-content {
+			.yith-wcwl-wishlist-select-container,
+			.yith-wcwl-visibility {
+				select {
+					.bdrs(0);
+					font-weight:inherit;
+				}
+			}
+			
+			.yith-wcwl-popup-new {
+				.tal;
+				
+				label {
+					margin-right:15px;
+					font-weight:inherit;
+				}
+				
+				input {
+					.bdrs(0);
+				}
+			}
+		}
+		
+		.yith-wcwl-popup-footer {
+			> .yith-wcwl-popup-button {
+				> .popup_button {
+					margin:0 10px 0 0;
+					.fl;
+				}
+			}
+		}
+	}
+}
+
+
+/***************** 2.6 Wishlist Widget ******************/
+.widget_yith-wcwl-lists {
+	.wishlist-dropdown-toggle {
+		word-break:break-all;
+	}
+	
+	ul.dropdown {
+		margin:0;
+		padding:0;
+		
+		li {
+			position:relative;
+			padding-top:5px;
+			
+			&:first-child {
+				padding-top:0;
+			}
+			
+			&:before {
+				content:none;
+			}
+			
+			a {
+				padding:0;
+			}
+			
+			&.lists-section {
+				.bd(0);
+			}
+		}
+		
+		ul.lists > li a {
+			padding:0;
+		}
+	}
+}

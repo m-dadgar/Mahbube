@@ -1,0 +1,157 @@
+/***************************************************
+	scss file: assets/scss/theme/_toolbar_list.scss
+		+ Style for toolbar on listing page of WooCommerce
+****************************************************/
+.woocommerce-pagination {
+	margin: 0; height: 35px;
+	label{ display: inline-block; float: left; margin: 0 5px 0 0;}
+	.page-numbers {
+		margin: 0px; list-style:none; padding: 0; display:inline-block; height: 35px;
+		li { display: inline-block; float: left;
+			> span, > a {
+				text-align: center; margin: 0 0 0 10px; padding: 0; display: inline-block; height: 35px; width: 35px; line-height: 35px; border: 1px solid $base-border-color; @include border-radius(100%);
+				color: $color; font-weight: bold;
+				&.next,
+				&.prev{
+					position: relative; overflow: hidden; font-size: 0px; text-align: center;
+					&:before{
+						font-size: 12px;
+					}
+				}
+				&.next{
+					&:before{ @include font-awesome('f061', 33px); }
+				}
+				&.prev{
+					&:before{ @include font-awesome('f060', 33px); }
+				}
+				&:hover,
+				&.current{
+					background-color: $color1; border-color: $color1; color: #FFF;
+				}
+			}
+			&:first-child{
+				> span, > a { margin-left: 0px; }
+			}
+		}
+	}
+}
+
+.toolbar {
+	padding: 0; @include clearfix();
+	&.toolbar-top{
+		margin: 0 0 30px; border: 1px solid $base-border-color;
+		.woocommerce-ordering { padding: 15px 0 0 20px; }
+		.woocommerce-pagination{ float: right; padding: 15px 20px 0 0; 
+			@media(max-width: $screen-xs-max){ display: none; }
+		}
+	}
+	& + .woocommerce-result-count{
+		@media(max-width: $screen-xs-max){
+			display: none;
+		}
+	}
+	&.toolbar-bottom{
+		margin: 30px 0 90px; padding: 15px 20px; @include clearfix(); border: 1px solid $base-border-color;
+		.woocommerce-result-count{
+			float: left; margin-top: 6px;
+		}
+		.woocommerce-pagination{ float: right; 
+			@media(max-width: $screen-xs-max){
+				float: left; @include clearfix(); margin: 10px 0 0; width: 100%; height: auto;
+				ul.page-numbers { height: auto; 
+					li {
+						margin-top: 5px; margin-bottom: 5px;
+					}
+				}
+			}
+		}
+	}
+	.mode-view {
+		display: block;float: left; padding: 0 0;margin-bottom: 0px;
+		li {
+			@include inline-block;
+			&.display-title {
+				display: none;
+			}
+			float: left;position: relative;
+			a {
+				display: block; width: 65px; height: 65px; padding: 0 0; text-align: center; line-height: 65px; border-right: 1px solid $base-border-color;
+				&:before{
+					display: inline-block; width: 65px; height: 65px;text-align: center; color: $color; @include transition(all 0.25s ease-out); font-size: 20px;
+				}
+				&.active, &:hover{
+					&:before{ color: $color1; }
+				}
+				&.grid{
+					&:before{
+						@include font-awesome('f00a', 65px);
+					}
+				}
+				&.list{
+					&:before{
+						@include font-awesome('f00b', 65px);
+					}
+				}
+				span{ display: none; }	
+			}
+		}
+	}
+	// .nbrItemPage,
+	.woocommerce-ordering {
+		display: block; float: left; padding: 0 10px; text-align: left; margin: 0 0;
+		@media (max-width: $screen-xs-max) {
+			& {
+				display: none;
+			}
+		}
+		label{margin: 0 5px 0 0;}
+		.orderby-wrap{
+			position: relative;
+			margin:0; padding: 0px;
+			@include transition(all 0.2 ease-in);
+			display: inline-block; line-height: 28px;
+			select.orderby{
+				border: none;
+				appearance: none;
+				-o-appearance: none;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				padding: 0px 10px;
+				background:#FFF;
+				min-width: 170px;
+				border: 1px solid #ebebeb;
+				 height:44px; line-height: 44px;
+			}
+			&:hover,
+			&:focus{
+				border-color: #CCC;
+			}
+			&:before{
+				position: absolute; content: ''; height: 5px; width: 9px; right: 10px; top: 12px;
+				background: url(../img/ico-drop.png) no-repeat left top;
+			}
+		}
+		select{
+		}
+	}
+	.nbrItemPage {
+		.select, .selector1 {
+			select {
+				width: 65px;
+			}
+		}
+	}
+	.woocommerce-result-count{
+		display: inline-block; margin:0; float: right; padding: 0 0;
+	}
+	.woocommerce-pagination {
+		margin: 0;
+	}
+	.product-count {
+		display: none !important;
+	}
+	.showall {
+		display: none;
+	}
+
+}

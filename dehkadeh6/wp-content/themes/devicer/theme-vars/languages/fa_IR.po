@@ -1,0 +1,5073 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Devicer\n"
+"POT-Creation-Date: 2019-08-21 15:56+0330\n"
+"PO-Revision-Date: 2019-08-23 18:30+0330\n"
+"Last-Translator: \n"
+"Language-Team: dehkadeh-wp.ir\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: archive.php:35 author.php:38
+#: theme-framework/theme-style/postType/blog/post-single.php:170
+msgid "No posts found"
+msgstr "نوشته ای پیدا نشد"
+
+#: comments.php:14
+#, fuzzy
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"این نوشته با رمز محافظت شده است. رمز عبور را برای مشاهده دیدگاه‌ها را وارد "
+"کنید."
+
+#: comments.php:26
+msgid "No Comments"
+msgstr "بدون نظر"
+
+#: comments.php:26 comments.php:122
+msgid "Comment"
+msgstr "نظر"
+
+#: comments.php:26 theme-framework/theme-style/class/theme-widgets.php:717
+#: theme-framework/theme-style/function/template-functions-profile.php:159
+#: theme-framework/theme-style/function/template-functions-project.php:161
+msgid "Comments"
+msgstr "دیدگاه‌"
+
+#: comments.php:38 comments.php:74
+msgid "Older Comments"
+msgstr "نظرات قدیمی"
+
+#: comments.php:47 comments.php:83
+msgid "Newer Comments"
+msgstr "نظرات جدیدتر"
+
+#: comments.php:97
+msgid "Comments are closed."
+msgstr "دیدگاه ها بسته شده است."
+
+#: comments.php:103
+#, fuzzy
+msgid "Your name"
+msgstr "اسم شما"
+
+#: comments.php:106
+#, fuzzy
+msgid "Your email"
+msgstr "آدرس ایمیل شما"
+
+#: comments.php:114
+#, fuzzy
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr "ذخیره نام، ایمیل و وب سایت در این مرورگر برای زمان کامنت بعدی"
+
+#: comments.php:125
+#, fuzzy
+msgid "You must be"
+msgstr "شما باید"
+
+#: comments.php:127
+#, fuzzy
+msgid "logged in"
+msgstr "وارد حساب خود شوید"
+
+#: comments.php:129
+msgid "to post a comment"
+msgstr "انتشار یک نظر"
+
+#: comments.php:132
+msgid "Logged in as"
+msgstr "خارج شده به عنوان"
+
+#: comments.php:136
+msgid "Log out of this account"
+msgstr "خروج از اين حساب"
+
+#: comments.php:137
+msgid "Log out?"
+msgstr "خروج؟"
+
+#: comments.php:141
+#, fuzzy
+msgid "Your email address will not be published."
+msgstr "ایمیل شما منتشر نخواهد شد"
+
+#: comments.php:146
+msgid "Leave a Reply"
+msgstr "پاسخ بدهید"
+
+#: comments.php:147
+msgid "Leave your comment to"
+msgstr "نظر خود را بنویسید..."
+
+#: comments.php:148
+msgid "Cancel Reply"
+msgstr "انصراف از پاسخ"
+
+#: comments.php:149
+#, fuzzy
+msgid "Add Comment"
+msgstr "افزودن دیدگاه "
+
+#: framework/admin/inc/admin-scripts.php:38
+#, fuzzy
+msgid "Choose image"
+msgstr "عکس را انتخاب کنید"
+
+#: framework/admin/inc/admin-scripts.php:39
+#, fuzzy
+msgid "Insert image"
+msgstr "درج تصویر"
+
+#: framework/admin/inc/admin-scripts.php:40
+#: framework/admin/options/cmsmasters-theme-options.php:119
+#: framework/admin/options/cmsmasters-theme-options.php:480
+#: framework/admin/options/cmsmasters-theme-options.php:561
+#: framework/admin/options/cmsmasters-theme-options.php:632
+#: framework/admin/options/cmsmasters-theme-options.php:880
+#: framework/admin/settings/cmsmasters-theme-settings.php:335
+#: framework/admin/settings/cmsmasters-theme-settings.php:760
+#: framework/admin/settings/cmsmasters-theme-settings.php:1025
+#, fuzzy
+msgid "Remove"
+msgstr "Remove"
+
+#: framework/admin/inc/admin-scripts.php:41
+msgid "Edit gallery"
+msgstr "ویرایش گالری"
+
+#: framework/admin/inc/admin-scripts.php:48
+#, fuzzy
+msgid "Cancel"
+msgstr "لغو"
+
+#: framework/admin/inc/admin-scripts.php:49
+#, fuzzy
+msgid "Insert"
+msgstr "افزودن"
+
+#: framework/admin/inc/admin-scripts.php:50
+#, fuzzy
+msgid "Deselect"
+msgstr "عدم انتخاب"
+
+#: framework/admin/inc/admin-scripts.php:51
+#, fuzzy
+msgid "Choose Icon"
+msgstr "انتخاب آیکن"
+
+#: framework/admin/inc/admin-scripts.php:52
+#: framework/admin/options/cmsmasters-theme-options.php:120
+#: framework/admin/settings/cmsmasters-theme-settings.php:338
+#, fuzzy
+msgid "Find icons"
+msgstr ""
+"آیکن های خود را در<a href='http://fontawesome.io/icons/'>http://fontawesome."
+"io/icons/</a> بیابید. مثلا. <code>fa-heart</code>. برای نادیده گرفتن آیکن، "
+"این قسمت را خالی بگذارید."
+
+#: framework/admin/inc/admin-scripts.php:53
+#, fuzzy
+msgid "min 2 symbols"
+msgstr "حداقل: "
+
+#: framework/admin/inc/admin-scripts.php:54
+#, fuzzy
+msgid "Choose icons font"
+msgstr "فونت آیکون ها"
+
+#: framework/admin/inc/admin-scripts.php:55
+#, fuzzy
+msgid ""
+"Error on page!\n"
+"Reload page and try again."
+msgstr "خطا در دریافت محتوا - لطفا صفحه را رفرش کنید و دوباره تلاش نمایید."
+
+#: framework/admin/inc/config-functions.php:61
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:359
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:417
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:679
+#, fuzzy
+msgid "None"
+msgstr "هیچ کدام"
+
+#: framework/admin/inc/config-functions.php:122
+msgid "default"
+msgstr "پیش‌فرض"
+
+#: framework/admin/inc/config-functions.php:123 functions.php:42
+#, fuzzy
+msgid "none"
+msgstr "هیچ کدام"
+
+#: framework/admin/inc/config-functions.php:124
+#, fuzzy
+msgid "uppercase"
+msgstr "حروف بزرگ"
+
+#: framework/admin/inc/config-functions.php:125
+#, fuzzy
+msgid "lowercase"
+msgstr "حروف کوچک"
+
+#: framework/admin/inc/config-functions.php:126
+#, fuzzy
+msgid "capitalize"
+msgstr "حروف درشت"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:48
+#: framework/admin/options/cmsmasters-theme-options-other.php:42
+#: framework/admin/options/cmsmasters-theme-options-page.php:43
+#: framework/admin/options/cmsmasters-theme-options-post.php:56
+#: framework/admin/options/cmsmasters-theme-options-profile.php:51
+#: framework/admin/options/cmsmasters-theme-options-project.php:58
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:21
+#, fuzzy
+msgid "Background"
+msgstr "Background"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:49
+#, fuzzy
+msgid "Use Default"
+msgstr "برای استفاده از پیش‌فرض خالی بگذارید."
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:56
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:342
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:396
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:202
+msgid "Background Color"
+msgstr "رنگ پس زمینه"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:64
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:405
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:211
+#, fuzzy
+msgid "Background Image Visibility"
+msgstr "تصویر پس زمینه"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:65
+#: framework/admin/options/cmsmasters-theme-options-general.php:281
+#: framework/admin/options/cmsmasters-theme-options-general.php:385
+#: framework/admin/options/cmsmasters-theme-options-other.php:109
+#: framework/admin/options/cmsmasters-theme-options-page.php:126
+#: framework/admin/options/cmsmasters-theme-options-post.php:212
+#: framework/admin/options/cmsmasters-theme-options-post.php:220
+#: framework/admin/options/cmsmasters-theme-options-post.php:228
+#: framework/admin/options/cmsmasters-theme-options-post.php:320
+#: framework/admin/options/cmsmasters-theme-options-profile.php:77
+#: framework/admin/options/cmsmasters-theme-options-profile.php:165
+#: framework/admin/options/cmsmasters-theme-options-profile.php:190
+#: framework/admin/options/cmsmasters-theme-options-project.php:178
+#: framework/admin/options/cmsmasters-theme-options-project.php:374
+#: framework/admin/options/cmsmasters-theme-options-project.php:382
+#: framework/admin/options/cmsmasters-theme-options-project.php:433
+msgid "Show"
+msgstr "نمایش"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:72
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:414
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:220
+#, fuzzy
+msgid "Background Image"
+msgstr "تصویر پس زمینه"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:83
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:425
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:231
+msgid "Background Repeat"
+msgstr "تکرار پس زمینه"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:91
+#: framework/admin/options/cmsmasters-theme-options-general.php:307
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:430
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:236
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:543
+msgid "No Repeat"
+msgstr "بدون تکرار"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:95
+#: framework/admin/options/cmsmasters-theme-options-general.php:311
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:431
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:237
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:544
+msgid "Repeat Horizontally"
+msgstr "تکرار به صورت افقی"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:99
+#: framework/admin/options/cmsmasters-theme-options-general.php:315
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:432
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:238
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:545
+msgid "Repeat Vertically"
+msgstr "تکرار به صورت عمودی"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:103
+#: framework/admin/options/cmsmasters-theme-options-general.php:319
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:433
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:239
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:546
+msgid "Repeat"
+msgstr "تكرار"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:109
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:440
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:246
+#, fuzzy
+msgid "Background Position"
+msgstr "Background Position"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:117
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:445
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:251
+msgid "Top Left"
+msgstr "بالا چپ"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:121
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:446
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:252
+msgid "Top Center"
+msgstr "بالا وسط"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:125
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:447
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:253
+msgid "Top Right"
+msgstr "بالا راست"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:129
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:448
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:254
+msgid "Center Left"
+msgstr "وسط چپ"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:133
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:449
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:255
+msgid "Center Center"
+msgstr "وسط وسط"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:137
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:450
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:256
+msgid "Center Right"
+msgstr "مرکز راست"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:141
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:451
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:257
+msgid "Bottom Left"
+msgstr "پایین چپ"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:145
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:452
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:258
+msgid "Bottom Center"
+msgstr "پایین وسط"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:149
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:453
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:259
+msgid "Bottom Right"
+msgstr "پایین راست"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:155
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:460
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:266
+#, fuzzy
+msgid "Background Attachment"
+msgstr "پس زمینه پیوست"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:163
+#: framework/admin/options/cmsmasters-theme-options-general.php:333
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:465
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:271
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:558
+#, fuzzy
+msgid "Scroll"
+msgstr "اسکرول"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:167
+#: framework/admin/options/cmsmasters-theme-options-general.php:337
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:466
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:272
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:559
+#, fuzzy
+msgid "Fixed"
+msgstr "ثابت "
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:173
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:473
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:279
+#, fuzzy
+msgid "Background Size"
+msgstr "Background Size"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:181
+#: framework/admin/options/cmsmasters-theme-options-general.php:351
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:478
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:284
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:571
+#, fuzzy
+msgid "Auto"
+msgstr "خودكار"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:185
+#: framework/admin/options/cmsmasters-theme-options-general.php:355
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:479
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:285
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:572
+msgid "Cover"
+msgstr "پوشش"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:189
+#: framework/admin/options/cmsmasters-theme-options-general.php:359
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:480
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:286
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:573
+#, fuzzy
+msgid "Contain"
+msgstr "احتیاط"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:204
+msgid "Heading Text"
+msgstr "متن عنوان"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:212
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:666
+#: functions.php:232
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:216
+msgid "Custom"
+msgstr "سفارشی سازی"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:220
+#, fuzzy
+msgid "Disabled"
+msgstr "غیرفعال شد"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:226
+#, fuzzy
+msgid "Heading Title"
+msgstr "عنوان هدینگ"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:234
+msgid "Heading Subtitle"
+msgstr "زیرعنوان هدینگ"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:242
+#, fuzzy
+msgid "Heading Icon"
+msgstr "آیکون عنوان"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:243
+#, fuzzy
+msgid "Choose your custom icon for this heading"
+msgstr "انتخاب رنگ برای متن عنوان"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:250
+msgid "Heading Alignment"
+msgstr "ترازبندی هدینگ"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:258
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:499
+#, fuzzy
+msgid "Left"
+msgstr "چپ "
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:262
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:500
+#, fuzzy
+msgid "Right"
+msgstr "Right"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:266
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:247
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:501
+msgid "Center"
+msgstr "وسط"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:272
+#, fuzzy
+msgid "Heading Color Scheme"
+msgstr "رنگ بندی:"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:280
+#, fuzzy
+msgid "Heading Background Image Visibility"
+msgstr "عکس پس زمینه پیشفرض برای عنوان هدینگ"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:288
+#, fuzzy
+msgid "Heading Background Image"
+msgstr "عکس پس زمینه پیشفرض برای عنوان هدینگ"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:299
+msgid "Heading Background Repeat"
+msgstr "تکرار پس‌زمینه هدینگ"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:325
+#, fuzzy
+msgid "Heading Background Attachment"
+msgstr "پس زمینه پیوست"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:343
+msgid "Heading Background Size"
+msgstr "سایز پس زمینه هدینگ"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:365
+msgid "Heading Background Color Overlay"
+msgstr "پوشش رنگ پس زمینه هدینگ"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:373
+#, fuzzy
+msgid "Heading Height"
+msgstr "عنوان"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:374
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:335
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:384
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:394
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:590
+msgid "pixels"
+msgstr "پیکسل"
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:384
+msgid "Breadcrumbs"
+msgstr "مسیر سایت"
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:35
+#: framework/admin/options/cmsmasters-theme-options-page.php:36
+#: framework/admin/options/cmsmasters-theme-options-post.php:49
+#: framework/admin/options/cmsmasters-theme-options-profile.php:44
+#: framework/admin/options/cmsmasters-theme-options-project.php:51
+#, fuzzy
+msgid "Layout"
+msgstr "طرح بندی"
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:49
+#: framework/admin/options/cmsmasters-theme-options-page.php:50
+#: framework/admin/options/cmsmasters-theme-options-post.php:63
+#: framework/admin/options/cmsmasters-theme-options-profile.php:58
+#: framework/admin/options/cmsmasters-theme-options-project.php:65
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:19
+#, fuzzy
+msgid "Heading"
+msgstr "هدینگ"
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:67
+#: framework/admin/options/cmsmasters-theme-options-page.php:68
+#: framework/admin/options/cmsmasters-theme-options-post.php:278
+#: framework/admin/options/cmsmasters-theme-options-profile.php:181
+#: framework/admin/options/cmsmasters-theme-options-project.php:424
+#, fuzzy
+msgid "Page Color Scheme"
+msgstr "رنگ بندی:"
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:75
+#: framework/admin/options/cmsmasters-theme-options-page.php:76
+#: framework/admin/options/cmsmasters-theme-options-post.php:286
+#, fuzzy
+msgid "Page Layout"
+msgstr "طرحبندی صفحه"
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:76
+#: framework/admin/options/cmsmasters-theme-options-page.php:77
+#: framework/admin/options/cmsmasters-theme-options-post.php:287
+msgid ""
+"Choosing layout with a sidebar please make sure to add widgets in the "
+"Appearance - Widgets tab. The empty sidebar won't be displayed."
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:84
+#: framework/admin/options/cmsmasters-theme-options-page.php:85
+#: framework/admin/options/cmsmasters-theme-options-post.php:295
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:443
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:457
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:471
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:485
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:94
+#, fuzzy
+msgid "Right Sidebar"
+msgstr "ستون کناری سمت راست"
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:89
+#: framework/admin/options/cmsmasters-theme-options-page.php:90
+#: framework/admin/options/cmsmasters-theme-options-post.php:300
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:444
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:458
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:472
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:486
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:95
+#, fuzzy
+msgid "Left Sidebar"
+msgstr "ستون کناری چپ"
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:94
+#: framework/admin/options/cmsmasters-theme-options-page.php:95
+#: framework/admin/options/cmsmasters-theme-options-post.php:305
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:445
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:459
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:473
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:487
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:96
+#, fuzzy
+msgid "Full Width"
+msgstr "تمام عرض "
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:100
+#: framework/admin/options/cmsmasters-theme-options-page.php:117
+#: framework/admin/options/cmsmasters-theme-options-post.php:311
+#, fuzzy
+msgid "Choose Right\\Left Sidebar"
+msgstr "ساید بار چپ و راست"
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:108
+#: framework/admin/options/cmsmasters-theme-options-page.php:125
+#: framework/admin/options/cmsmasters-theme-options-post.php:319
+#: framework/admin/options/cmsmasters-theme-options-profile.php:189
+#: framework/admin/options/cmsmasters-theme-options-project.php:432
+#: framework/function/general-functions.php:442
+msgid "Bottom Sidebar"
+msgstr "سایدبار پایین"
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:116
+#: framework/admin/options/cmsmasters-theme-options-page.php:133
+#: framework/admin/options/cmsmasters-theme-options-post.php:327
+#: framework/admin/options/cmsmasters-theme-options-profile.php:197
+#: framework/admin/options/cmsmasters-theme-options-project.php:440
+msgid "Choose Bottom Sidebar"
+msgstr "انتخاب سایدبار پایین"
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:124
+#: framework/admin/options/cmsmasters-theme-options-page.php:141
+#: framework/admin/options/cmsmasters-theme-options-post.php:335
+#: framework/admin/options/cmsmasters-theme-options-profile.php:205
+#: framework/admin/options/cmsmasters-theme-options-project.php:448
+#, fuzzy
+msgid "Choose Bottom Sidebar Layout"
+msgstr "Choose sidebar layout for WooCommerce products"
+
+#: framework/admin/options/cmsmasters-theme-options-page.php:101
+#, fuzzy
+msgid "Header Overlaps Content"
+msgstr "محتوای هدر قسمت هدر #4"
+
+#: framework/admin/options/cmsmasters-theme-options-page.php:102
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:174
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:308
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:317
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:176
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:345
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:488
+#, fuzzy
+msgid "enable"
+msgstr "فعال سازی"
+
+#: framework/admin/options/cmsmasters-theme-options-page.php:109
+#, fuzzy
+msgid "Disabled Heading Block"
+msgstr "حالت عنوان استایل بلوکی"
+
+#: framework/admin/options/cmsmasters-theme-options-page.php:110
+msgid "Use this checkbox to disable heading block"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:43
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:17
+#, fuzzy
+msgid "Post"
+msgstr "ارسال"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:76
+#, fuzzy
+msgid "Don't Show Featured Image in Open Post"
+msgstr "نمایش تصویر شاخص در صفحه جزئیات نوشته"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:77
+#: framework/admin/options/cmsmasters-theme-options-project.php:89
+msgid "Don't Show"
+msgstr "نمایش نده"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:94
+msgid "Post Image"
+msgstr "تصویر پست"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:115
+#, fuzzy
+msgid "Post Gallery"
+msgstr "گالری پست:"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:135
+#: framework/admin/options/cmsmasters-theme-options-project.php:128
+#, fuzzy
+msgid "Video Type"
+msgstr "Video type"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:143
+#: framework/admin/options/cmsmasters-theme-options-project.php:136
+#, fuzzy
+msgid "Embedded (YouTube, Vimeo)"
+msgstr "آدرس URL ویدئو   | Youtube و یا Vimeo"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:147
+#: framework/admin/options/cmsmasters-theme-options-project.php:140
+#, fuzzy
+msgid "Self-Hosted"
+msgstr "ویدئوی اپلود شده در هاست"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:153
+#: framework/admin/options/cmsmasters-theme-options-project.php:146
+#, fuzzy
+msgid "Embedded Video Link"
+msgstr "ویدیو(تعبیه شده)"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:161
+#: framework/admin/options/cmsmasters-theme-options-project.php:154
+#, fuzzy
+msgid "Self-Hosted Video Links"
+msgstr "ویدیو (آپلود شده)"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:179
+#, fuzzy
+msgid "Audio Links"
+msgstr "لینک‌ها"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:211
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:103
+#, fuzzy
+msgid "Post Title"
+msgstr "عنوان نوشته "
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:219
+#: framework/admin/options/cmsmasters-theme-options-profile.php:164
+#: framework/admin/options/cmsmasters-theme-options-project.php:373
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:185
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:326
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:496
+msgid "Sharing Box"
+msgstr "جعبه اشتراک گذاری"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:227
+#: framework/admin/options/cmsmasters-theme-options-project.php:381
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:195
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:353
+#, fuzzy
+msgid "About Author Box"
+msgstr "درباره نویسنده"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:235
+#: framework/admin/options/cmsmasters-theme-options-project.php:389
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:204
+#, fuzzy
+msgid "More Posts Box"
+msgstr "پست های بیشتری"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:243
+#: framework/admin/options/cmsmasters-theme-options-project.php:397
+msgid "Show Related Tab"
+msgstr "نمایش تبهای مرتبط"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:247
+#: framework/admin/options/cmsmasters-theme-options-project.php:401
+msgid "Show Popular Tab"
+msgstr "نمایش تب محبوب"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:251
+#: framework/admin/options/cmsmasters-theme-options-project.php:405
+msgid "Show Recent Tab"
+msgstr "نمایش تب اخیر"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:255
+#: framework/admin/options/cmsmasters-theme-options-project.php:409
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:212
+msgid "Hide More Posts Box"
+msgstr "مخفی سازی جعبه پست های بیشتری"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:261
+msgid "'Read More' Buttons Text"
+msgstr "متن دکمه بیشتر بخوانید"
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:262
+msgid ""
+"Enter the 'Read More' button text that should be used in you blog shortcode"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:266
+#, fuzzy
+msgid "Read More"
+msgstr "اطلاعات بیشتر"
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:38
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:24
+msgid "Profile"
+msgstr "پروفایل "
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:76
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:432
+#, fuzzy
+msgid "Profile Title"
+msgstr "عنوان پروفایل"
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:84
+#, fuzzy
+msgid "Subtitle"
+msgstr "زیرنویس"
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:92
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:441
+#, fuzzy
+msgid "Profile Details Title"
+msgstr "جزئیات صفحه ی پروفایل"
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:100
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:19
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:48
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:122
+msgid "Social Icons"
+msgstr "ایکون های اجتماعی"
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:101
+#, fuzzy
+msgid "Add social icons for this profile"
+msgstr "براحتی آیکن های اجتماعی را اضافه و مرتب کنید."
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:108
+#, fuzzy
+msgid "Profile Info"
+msgstr "اطلاعات شخصی"
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:116
+#, fuzzy
+msgid "Profile Features 1 Title"
+msgstr "ویژگی‌ها و سرویس ها 1"
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:124
+#, fuzzy
+msgid "Profile Features 1"
+msgstr "ویژگی‌ها"
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:132
+#, fuzzy
+msgid "Profile Features 2 Title"
+msgstr "ویژگی‌ها و سرویس ها 2"
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:140
+#, fuzzy
+msgid "Profile Features 2"
+msgstr "ویژگی‌ها و سرویس ها 2"
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:148
+#, fuzzy
+msgid "Profile Features 3 Title"
+msgstr "ویژگی‌ها و سرویس ها 3"
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:156
+#, fuzzy
+msgid "Profile Features 3"
+msgstr "ویژگی‌ها و سرویس ها 3"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:45
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:20
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:644
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:695
+#, fuzzy
+msgid "Project"
+msgstr "پروژه "
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:78
+#, fuzzy
+msgid "Project Images"
+msgstr "تصاویر"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:88
+#, fuzzy
+msgid "Don't Show Featured Image in Open Project"
+msgstr "عدم نمایش تصویر شاخص"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:96
+msgid "Number of Columns"
+msgstr "تعداد ستون ها"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:104
+#, fuzzy
+msgid "Three"
+msgstr "سه"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:108
+msgid "Two"
+msgstr "دو"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:112
+#, fuzzy
+msgid "One"
+msgstr "یک"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:177
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:244
+#, fuzzy
+msgid "Project Title"
+msgstr "عنوان پروژه"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:185
+#, fuzzy
+msgid "Project Puzzle Image Size"
+msgstr "سایز پازل"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:186
+msgid ""
+"Recommended Project Puzzle Image dimensions, or other size, with the same "
+"ratio:"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:255
+msgid "Project Puzzle Image (1px or No Gap)"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:256
+msgid "Choose image for Masonry Puzzle portfolio projects 1px or no gap"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:266
+msgid "Project Puzzle Image (Large Gap)"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:267
+msgid "Choose image for Masonry Puzzle portfolio projects large gap"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:277
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:253
+#, fuzzy
+msgid "Project Details Title"
+msgstr "عنوان جزئیات پروژه خود را وارد کنید."
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:285
+#, fuzzy
+msgid "Project Info"
+msgstr "اطلاعات پروژه"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:293
+#, fuzzy
+msgid "Project Link Text"
+msgstr "متن سفارشی  لینک پروژه "
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:298
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:702
+msgid "View Project"
+msgstr "نمایش پروژه"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:301
+#, fuzzy
+msgid "Project Link URL"
+msgstr "آدرس لینک سفارشی پروژه را وارد کنید"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:310
+msgid "Redirect to project link URL instead of opening project page"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:317
+#, fuzzy
+msgid "Project Link Target"
+msgstr "لینک پروژه"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:318
+#, fuzzy
+msgid "Open link in a new tab"
+msgstr "باز شدن لینک در یک صفحه جدید"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:325
+#, fuzzy
+msgid "Project Features 1 Title"
+msgstr "عنوان باکس جزئیات پروژه"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:333
+#, fuzzy
+msgid "Project Features 1"
+msgstr "ویژگی‌ها"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:341
+#, fuzzy
+msgid "Project Features 2 Title"
+msgstr "ویژگی‌ها و سرویس ها 2"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:349
+#, fuzzy
+msgid "Project Features 2"
+msgstr "ویژگی‌ها و سرویس ها 2"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:357
+#, fuzzy
+msgid "Project Features 3 Title"
+msgstr "ویژگی‌ها و سرویس ها 3"
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:365
+#, fuzzy
+msgid "Project Features 3"
+msgstr "ویژگی‌ها و سرویس ها 3"
+
+#: framework/admin/options/cmsmasters-theme-options.php:115
+#: framework/admin/options/cmsmasters-theme-options.php:871
+msgid "Create Gallery"
+msgstr "ایجاد گالری"
+
+#: framework/admin/options/cmsmasters-theme-options.php:116
+#, fuzzy
+msgid "Please select the format."
+msgstr "نوع وبلاگ را انتخاب کنید"
+
+#: framework/admin/options/cmsmasters-theme-options.php:117
+#, fuzzy
+msgid "Link with this format already exists."
+msgstr "محصول با این شناسه وجود دارد."
+
+#: framework/admin/options/cmsmasters-theme-options.php:118
+#, fuzzy
+msgid "Do you really want to remove this item?"
+msgstr "آیا شما واقعا می خواهید این منبع را حذف کنید؟"
+
+#: framework/admin/options/cmsmasters-theme-options.php:121
+#: framework/admin/settings/cmsmasters-theme-settings.php:339
+#, fuzzy
+msgid "Do you really want to remove this social icon?"
+msgstr "آیا شما واقعا می خواهید این منبع را حذف کنید؟"
+
+#: framework/admin/options/cmsmasters-theme-options.php:355
+msgid "Default Sidebar"
+msgstr "سایدبار پیشفرض"
+
+#: framework/admin/options/cmsmasters-theme-options.php:390
+#, fuzzy
+msgid "Select Slider"
+msgstr "انتخاب اسلایدر"
+
+#: framework/admin/options/cmsmasters-theme-options.php:407
+msgid "Select Blog Category"
+msgstr "انتخاب دسته وبلاگ"
+
+#: framework/admin/options/cmsmasters-theme-options.php:425
+msgid "Select Project Category"
+msgstr "انتخاب دسته پروژه"
+
+#: framework/admin/options/cmsmasters-theme-options.php:444
+#, fuzzy
+msgid "Select Profile Category"
+msgstr "انتخاب دسته مادر"
+
+#: framework/admin/options/cmsmasters-theme-options.php:477
+#: framework/admin/settings/cmsmasters-theme-settings.php:757
+#, fuzzy
+msgid "Choose Image"
+msgstr "انتخاب عکس"
+
+#: framework/admin/options/cmsmasters-theme-options.php:477
+#: framework/admin/settings/cmsmasters-theme-settings.php:757
+#, fuzzy
+msgid "Insert Image"
+msgstr "افزودن تصویر"
+
+#: framework/admin/options/cmsmasters-theme-options.php:507
+#: framework/admin/options/cmsmasters-theme-options.php:580
+#: framework/admin/settings/cmsmasters-theme-settings.php:974
+#: framework/function/theme-categories-icon.php:28
+#: framework/function/theme-categories-icon.php:56
+#, fuzzy
+msgid "Choose icon"
+msgstr "انتخاب آیکون"
+
+#: framework/admin/options/cmsmasters-theme-options.php:508
+#, fuzzy
+msgid "Remove icon"
+msgstr "آیکون حذف"
+
+#: framework/admin/options/cmsmasters-theme-options.php:521
+#, fuzzy
+msgid "Add info"
+msgstr ""
+"افزودن اطلاعت شامل<i>تاریخ عضویت، ادرس وبسایت، تعداد نمونه کار</i>, غیره."
+
+#: framework/admin/options/cmsmasters-theme-options.php:522
+#: framework/admin/options/cmsmasters-theme-options.php:581
+#: framework/admin/settings/cmsmasters-theme-settings.php:975
+#: framework/function/theme-categories-icon.php:29
+#: framework/function/theme-categories-icon.php:57
+msgid "Cancel changes"
+msgstr "لغو تغییرات"
+
+#: framework/admin/options/cmsmasters-theme-options.php:529
+#: framework/admin/options/cmsmasters-theme-options.php:699
+#, fuzzy
+msgid "Link"
+msgstr "لینک"
+
+#: framework/admin/options/cmsmasters-theme-options.php:533
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:124
+#, fuzzy
+msgid "Text"
+msgstr "متن"
+
+#: framework/admin/options/cmsmasters-theme-options.php:537
+#: framework/admin/options/cmsmasters-theme-options.php:608
+#: framework/admin/settings/cmsmasters-theme-settings.php:1001
+#, fuzzy
+msgid "Open link in a new tab/window?"
+msgstr "لینک در پنجره/تب جدید باز شود"
+
+#: framework/admin/options/cmsmasters-theme-options.php:541
+#, fuzzy
+msgid "Add Contact Info"
+msgstr "افزودن اطلاعات تماس"
+
+#: framework/admin/options/cmsmasters-theme-options.php:542
+#, fuzzy
+msgid "Save Contact Info"
+msgstr "اطلاعات تماس"
+
+#: framework/admin/options/cmsmasters-theme-options.php:587
+#: framework/admin/settings/cmsmasters-theme-settings.php:980
+msgid "Icon Color"
+msgstr "رنگ آیکون"
+
+#: framework/admin/options/cmsmasters-theme-options.php:593
+#: framework/admin/settings/cmsmasters-theme-settings.php:986
+#, fuzzy
+msgid "Icon Hover Color"
+msgstr "رنگ Hover آیکون"
+
+#: framework/admin/options/cmsmasters-theme-options.php:593
+#: framework/admin/settings/cmsmasters-theme-settings.php:986
+#, fuzzy
+msgid "if not selected - Icon Color will be used"
+msgstr "در صورت انتخاب نشدن پیش فرض اعمال می شود"
+
+#: framework/admin/options/cmsmasters-theme-options.php:600
+#, fuzzy
+msgid "Icon link"
+msgstr "لینک آیکون"
+
+#: framework/admin/options/cmsmasters-theme-options.php:604
+#, fuzzy
+msgid "Icon title"
+msgstr ""
+"لطفا از شورت کد <strong>[item icon=\"\" title=\"\" link=\"\"]</strong> در "
+"اینجا استفاده کنید"
+
+#: framework/admin/options/cmsmasters-theme-options.php:612
+#: framework/admin/settings/cmsmasters-theme-settings.php:1005
+#, fuzzy
+msgid "Add Icon"
+msgstr "آیکون درج"
+
+#: framework/admin/options/cmsmasters-theme-options.php:613
+#: framework/admin/settings/cmsmasters-theme-settings.php:1006
+msgid "Save Icon"
+msgstr "ذخیره آیکون"
+
+#: framework/admin/options/cmsmasters-theme-options.php:698
+#: framework/admin/options/cmsmasters-theme-options.php:767
+#: theme-framework/theme-style/class/theme-widgets.php:206
+#: theme-framework/theme-style/class/theme-widgets.php:405
+#: theme-framework/theme-style/class/theme-widgets.php:587
+#: theme-framework/theme-style/class/theme-widgets.php:950
+#: theme-framework/theme-style/class/theme-widgets.php:1055
+#, fuzzy
+msgid "Title"
+msgstr "عنوان:"
+
+#: framework/admin/options/cmsmasters-theme-options.php:736
+#, fuzzy
+msgid "Blank Field"
+msgstr "فیلد خالی"
+
+#: framework/admin/options/cmsmasters-theme-options.php:737
+#, fuzzy
+msgid "Select Link"
+msgstr "گزینه لینک را انتخاب نمایید"
+
+#: framework/admin/options/cmsmasters-theme-options.php:739
+msgid "Posts"
+msgstr "نوشته‌ها"
+
+#: framework/admin/options/cmsmasters-theme-options.php:746 page.php:53
+#: sitemap.php:57 theme-framework/theme-style/postType/blog/post-single.php:98
+#: theme-framework/theme-style/postType/portfolio/project-single.php:145
+#: theme-framework/theme-style/postType/profile/profile-single.php:108
+msgid "Pages"
+msgstr "برگه‌ها"
+
+#: framework/admin/options/cmsmasters-theme-options.php:753
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:694
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:696
+msgid "Projects"
+msgstr "پروژه ها"
+
+#: framework/admin/options/cmsmasters-theme-options.php:768
+msgid "Values"
+msgstr "مقادیر"
+
+#: framework/admin/options/cmsmasters-theme-options.php:813
+msgid "Select Format"
+msgstr "انتخاب فرمت"
+
+#: framework/admin/options/cmsmasters-theme-options.php:871
+msgid "Edit Gallery"
+msgstr "ویرایش گالری"
+
+#: framework/admin/options/cmsmasters-theme-options.php:871
+#, fuzzy
+msgid "Create/Edit Gallery"
+msgstr "ویرایش گالری"
+
+#: framework/admin/options/cmsmasters-theme-options.php:871
+#, fuzzy
+msgid "Insert Gallery"
+msgstr "درج"
+
+#: framework/admin/options/cmsmasters-theme-options.php:912
+#, fuzzy
+msgid "count"
+msgstr "شمار"
+
+#: framework/admin/options/cmsmasters-theme-options.php:913
+#, fuzzy
+msgid "to go"
+msgstr "برو به ..."
+
+#: framework/admin/options/cmsmasters-theme-options.php:1000
+msgid "Theme Options"
+msgstr "تنضیمات پوسته"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:37
+#, fuzzy
+msgid "Color Scheme Options"
+msgstr "رنگ بندی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:63
+#, fuzzy
+msgid "Header Middle Text Font Color"
+msgstr "رنگ متن  هدر وسطی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:64
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:73
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:82
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:91
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:100
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:109
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:118
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:127
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:136
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:145
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:154
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:163
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:172
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:181
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:190
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:199
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:208
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:217
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:226
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:235
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:244
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:253
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:262
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:271
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:280
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:289
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:298
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:307
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:316
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:325
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:334
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:343
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:352
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:361
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:370
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:379
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:388
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:397
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:406
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:415
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:424
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:433
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:442
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:451
+msgid "(may apply to some other elements too)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:72
+#, fuzzy
+msgid "Header Middle Links Font Color"
+msgstr "رنگ فونت میانی فوتر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:81
+#, fuzzy
+msgid "Header Middle Links Font Color on Hover"
+msgstr "Select a font color for links on hover."
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:90
+#, fuzzy
+msgid "Header Middle Background Color"
+msgstr "رنگ پس زمینه هدر وسطی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:99
+#, fuzzy
+msgid "Header Middle Background Color on Scroll"
+msgstr "رنگ پس زمینه هدر وسطی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:108
+#, fuzzy
+msgid "Header Middle Border Color"
+msgstr "رنگ متن  هدر وسطی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:117
+#, fuzzy
+msgid "Header Bottom Text Font Color"
+msgstr "رنگ کادر پایین هدر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:126
+#, fuzzy
+msgid "Header Bottom Links Font Color"
+msgstr "Font Color &rarr; Links"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:135
+#, fuzzy
+msgid "Header Bottom Links Font Color on Hover"
+msgstr "Select a font color for links on hover."
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:144
+#, fuzzy
+msgid "Header Bottom Background Color"
+msgstr "رنگ گریدینت بک گراند پایین هدر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:153
+#, fuzzy
+msgid "Header Bottom Background Color on Scroll"
+msgstr "رنگ گریدینت بک گراند پایین هدر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:162
+#, fuzzy
+msgid "Header Bottom Border Color"
+msgstr "رنگ کادر پایین هدر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:171
+#, fuzzy
+msgid "Main Elements Font Color"
+msgstr "رنگ فونت المان های نزدیک منو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:180
+#, fuzzy
+msgid "Main Elements Font Color on Hover"
+msgstr "رنگ هاور فونت منوی اصلی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:189
+msgid "Main Elements Font Color for Current Position"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:198
+#, fuzzy
+msgid "Main Elements Subtitle Font Color"
+msgstr "رنگ زیرعنوان اصلی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:207
+#, fuzzy
+msgid "Main Elements Background Color"
+msgstr "رنگ پسزمینه المنتهای فرم"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:216
+#, fuzzy
+msgid "Main Elements Background Color on Hover"
+msgstr "رنگ پس زمینه هاور منوی اصلی - سطح 1"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:225
+msgid "Main Elements Background Color for Current Position"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:234
+#, fuzzy
+msgid "Main Elements Border Color"
+msgstr "رنگ کادر المنتهای فرم"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:243
+#, fuzzy
+msgid "Dropdown Description Text Color"
+msgstr "رنگ متن بازشو ووکامرس"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:252
+#, fuzzy
+msgid "Dropdown Background Color"
+msgstr "رنگ پشت زمینه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:261
+msgid "Dropdown Border Color"
+msgstr "رنگ کادر منوی کشویی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:270
+#, fuzzy
+msgid "Dropdown Elements Color"
+msgstr "عناصر کرکره در"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:279
+#, fuzzy
+msgid "Dropdown Elements Color on Hover"
+msgstr "رنگ پس زمینه هوور منو بازشو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:288
+#, fuzzy
+msgid "Dropdown Elements Subtitle Color"
+msgstr "رنگ نوشته فرعی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:297
+#, fuzzy
+msgid "Dropdown Elements Highlight Color on Hover"
+msgstr "رنگ برجسته را انتخاب کنید."
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:306
+#, fuzzy
+msgid "Dropdown Elements Border Color"
+msgstr "رنگ کادر بازشو ووکامرس"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:315
+#, fuzzy
+msgid "Text Font Color"
+msgstr "کنترل رنگ فونت متن بدنه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:324
+#, fuzzy
+msgid "Links Font Color"
+msgstr "Select a font color for links on hover."
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:333
+#, fuzzy
+msgid "Links Font Color on Hover"
+msgstr "Select a font color for links on hover."
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:351
+msgid "Border Color"
+msgstr "رنگ کادر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:360
+#, fuzzy
+msgid "Top Menu Elements Font Color"
+msgstr "رنگ فونت منوی نوار بالا/ زیرسطحی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:369
+#, fuzzy
+msgid "Top Menu Main Elements Font Color on Hover"
+msgstr "رنگ گریدینت هاور فونت منوی اصلی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:378
+#, fuzzy
+msgid "Top Menu Main Elements Background Color"
+msgstr "رنگ پس زمینه منوی اصلی - زیر سطح"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:387
+#, fuzzy
+msgid "Top Menu Main Elements Background Color on Hover"
+msgstr "رنگ پس زمینه هاور منوی اصلی - سطح 1"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:396
+#, fuzzy
+msgid "Top Menu Main Elements Border Color"
+msgstr "رنگ کادر هایلایت منو اصلی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:405
+#, fuzzy
+msgid "Top Menu Dropdown Background Color"
+msgstr "رنگ پس زمینه منوی کشویی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:414
+#, fuzzy
+msgid "Top Menu Dropdown Border Color"
+msgstr "کادر بالای منوی بازشو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:423
+#, fuzzy
+msgid "Top Menu Dropdown Elements Color"
+msgstr "فیلد انتخاب شده در عنصر منوی باز شو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:432
+#, fuzzy
+msgid "Top Menu Dropdown Elements Color on Hover"
+msgstr "منوی بازشو - رنگ بک گراند هوور لینک"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:441
+msgid "Top Menu Dropdown Elements Highlight Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:450
+#, fuzzy
+msgid "Top Menu Dropdown Elements Border Color"
+msgstr "کادر بالای منوی بازشو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:459
+#, fuzzy
+msgid "Main Content Font Color"
+msgstr "Select a font color for the main content area."
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:460
+#, fuzzy
+msgid "Font color for main content"
+msgstr "Font Color &rarr; Main Content"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:468
+#, fuzzy
+msgid "Primary Color"
+msgstr "رنگ اصلی "
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:469
+#, fuzzy
+msgid "First color for links and some other elements"
+msgstr "رنگ های کلیدی برای لینک ها و عناصر دیگر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:477
+msgid "Highlight Color"
+msgstr "رنگ هایلایت"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:478
+#, fuzzy
+msgid "Color for links rollovers, etc"
+msgstr "This color will apply to buttons, links, etc..."
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:486
+#, fuzzy
+msgid "Headings Color"
+msgstr "رنگ هدینگ ( عنوان ها )"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:487
+#, fuzzy
+msgid "Color for headings and some other elements"
+msgstr "رنگ های کلیدی برای لینک ها و عناصر دیگر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:495
+#, fuzzy
+msgid "Main Background Color"
+msgstr "رنگ پس زمینه صفحه اصلی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:496
+#, fuzzy
+msgid "Main background color for some elements"
+msgstr "رنگ پس زمینه بدنه اصلی . پیش فرض %s ."
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:504
+msgid "Alternate Background Color"
+msgstr "رنگ بک گراند متناوب"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:505
+#, fuzzy
+msgid "Alternate background color for some elements"
+msgstr "رنگ پسزمینه المنتهای فرم"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:513
+msgid "Borders Color"
+msgstr "رنگ کادرها"
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:514
+msgid "Color for borders"
+msgstr "رنگ کادرها"
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:17
+#, fuzzy
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:18
+msgid "Export"
+msgstr "اکسپورت"
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:33
+#, fuzzy
+msgid "Theme Settings Import"
+msgstr "وارد کردن تنظیمات تم"
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:40
+msgid "Theme Settings Export"
+msgstr "اکسپورت تنظیمات قالب"
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:72
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:85
+#: framework/admin/settings/cmsmasters-theme-settings.php:374
+#: framework/admin/settings/cmsmasters-theme-settings.php:375
+#, fuzzy
+msgid "Theme Settings"
+msgstr "تنظیمات پوسته"
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:73
+msgid "Enter your theme settings data here and click 'Import' button"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:73
+msgid ""
+"Please note that when importing theme settings, these settings will be "
+"applied to the appropriate Theme Style (with the same name)."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:73
+msgid "To see these settings applied, please enable appropriate"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:73
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:25
+#, fuzzy
+msgid "Theme Style"
+msgstr "استایل پوسته"
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:86
+msgid "Click here to export your theme settings data to the file."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:86
+msgid ""
+"Please note, that when exporting theme settings, you will export settings "
+"for the currently active Theme Style."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:86
+#, fuzzy
+msgid "Theme Style can be set"
+msgstr "ترکیب رنگ پیش فرض پوسته"
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:86
+msgid "here"
+msgstr "اینجا"
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:88
+msgid "Export Theme Settings"
+msgstr "اکسپورت تنظیمات قالب"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:16
+msgid "Sidebars"
+msgstr "سایدبارها"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:22
+#, fuzzy
+msgid "Lightbox"
+msgstr "لایت‌باکس"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:23
+#: theme-framework/theme-style/template/404.php:39
+#, fuzzy
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:24
+#: theme-framework/theme-style/template/404.php:24
+#, fuzzy
+msgid "404"
+msgstr "۴۰۴"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:25
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:72
+#, fuzzy
+msgid "Custom Codes"
+msgstr "کدهای سفارشی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:28
+#, fuzzy
+msgid "reCAPTCHA"
+msgstr "ریکپچا"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:42
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:111
+msgid "Custom Sidebars"
+msgstr "سایدبارهای دلخواه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:54
+#, fuzzy
+msgid "Theme Lightbox Options"
+msgstr "تنظیمات | لایت باکس"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:60
+#, fuzzy
+msgid "Sitemap Page Options"
+msgstr "این صفحه در نقشه سایت XML باشد؟"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:66
+#, fuzzy
+msgid "404 Error Page Options"
+msgstr "خطای 404 ! "
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:78
+msgid "Form Builder Plugin reCAPTCHA Keys"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:133
+#, fuzzy
+msgid "Skin"
+msgstr "ظاهر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:138
+msgid "Dark"
+msgstr "تیره"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:139
+#, fuzzy
+msgid "Light"
+msgstr "لایت"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:140
+#, fuzzy
+msgid "Mac"
+msgstr "Apur&iacute;mac"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:141
+#, fuzzy
+msgid "Metro Black"
+msgstr "مترو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:142
+#, fuzzy
+msgid "Metro White"
+msgstr "سفید"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:143
+msgid "Parade"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:144
+#, fuzzy
+msgid "Smooth"
+msgstr "آهسته"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:151
+msgid "Path"
+msgstr "مسیر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:152
+msgid "Sets path for switching windows"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:156
+#, fuzzy
+msgid "Vertical"
+msgstr "عمودی "
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:157
+#, fuzzy
+msgid "Horizontal"
+msgstr "افقی "
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:164
+msgid "Infinite"
+msgstr "نامحدود"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:165
+msgid "Sets the ability to infinite the group"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:173
+#, fuzzy
+msgid "Keep Aspect Ratio"
+msgstr "حفظ نسبت اندازه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:174
+msgid "Sets the resizing method used to keep aspect ratio within the viewport"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:182
+msgid "Mobile Optimizer"
+msgstr "بهینه ساز موبایل"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:183
+msgid ""
+"Make lightboxes optimized for giving better experience with mobile devices"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:191
+#, fuzzy
+msgid "Max Scale"
+msgstr "Scale"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:192
+msgid "Sets the maximum viewport scale of the content"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:203
+#, fuzzy
+msgid "Min Scale"
+msgstr "Scale"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:204
+msgid "Sets the minimum viewport scale of the content"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:215
+msgid "Inner Toolbar"
+msgstr "نوار ابزار داخلی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:216
+msgid "Bring buttons into windows, or let them be over the overlay"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:224
+#, fuzzy
+msgid "Smart Recognition"
+msgstr "هوشمند"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:225
+msgid "Sets content auto recognize from web pages"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:233
+#, fuzzy
+msgid "Fullscreen One Slide"
+msgstr "اسلاید کاور تمام عرض + تصویر زمینه بلور (تاری)"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:234
+msgid "Decide to fullscreen only one slide or hole gallery the fullscreen mode"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:242
+#, fuzzy
+msgid "Fullscreen Viewport"
+msgstr "موقعیت ویوپورت"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:243
+msgid "Sets the resizing method used to fit content within the fullscreen mode"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:248
+msgid "Fit"
+msgstr " فیت"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:249
+msgid "Fill"
+msgstr "تکمیل کنید"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:250
+#, fuzzy
+msgid "Stretch"
+msgstr "کشیدگی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:257
+msgid "Toolbar Controls"
+msgstr "کنترلهای نوار ابزار"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:258
+#, fuzzy
+msgid "Sets buttons be available or not"
+msgstr "دکمه های در دسترس"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:266
+#, fuzzy
+msgid "Arrow Controls"
+msgstr "به همراه پیکان"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:267
+#, fuzzy
+msgid "Enable the arrow buttons"
+msgstr "فعال سازی تولتیپ پیکان"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:275
+msgid "Fullscreen Controls"
+msgstr "کنترل های تمام صفحه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:276
+msgid "Sets the fullscreen button"
+msgstr "تنظیم به دکمه تمام صفحه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:284
+msgid "Thumbnails Controls"
+msgstr "کنترل های بند انگشتی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:285
+msgid "Sets the thumbnail navigation"
+msgstr "تنظیم ناوبری تصاویر بندانگشتی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:293
+#, fuzzy
+msgid "Keyboard Controls"
+msgstr "Keyboard"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:294
+#, fuzzy
+msgid "Sets the keyboard navigation"
+msgstr "کنترل با صفحه کلید"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:302
+#, fuzzy
+msgid "Mouse Wheel Controls"
+msgstr "Google map scroll on mouse wheel"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:303
+#, fuzzy
+msgid "Sets the mousewheel navigation"
+msgstr "نمایش جداکننده اعشاری در قیمت محصولات"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:311
+#, fuzzy
+msgid "Swipe Controls"
+msgstr "On swipe start"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:312
+#, fuzzy
+msgid "Sets the swipe navigation"
+msgstr "حداقل کش رفتن انگشت"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:320
+#, fuzzy
+msgid "Slideshow Controls"
+msgstr "اینجا می توانید انتخاب کنید که دکمه های کنترل اسلایدر چطو باشند."
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:321
+#, fuzzy
+msgid "Enable the slideshow feature and button"
+msgstr "دکمه اسلایدشو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:331
+#: sitemap.php:66
+msgid "Website Pages"
+msgstr "برگه های وب سایت"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:332
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:341
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:350
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:359
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:368
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:377
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:406
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:488
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:497
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:212
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:326
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:404
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:519
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:600
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:619
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:690
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:721
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:730
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:104
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:113
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:122
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:131
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:140
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:149
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:158
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:167
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:186
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:196
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:245
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:264
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:273
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:282
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:291
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:300
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:309
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:318
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:327
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:336
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:354
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:433
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:452
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:461
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:470
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:479
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:497
+#: theme-framework/theme-style/admin/theme-settings.php:59
+#: theme-framework/theme-style/admin/theme-settings.php:73
+#: theme-framework/theme-style/admin/theme-settings.php:91
+#: woocommerce/cmsmasters-framework/theme-style/admin/plugin-settings.php:20
+msgid "show"
+msgstr "نمایش"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:340
+#: sitemap.php:79
+#, fuzzy
+msgid "Blog Archives by Categories"
+msgstr "آرشیو بلاگ"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:349
+#: sitemap.php:99
+#, fuzzy
+msgid "Blog Archives by Tags"
+msgstr "آرشیو بلاگ"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:358
+#: sitemap.php:112
+#, fuzzy
+msgid "Blog Archives by Month"
+msgstr "بایگانی ماه:"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:367
+#: sitemap.php:128
+#, fuzzy
+msgid "Portfolio Archives by Categories"
+msgstr "این گزینه را برای نمایش عنوان بایگانی در نمونه کارها فعال کنید"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:376
+#: sitemap.php:144
+#, fuzzy
+msgid "Portfolio Archives by Tags"
+msgstr "این گزینه را برای نمایش عنوان بایگانی در نمونه کارها فعال کنید"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:387
+#, fuzzy
+msgid "Text Color"
+msgstr "رنگ متن "
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:415
+msgid "Choose your custom error page background image."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:487
+#, fuzzy
+msgid "Search Line"
+msgstr "بدون خط"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:496
+#, fuzzy
+msgid "Sitemap Button"
+msgstr "Sitemap"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:505
+msgid "Sitemap Page URL"
+msgstr "آدرس برگه نقشه سایت"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:517
+#, fuzzy
+msgid "Custom CSS"
+msgstr "css دلخواه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:527
+msgid "Custom JavaScript"
+msgstr "سفارشی سازی جاوا اسکریپت"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:537
+#, fuzzy
+msgid "Google Maps API key"
+msgstr "کلید API نقشه گوگل"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:547
+#, fuzzy
+msgid "Twitter API key"
+msgstr "کلید API توییتر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:557
+#, fuzzy
+msgid "Twitter API secret"
+msgstr "کلید API توییتر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:567
+#, fuzzy
+msgid "Twitter Access token"
+msgstr "توییتر دسترسی نشانه رمز"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:577
+#, fuzzy
+msgid "Twitter Access token secret"
+msgstr "Twitter Access token secret"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:589
+#, fuzzy
+msgid "reCAPTCHA Public Key"
+msgstr "reCAPTCHA  کلید عمومی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:599
+#, fuzzy
+msgid "reCAPTCHA Private Key"
+msgstr "reCAPTCHA کلید خصوصی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:16
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:29
+msgid "Content"
+msgstr "محتوا"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:17
+#, fuzzy
+msgid "Links"
+msgstr "لینکها"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:18
+#: functions.php:234
+msgid "Navigation"
+msgstr "ناوبری"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:20
+msgid "Other"
+msgstr "دیگر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:21
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:373
+#, fuzzy
+msgid "Google Fonts"
+msgstr "فونت هاي گوگل"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:34
+#, fuzzy
+msgid "Content Font Options"
+msgstr "تنظیمات شبکه تحویل محتوا"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:40
+msgid "Links Font Options"
+msgstr "تنظمیات فونت لینکها"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:46
+#, fuzzy
+msgid "Navigation Font Options"
+msgstr "تنظیمات فونت منوی ناوبری"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:52
+#, fuzzy
+msgid "Headings Font Options"
+msgstr "فونت عنوان ۱"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:58
+#, fuzzy
+msgid "Other Fonts Options"
+msgstr "فونت ، رنگها و استایل های دیگر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:64
+#, fuzzy
+msgid "Serving Google Fonts from CDN"
+msgstr "فونت سفارشی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:97
+#, fuzzy
+msgid "Main Content Font"
+msgstr "Font Color &rarr; Main Content"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:116
+#, fuzzy
+msgid "Links Font"
+msgstr "رنگ فونت صفحات 404 در حالت هاور"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:135
+#, fuzzy
+msgid "Links Hover Text Decoration"
+msgstr "تزئینات متن"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:147
+#, fuzzy
+msgid "Navigation Title Font"
+msgstr "فونت فهرست"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:165
+#, fuzzy
+msgid "Navigation Dropdown Font"
+msgstr "فونت منوی بازشو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:185
+msgid "H1 Tag Font"
+msgstr "فونت تگ H1"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:204
+msgid "H2 Tag Font"
+msgstr "فونت تگ H2"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:223
+msgid "H3 Tag Font"
+msgstr "فونت تگ H3"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:242
+msgid "H4 Tag Font"
+msgstr "فونت تگ H4"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:261
+msgid "H5 Tag Font"
+msgstr "فونت تگ H5"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:280
+msgid "H6 Tag Font"
+msgstr "فونت تگ H6"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:301
+msgid "Button Font"
+msgstr "فونت دکمه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:319
+#, fuzzy
+msgid "Small Tag Font"
+msgstr "اندازه فونت کوچک"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:337
+#, fuzzy
+msgid "Text Fields Font"
+msgstr "فونت و متن"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:354
+#, fuzzy
+msgid "Blockquote Font"
+msgstr "فونت نقل قول"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:382
+#, fuzzy
+msgid "Google Fonts Subset"
+msgstr "زیر گروه فونت‌های گوگل"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:387
+#, fuzzy
+msgid "Latin Extended"
+msgstr "اضافات لاتین"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:388
+#, fuzzy
+msgid "Arabic"
+msgstr "Arabic"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:389
+#, fuzzy
+msgid "Cyrillic"
+msgstr "Cyrillic"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:390
+#, fuzzy
+msgid "Cyrillic Extended"
+msgstr "Cyrillic Extended"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:391
+#, fuzzy
+msgid "Greek"
+msgstr "یونانی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:392
+#, fuzzy
+msgid "Greek Extended"
+msgstr "اهل یونان"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:393
+#, fuzzy
+msgid "Vietnamese"
+msgstr "ویتنام"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:394
+#, fuzzy
+msgid "Japanese"
+msgstr "Japanese"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:395
+#, fuzzy
+msgid "Korean"
+msgstr "Korean"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:396
+#, fuzzy
+msgid "Thai"
+msgstr "Thai"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:397
+msgid "Bengali"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:398
+#, fuzzy
+msgid "Devanagari"
+msgstr "Devanagari"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:399
+msgid "Gujarati"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:400
+msgid "Gurmukhi"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:401
+#, fuzzy
+msgid "Hebrew"
+msgstr "Hebrew"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:402
+msgid "Kannada"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:403
+#, fuzzy
+msgid "Khmer"
+msgstr "Khmer"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:404
+msgid "Malayalam"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:405
+#, fuzzy
+msgid "Myanmar"
+msgstr "ميانمار"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:406
+msgid "Oriya"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:407
+msgid "Sinhala"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:408
+#, fuzzy
+msgid "Tamil"
+msgstr "Tamil"
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:409
+msgid "Telugu"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:18
+#: framework/admin/settings/cmsmasters-theme-settings.php:391
+#, fuzzy
+msgid "General"
+msgstr "همگانی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:28
+#: functions.php:233
+#, fuzzy
+msgid "Header"
+msgstr "سربرگ "
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:30
+#: functions.php:236
+msgid "Footer"
+msgstr "فوتر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:43
+#, fuzzy
+msgid "General Options"
+msgstr "تنظیمات عمومی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:49
+#, fuzzy
+msgid "Background Options"
+msgstr "تنظیمات پس زمینه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:55
+#, fuzzy
+msgid "Theme Design Style"
+msgstr "سبک طراحی "
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:61
+#, fuzzy
+msgid "Header Options"
+msgstr "گزینه‌های هدر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:67
+#, fuzzy
+msgid "Content Options"
+msgstr "تنظیمات محتوی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:73
+#, fuzzy
+msgid "Footer Options"
+msgstr "گزینه های فوتر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:105
+#, fuzzy
+msgid "Theme Layout"
+msgstr "لایه بندی پوسته"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:110
+msgid "Liquid"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:111
+msgid "Boxed"
+msgstr "جعبه‌ای"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:118
+msgid "Logo Type"
+msgstr "نوع لوگو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:123
+#, fuzzy
+msgid "Image"
+msgstr "تصویر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:131
+msgid "Logo Image"
+msgstr "تصویر لوگو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:132
+#, fuzzy
+msgid "Choose your website logo image."
+msgstr "لوگوی خود را آپلود کنید"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:142
+#, fuzzy
+msgid "Retina Logo Image"
+msgstr "عکس لوگو  رتینا"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:143
+msgid ""
+"Choose logo image for retina displays. Logo for Retina displays should be "
+"twice the size of the default one."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:153
+#, fuzzy
+msgid "Logo Title"
+msgstr "عنوان لوگو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:163
+msgid "Logo Subtitle"
+msgstr "زیر عنوان لوگو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:173
+msgid "Custom Text Colors"
+msgstr "رنگ بندی دلخواه متن"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:182
+#, fuzzy
+msgid "Logo Title Color"
+msgstr "عنوان لوگو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:191
+msgid "Logo Subtitle Color"
+msgstr "رنگ زیر عنوان لوگو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:221
+msgid "Choose your custom website background image url."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:295
+msgid "Choose Theme Style"
+msgstr "انتخاب استایل قالب"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:307
+#, fuzzy
+msgid "Fixed Header"
+msgstr "هدر ثابت"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:316
+#, fuzzy
+msgid "Header Overlaps Content by Default"
+msgstr " پس زمینه برای ناحیه محتوای پیش فرض"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:325
+msgid "Top Line"
+msgstr "خط بالا"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:334
+#, fuzzy
+msgid "Top Height"
+msgstr "ارتفاع نوار منو بالا (px)"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:344
+#, fuzzy
+msgid "Top Short Info"
+msgstr "Short From Top"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:345
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:427
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:739
+#, fuzzy
+msgid "HTML tags are allowed!"
+msgstr " HTML مجاز است"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:354
+#, fuzzy
+msgid "Top Additional Content"
+msgstr "محتوا اضافی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:360
+msgid ""
+"Top Line Social Icons (will be shown if Cmsmasters Content Composer plugin "
+"is active)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:361
+msgid "Top Line Navigation (will be shown if set in Appearance - Menus tab)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:368
+#, fuzzy
+msgid "Header Styles"
+msgstr "استایلهای هدر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:373
+#: theme-framework/theme-style/admin/theme-settings.php:41
+#, fuzzy
+msgid "Default Style"
+msgstr "استایل پیش فرض"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:374
+#: theme-framework/theme-style/admin/theme-settings.php:42
+#, fuzzy
+msgid "Compact Style Left Navigation"
+msgstr "میکرو ابزارک در ناحیه ناوبری (چپ)"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:375
+#: theme-framework/theme-style/admin/theme-settings.php:43
+#, fuzzy
+msgid "Compact Style Right Navigation"
+msgstr "انتخاب ناوبری راست برای این صفحه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:376
+#, fuzzy
+msgid "Compact Style Center Navigation"
+msgstr "استایل 6 (لوگو مرکز + ناوبری)"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:383
+#, fuzzy
+msgid "Header Middle Height"
+msgstr "اندازه ارتفاع خطوط متوسط"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:393
+#, fuzzy
+msgid "Header Bottom Height"
+msgstr "هدر پایین:"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:403
+#, fuzzy
+msgid "Header Search"
+msgstr "جستجو سربرگ"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:412
+#, fuzzy
+msgid "Header Additional Content"
+msgstr "محتوا اضافی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:418
+msgid ""
+"Header Social Icons (will be shown if Cmsmasters Content Composer plugin is "
+"active)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:419
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:426
+#, fuzzy
+msgid "Header Custom HTML"
+msgstr "HTML سفارشی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:438
+#, fuzzy
+msgid "Layout Type by Default"
+msgstr "قالب پیش فرض"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:439
+msgid ""
+"Choosing layout with a sidebar please make sure to add widgets to the "
+"Sidebar in the Appearance - Widgets tab. The empty sidebar won't be "
+"displayed."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:452
+msgid "Archives Layout Type"
+msgstr "نوع طرح آرشیو"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:453
+msgid ""
+"Choosing layout with a sidebar please make sure to add widgets to the "
+"Archive Sidebar in the Appearance - Widgets tab. The empty sidebar won't be "
+"displayed."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:466
+msgid "Search Layout Type"
+msgstr "جستجوی نوع طرح بندی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:467
+msgid ""
+"Choosing layout with a sidebar please make sure to add widgets to the Search "
+"Sidebar in the Appearance - Widgets tab. The empty sidebar won't be "
+"displayed."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:480
+msgid "Other Layout Type"
+msgstr "نوع دیگر طرح بندی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:481
+msgid ""
+"Layout for pages of non-listed types. Choosing layout with a sidebar please "
+"make sure to add widgets to the Sidebar in the Appearance - Widgets tab. The "
+"empty sidebar won't be displayed."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:494
+#, fuzzy
+msgid "Heading Alignment by Default"
+msgstr "ترازبندی عنوان"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:508
+#, fuzzy
+msgid "Heading Color Scheme by Default"
+msgstr "رنگ هدینگ را انتخاب کنید."
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:518
+#, fuzzy
+msgid "Heading Background Image Visibility by Default"
+msgstr "عکس پس زمینه پیشفرض برای عنوان هدینگ"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:527
+#, fuzzy
+msgid "Heading Background Image by Default"
+msgstr "عکس پس زمینه پیشفرض برای عنوان هدینگ"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:528
+msgid "Choose your custom heading background image by default."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:538
+#, fuzzy
+msgid "Heading Background Repeat by Default"
+msgstr "نحوه تکرار تصویر پس زمینه فوتر را مشخص نمایید"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:553
+#, fuzzy
+msgid "Heading Background Attachment by Default"
+msgstr "بک گراند پیشفرض عنوان برگه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:566
+#, fuzzy
+msgid "Heading Background Size by Default"
+msgstr "بک گراند پیشفرض عنوان برگه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:580
+#, fuzzy
+msgid "Heading Background Color Overlay by Default"
+msgstr "پوشش رنگ پس زمینه را انتخاب کنید"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:589
+#, fuzzy
+msgid "Heading Height by Default"
+msgstr "ارتفاع پیشفرض"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:599
+#, fuzzy
+msgid "Breadcrumbs Visibility by Default"
+msgstr "نمایش یا پنهان آدرس پیمایش به طور پیش فرض"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:608
+#, fuzzy
+msgid "Bottom Color Scheme"
+msgstr "رنگ بندی:"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:618
+#, fuzzy
+msgid "Bottom Sidebar Visibility by Default"
+msgstr "بازنویسی نمایش سایدبار"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:619
+msgid ""
+"Please make sure to add widgets in the Appearance - Widgets tab. The empty "
+"sidebar won't be displayed."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:627
+#, fuzzy
+msgid "Bottom Sidebar Layout by Default"
+msgstr "انتخاب طرح نوار کناری به طور پیش فرض برای صفحات"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:651
+#, fuzzy
+msgid "Footer Color Scheme"
+msgstr "رنگ بندی فوتر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:661
+msgid "Footer Type"
+msgstr "نوع فوتر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:667
+#, fuzzy
+msgid "Small"
+msgstr "عکس کوچک"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:674
+#, fuzzy
+msgid "Footer Additional Content"
+msgstr "محتوا اضافی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:680
+msgid "Footer Navigation (will be shown if set in Appearance - Menus tab)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:681
+msgid ""
+"Social Icons (will be shown if Cmsmasters Content Composer plugin is active)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:682
+#, fuzzy
+msgid "Custom HTML"
+msgstr "اچ تی ام ال دلخواه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:689
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:698
+#, fuzzy
+msgid "Footer Logo"
+msgstr "لوگوی فوتر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:699
+#, fuzzy
+msgid "Choose your website footer logo image."
+msgstr "لوگوی خود را آپلود کنید"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:709
+#, fuzzy
+msgid "Footer Logo for Retina"
+msgstr "لوگو رتینای فوتر (چگالی بالا)"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:710
+#, fuzzy
+msgid "Choose your website footer logo image for retina."
+msgstr "لوگوی رتینا ی فوتر خود را اینجا آپلود کنید."
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:720
+#: theme-framework/theme-style/theme-functions.php:75
+msgid "Footer Navigation"
+msgstr "ناوبری فوتر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:729
+msgid ""
+"Footer Social Icons (will be shown if Cmsmasters Content Composer plugin is "
+"active)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:738
+#, fuzzy
+msgid "Footer Custom HTML"
+msgstr "افزودن HTML به فوتر از فهرست."
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:748
+msgid "Copyright Text"
+msgstr "متن كپی رایت"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:40
+#, fuzzy
+msgid "Blog Post Options"
+msgstr ""
+"انتخاب استایل برای عناصر وبلاگ، تنظیمات به تمام بلوک ها، صفحات و ماژول ها در "
+"وب سایت شما اعمال می شود."
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:47
+#, fuzzy
+msgid "Portfolio Project Options"
+msgstr "تنظیمات پروژه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:54
+#, fuzzy
+msgid "Person Block Profile Options"
+msgstr "پروفایل شخص"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:89
+msgid "Layout Type"
+msgstr "نوع طرح بندی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:112
+msgid "Post Date"
+msgstr "تاریخ نوشته"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:121
+msgid "Post Categories"
+msgstr "دسته های نوشته"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:130
+msgid "Post Author"
+msgstr "نویسنده پست"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:139
+#, fuzzy
+msgid "Post Comments"
+msgstr "کامنتهای پست"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:148
+msgid "Post Tags"
+msgstr "برچسب های نوشته"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:157
+#, fuzzy
+msgid "Post Likes"
+msgstr "علاقه مندی(لایک)"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:166
+msgid "Posts Navigation Box"
+msgstr "جعبه ناوبری نوشته ها"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:175
+#, fuzzy
+msgid "Posts Navigation Order by Category"
+msgstr "منوی نوشته ها"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:209
+#, fuzzy
+msgid "Show Related Posts"
+msgstr "نمایش نوشته های مشابه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:210
+#, fuzzy
+msgid "Show Popular Posts"
+msgstr "ابزارکی برای نمایش محبوبترین نوشته ها"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:211
+msgid "Show Recent Posts"
+msgstr "نمایش پست های اخیر"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:219
+msgid "More Posts Box Items Number"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:220
+#, fuzzy
+msgid "posts"
+msgstr "posts"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:230
+#, fuzzy
+msgid "More Posts Slider Pause Time"
+msgstr "پست های اسلایدر 10 برتر را به این بازه زمانی محدود کنید."
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:231
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:389
+msgid "in seconds, if '0' - autoslide disabled"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:254
+#, fuzzy
+msgid "Enter a project details block title"
+msgstr "عنوان جزئیات پروژه خود را وارد کنید."
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:263
+#, fuzzy
+msgid "Project Date"
+msgstr "رنگ چکیده/تاریخ نمونه کار"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:272
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:718
+msgid "Project Categories"
+msgstr "دسته های پروژه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:281
+msgid "Project Author"
+msgstr "نویسنده پروژه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:290
+#, fuzzy
+msgid "Project Comments"
+msgstr "نمایش نظرات پروژه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:299
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:732
+msgid "Project Tags"
+msgstr "برچسب های پروژه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:308
+#, fuzzy
+msgid "Project Likes"
+msgstr "علاقه مندی(لایک)"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:317
+#: theme-framework/theme-style/function/template-functions-project.php:348
+#, fuzzy
+msgid "Project Link"
+msgstr "لینک پروژه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:335
+msgid "Projects Navigation Box"
+msgstr "جعبه ناوبری پروژه ها"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:344
+#, fuzzy
+msgid "Projects Navigation Order by Category"
+msgstr "ناوبری پروژه ها"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:362
+#, fuzzy
+msgid "More Projects Box"
+msgstr "جعبه ادامه مطلب"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:367
+#, fuzzy
+msgid "Show Related Projects"
+msgstr "نمایش کروسل پروژه های مرتبط"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:368
+msgid "Show Popular Projects"
+msgstr "نمایش پروژه های محبوب"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:369
+#, fuzzy
+msgid "Show Recent Projects"
+msgstr "خودنمایی برخی نمونه کارها"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:370
+msgid "Hide More Projects Box"
+msgstr "مخفی سازی جعبه پروژه های بیشتری"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:377
+msgid "More Projects Box Items Number"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:378
+#, fuzzy
+msgid "projects"
+msgstr "projects"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:388
+msgid "More Projects Slider Pause Time"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:399
+msgid "Project Slug"
+msgstr "نامک پروژه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:400
+msgid "Enter a page slug that should be used for your projects single item"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:409
+#, fuzzy
+msgid "Project Categories Slug"
+msgstr "نامک ایتم نمونه کار"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:410
+msgid "Enter page slug that should be used on projects categories archive page"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:419
+msgid "Project Tags Slug"
+msgstr "نامک تگ های پروژه"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:420
+msgid "Enter page slug that should be used on projects tags archive page"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:442
+#, fuzzy
+msgid "Enter a profile details block title"
+msgstr "عنوان بلوک آمار را وارد کنید"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:451
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:772
+#, fuzzy
+msgid "Profile Categories"
+msgstr "بدون دسته."
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:460
+msgid "Profile Comments"
+msgstr "دیدگاههای نمونه کار"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:469
+#, fuzzy
+msgid "Profile Likes"
+msgstr "علاقه مندی(لایک)"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:478
+#, fuzzy
+msgid "Profiles Navigation Box"
+msgstr "برای نمایش این مربع  را  تیک بزند "
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:487
+#, fuzzy
+msgid "Profiles Navigation Order by Category"
+msgstr "ترتیب دسته بندی"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:505
+#, fuzzy
+msgid "Profile Slug"
+msgstr "\"پروفایل\" پیوند یکتا"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:506
+msgid "Enter a page slug that should be used for your profiles single item"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:515
+#, fuzzy
+msgid "Profile Categories Slug"
+msgstr "\"ویرایش پروفایل\" پیوند یکتا"
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:516
+msgid "Enter page slug that should be used on profiles categories archive page"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:38
+#: framework/admin/settings/cmsmasters-theme-settings.php:390
+#, fuzzy
+msgid "Theme General Settings"
+msgstr "These are general theme settings"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:73
+#: framework/admin/settings/cmsmasters-theme-settings.php:402
+#, fuzzy
+msgid "Theme Fonts Settings"
+msgstr "Manage fonts and typography settings"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:108
+#: framework/admin/settings/cmsmasters-theme-settings.php:414
+#, fuzzy
+msgid "Theme Color Schemes"
+msgstr "رنگ بندی قالب"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:120
+#: framework/admin/settings/cmsmasters-theme-settings.php:426
+#, fuzzy
+msgid "Theme Elements Settings"
+msgstr "اجزای پوسته"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:159
+#: framework/admin/settings/cmsmasters-theme-settings.php:438
+msgid "Theme Single Posts Settings"
+msgstr "تنظیمات نوشته تکی قالب"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:182
+#: framework/admin/settings/cmsmasters-theme-settings.php:450
+#, fuzzy
+msgid "Theme Settings Import/Export"
+msgstr "درون و برون ریزی تنظیمات"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:224
+msgid "Default Field"
+msgstr "فیلد پیش فرض"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:225
+#, fuzzy
+msgid "This is a default description."
+msgstr "اگر می خواهید رنگ عنوان توضیحات تغییر کند، رنگ سفارشی را انتخاب کنید"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:336
+#, fuzzy
+msgid "Do you really want to remove this sidebar?"
+msgstr "آیا شما واقعا می خواهید این منبع را حذف کنید؟"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:337
+msgid "Do you really want to remove this google web font?"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:343
+#, fuzzy
+msgid "All theme settings were imported successfully."
+msgstr "تنظیمات شما وارد شد"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:344
+#, fuzzy
+msgid ""
+"Error on page!!!\n"
+"Please reload page and try again."
+msgstr "خطا در دریافت محتوا - لطفا صفحه را رفرش کنید و دوباره تلاش نمایید."
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:345
+#, fuzzy
+msgid "Theme style settings were reset to default."
+msgstr "حالت پیش فرض (در تنظیمات قالب)"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:403
+#, fuzzy
+msgid "Fonts"
+msgstr "فونت "
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:415
+msgid "Colors"
+msgstr "رنگ‌ها"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:427
+#, fuzzy
+msgid "Elements"
+msgstr "عناصر(المان ها)"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:439
+msgid "Single Posts"
+msgstr "پست های تکی"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:451
+msgid "Import/Export"
+msgstr "ایمپورت/اکسپورت"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:471
+#, php-format
+msgid ""
+"<p>To add new Google Font proceed to <a href=\"%1$s\" target=\"_blank"
+"\">fonts.google.com</a>, find needed Google Font and click on the + to "
+"select it: <a href=\"%2$s\" target=\"_blank\">screenshot</a>.<br />Choose "
+"the font style in the Customize tab: <a href=\"%3$s\" target=\"_blank"
+"\">screenshot</a>.<br />Copy the highlighted code and the font family: <a "
+"href=\"%4$s\" target=\"_blank\">screenshot</a>, click on the Add Font "
+"button: <a href=\"%5$s\" target=\"_blank\">screenshot</a>, and past Font "
+"Family and Font Style to the appropriate fields: <a href=\"%6$s\" target="
+"\"_blank\">screenshot</a>.<br />To add a specific subset choose the needed "
+"one from the Google Fonts Subset list.  To select multiple subsets hold down "
+"the Ctrl key and click on the subsets you need to add: <a href=\"%7$s\" "
+"target=\"_blank\">screenshot</a>.<br /><strong>Don't forget to Save Changes."
+"</strong><br />Then new Google Font will appear in the Google Fonts list: <a "
+"href=\"%8$s\" target=\"_blank\">screenshot</a></p>"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:492
+#: framework/admin/settings/cmsmasters-theme-settings.php:502
+msgid "Save Changes"
+msgstr "ذخیره‌ی تغییرات"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:504
+msgid "Import Settings"
+msgstr "ایمپورت تنظیمات"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:506
+#, fuzzy
+msgid "Apply This Style"
+msgstr "اعمال اسلاید"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:507
+#, fuzzy
+msgid "Reset Theme Style Settings to Default"
+msgstr "حالت پیش فرض (در تنظیمات قالب)"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:789
+#, fuzzy
+msgid "System Font"
+msgstr "وضعیت سیستم"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:804
+#, fuzzy
+msgid "Local Fonts"
+msgstr "فونت "
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:815
+#, fuzzy
+msgid "Google Web Fonts"
+msgstr "فونت های گوگل"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:827
+#, fuzzy
+msgid "Google Font"
+msgstr "فونت گوگل"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:835
+#, fuzzy
+msgid "Font Size"
+msgstr "سایز فونت"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:835
+#: framework/admin/settings/cmsmasters-theme-settings.php:843
+#, fuzzy
+msgid "in pixels"
+msgstr "بر حسب پیکسل:"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:843
+#, fuzzy
+msgid "Line Height"
+msgstr "ارتفاع سطر"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:859
+msgid "Font Weight"
+msgstr "ضخامت قلم"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:875
+#, fuzzy
+msgid "Font Style"
+msgstr "استایل قلم"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:889
+msgid "Text Transform"
+msgstr "تبدیل متن"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:903
+#, fuzzy
+msgid "Text Decoration"
+msgstr "تزئینات متن"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:915
+#, fuzzy
+msgid "Add Sidebar"
+msgstr "افزودن سایدبار "
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:954
+#: framework/admin/settings/cmsmasters-theme-settings.php:964
+msgid "Font Family (for example: Roboto Slab)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:955
+#: framework/admin/settings/cmsmasters-theme-settings.php:964
+msgid "Font Style (for example: Roboto+Slab:100,300,400,700)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:964
+#, fuzzy
+msgid "Add Font"
+msgstr "فونت جدید"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:993
+#, fuzzy
+msgid "Icon Link"
+msgstr "لینک آیکون"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:997
+#, fuzzy
+msgid "Icon Title"
+msgstr ""
+"لطفا از شورت کد <strong>[item icon=\"\" title=\"\" link=\"\"]</strong> در "
+"اینجا استفاده کنید"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1055
+#, fuzzy
+msgid "Expecting a Numeric value!"
+msgstr "مقدار باید عدد باشد"
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1061
+#: framework/admin/settings/cmsmasters-theme-settings.php:1382
+msgid "Expecting a Numeric value! Please fix."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1071
+#, fuzzy
+msgid "Expecting comma separated numeric values"
+msgstr "این باید مجموعه ای از عداد جدا شده توسط کاما به به صورت متن باشد."
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1080
+msgid "Expecting comma separated numeric values! Please fix."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1102
+#, fuzzy
+msgid "Invalid email! Please re-enter!"
+msgstr "خواهشمندیم گذرواژه خود را دوباره وارد کنید ."
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1104
+msgid "This setting field cannot be empty! Please enter a valid email address."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1111
+#, fuzzy
+msgid "Please enter a valid email address."
+msgstr "لطفاً یک نشانی ایمیل معتبر بنویسید."
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1376
+#, fuzzy
+msgid "Number!"
+msgstr "عدد"
+
+#: framework/admin/settings/inc/cmsmasters-helper-functions.php:110
+#, fuzzy
+msgid "Custom Fonts"
+msgstr "Custom Fonts"
+
+#: framework/class/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "نصب افزونه ها مورد نیاز"
+
+#: framework/class/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "نصب افزونه ها"
+
+#. translators: %s: plugin name.
+#: framework/class/class-tgm-plugin-activation.php:337
+#, fuzzy, php-format
+msgid "Installing Plugin: %s"
+msgstr "درحال نصب افزونه : %s"
+
+#. translators: %s: plugin name.
+#: framework/class/class-tgm-plugin-activation.php:339
+#, fuzzy, php-format
+msgid "Updating Plugin: %s"
+msgstr "در حال آپدیت پلاگین: %s"
+
+#: framework/class/class-tgm-plugin-activation.php:340
+#, fuzzy
+msgid "Something went wrong with the plugin API."
+msgstr "خطایی در Api افزونه وجود دارد."
+
+#. translators: 1: plugin name(s).
+#: framework/class/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+
+#: framework/class/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+
+#: framework/class/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+
+#: framework/class/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+
+#: framework/class/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "بازگشت به بخش نصب‌کننده افزونه های لازم"
+
+#: framework/class/class-tgm-plugin-activation.php:393
+#: framework/class/class-tgm-plugin-activation.php:834
+#: framework/class/class-tgm-plugin-activation.php:2544
+#: framework/class/class-tgm-plugin-activation.php:3591
+msgid "Return to the Dashboard"
+msgstr "بازگشت به داشبورد"
+
+#: framework/class/class-tgm-plugin-activation.php:394
+#: framework/class/class-tgm-plugin-activation.php:3170
+#, fuzzy
+msgid "Plugin activated successfully."
+msgstr "پلاگین با موفقیت فعال شد"
+
+#: framework/class/class-tgm-plugin-activation.php:395
+#: framework/class/class-tgm-plugin-activation.php:2963
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+
+#. translators: 1: plugin name.
+#: framework/class/class-tgm-plugin-activation.php:397
+#, fuzzy, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "اقدامی انجام نشده است. پلاگین %1$s اکنون فعال شده است."
+
+#. translators: 1: plugin name.
+#: framework/class/class-tgm-plugin-activation.php:399
+#, fuzzy, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"افزونه فعال نیست، یک نسخه بالاتر از %s برای این قالب نیاز است. لطفا آپدیت "
+"کنید."
+
+#. translators: 1: dashboard link.
+#: framework/class/class-tgm-plugin-activation.php:401
+#, fuzzy, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "همه پلاگین ها با موفقیت نصب و فعال شدند. %1$s"
+
+#: framework/class/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "بستن این هشدار"
+
+#: framework/class/class-tgm-plugin-activation.php:403
+#, fuzzy
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr "یک یا چند افزونه ضروری جهت نصب، آپدیت یا فعال سازی توصیه میشود."
+
+#: framework/class/class-tgm-plugin-activation.php:404
+#, fuzzy
+msgid "Please contact the administrator of this site for help."
+msgstr "لطفا برای کمک با مدیر این سایت تماس بگیرید."
+
+#: framework/class/class-tgm-plugin-activation.php:529
+#, fuzzy
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr " افزونه برای سازگاری با قالب شما باید بروز رسانی شود"
+
+#: framework/class/class-tgm-plugin-activation.php:530
+#, fuzzy
+msgid "Update Required"
+msgstr "اپدیت ضروری است"
+
+#: framework/class/class-tgm-plugin-activation.php:941
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"بسته پلاگین از راه دور حاوی پوشه ای با نامک مورد نظر نیست و تغییر نام کار "
+"نمی کند."
+
+#: framework/class/class-tgm-plugin-activation.php:941
+#: framework/class/class-tgm-plugin-activation.php:944
+#, fuzzy
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"لطفا با سازنده ی افزونه تماس بگیرید و از آنها بخواهید افزونه خود را طبق "
+"دستورالعمل های وردپرس بسته بندی کنند."
+
+#: framework/class/class-tgm-plugin-activation.php:944
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"بسته ی پلاگین راه دور بیشتر از یک پرونده تشکیل شده است، اما پرونده ها در یک "
+"پوشه بسته بندی نمی شوند."
+
+#: framework/class/class-tgm-plugin-activation.php:1131
+#: framework/class/class-tgm-plugin-activation.php:2959
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: framework/class/class-tgm-plugin-activation.php:1993
+#, fuzzy, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: framework/class/class-tgm-plugin-activation.php:2284
+#, fuzzy
+msgid "Required"
+msgstr "الزامی"
+
+#: framework/class/class-tgm-plugin-activation.php:2287
+#, fuzzy
+msgid "Recommended"
+msgstr "توصیه شده"
+
+#: framework/class/class-tgm-plugin-activation.php:2303
+#, fuzzy
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: framework/class/class-tgm-plugin-activation.php:2306
+msgid "External Source"
+msgstr "منبع خارجی"
+
+#: framework/class/class-tgm-plugin-activation.php:2309
+#, fuzzy
+msgid "Pre-Packaged"
+msgstr "از قبل - بسته بندی شده"
+
+#: framework/class/class-tgm-plugin-activation.php:2326
+msgid "Not Installed"
+msgstr "نصب نشده است"
+
+#: framework/class/class-tgm-plugin-activation.php:2330
+msgid "Installed But Not Activated"
+msgstr "نصب شده اما فعال نیست"
+
+#: framework/class/class-tgm-plugin-activation.php:2332
+#, fuzzy
+msgid "Active"
+msgstr "فعال"
+
+#: framework/class/class-tgm-plugin-activation.php:2338
+#, fuzzy
+msgid "Required Update not Available"
+msgstr "اپدیت ضروری در دسترس نیست"
+
+#: framework/class/class-tgm-plugin-activation.php:2341
+msgid "Requires Update"
+msgstr "نیاز به به روز رسانی"
+
+#: framework/class/class-tgm-plugin-activation.php:2344
+msgid "Update recommended"
+msgstr "به روز رسانی توصیه می شود"
+
+#. translators: 1: install status, 2: update status
+#: framework/class/class-tgm-plugin-activation.php:2353
+#, fuzzy, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: 1: number of plugins.
+#: framework/class/class-tgm-plugin-activation.php:2399
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#. translators: 1: number of plugins.
+#: framework/class/class-tgm-plugin-activation.php:2403
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#. translators: 1: number of plugins.
+#: framework/class/class-tgm-plugin-activation.php:2407
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#. translators: 1: number of plugins.
+#: framework/class/class-tgm-plugin-activation.php:2411
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#: framework/class/class-tgm-plugin-activation.php:2493
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "ناشناخته"
+
+#: framework/class/class-tgm-plugin-activation.php:2501
+msgid "Installed version:"
+msgstr "نسخه ی نصب شده:"
+
+#: framework/class/class-tgm-plugin-activation.php:2509
+#, fuzzy
+msgid "Minimum required version:"
+msgstr "حداقل ورژن ضروری:"
+
+#: framework/class/class-tgm-plugin-activation.php:2521
+msgid "Available version:"
+msgstr "نسخه در دسترس:"
+
+#: framework/class/class-tgm-plugin-activation.php:2544
+#, fuzzy
+msgid "No plugins to install, update or activate."
+msgstr "هیچ افزونه ای برای نصب، به روز رسانی یا فعالسازی موجود نیست."
+
+#: framework/class/class-tgm-plugin-activation.php:2558
+#, fuzzy
+msgid "Plugin"
+msgstr "پلاگین"
+
+#: framework/class/class-tgm-plugin-activation.php:2559
+msgid "Source"
+msgstr "منبع"
+
+#: framework/class/class-tgm-plugin-activation.php:2560
+msgid "Type"
+msgstr "نوع"
+
+#: framework/class/class-tgm-plugin-activation.php:2564
+msgid "Version"
+msgstr "نسخه"
+
+#: framework/class/class-tgm-plugin-activation.php:2565
+msgid "Status"
+msgstr "وضعیت"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Install %2$s"
+msgstr "نصب %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class/class-tgm-plugin-activation.php:2619
+#, php-format
+msgid "Update %2$s"
+msgstr "بروزرسانی %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class/class-tgm-plugin-activation.php:2625
+#, fuzzy, php-format
+msgid "Activate %2$s"
+msgstr "فعال کردن %2$s"
+
+#: framework/class/class-tgm-plugin-activation.php:2695
+#, fuzzy
+msgid "Upgrade message from the plugin author:"
+msgstr "پیام بروزرسانی از طرف نویسنده ی افزونه"
+
+#: framework/class/class-tgm-plugin-activation.php:2728
+#, fuzzy
+msgid "Install"
+msgstr "Install"
+
+#: framework/class/class-tgm-plugin-activation.php:2734
+msgid "Update"
+msgstr "بروزرسانی"
+
+#: framework/class/class-tgm-plugin-activation.php:2737
+#, fuzzy
+msgid "Activate"
+msgstr "فعال "
+
+#: framework/class/class-tgm-plugin-activation.php:2768
+#, fuzzy
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "هیچ افزونه ای برای نصب انتخاب نشده است. اقدامی انجام نشده است."
+
+#: framework/class/class-tgm-plugin-activation.php:2770
+#, fuzzy
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "هیچ افزونه ای برای بروزرسانی انتخاب نشده است. اقدامی انجام نشده است."
+
+#: framework/class/class-tgm-plugin-activation.php:2811
+#, fuzzy
+msgid "No plugins are available to be installed at this time."
+msgstr "هیچ افزونه ای در حال حاضر برای نصب موجود نیست."
+
+#: framework/class/class-tgm-plugin-activation.php:2813
+#, fuzzy
+msgid "No plugins are available to be updated at this time."
+msgstr "هیچ افزونه ای در حال حاضر برای اپدیت موجود نیست."
+
+#: framework/class/class-tgm-plugin-activation.php:2919
+#, fuzzy
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "هیچ افزونه ای برای فعال شدن انتخاب نشده است. اقدامی انجام نشده است."
+
+#: framework/class/class-tgm-plugin-activation.php:2945
+#, fuzzy
+msgid "No plugins are available to be activated at this time."
+msgstr "در حال حاضر افزونه ای برای فعال کردن در دسترس نیست."
+
+#: framework/class/class-tgm-plugin-activation.php:3169
+#, fuzzy
+msgid "Plugin activation failed."
+msgstr "خطا در فعال سازی افزونه"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class/class-tgm-plugin-activation.php:3509
+#, fuzzy, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "در حال اپدیت پلاگین %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: framework/class/class-tgm-plugin-activation.php:3512
+#, fuzzy, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "در حال نصب یک خطا رخ داده است %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: framework/class/class-tgm-plugin-activation.php:3514
+#, fuzzy, php-format
+msgid "The installation of %1$s failed."
+msgstr "خطا در نصب %1$s"
+
+#: framework/class/class-tgm-plugin-activation.php:3518
+#, fuzzy
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"عملیات نصب و فعالسازی شروع شد. لطفا صبر کنید .این عملیات ممکن است کمی طول "
+"بکشد پس کمی صبر کنید."
+
+#. translators: 1: plugin name.
+#: framework/class/class-tgm-plugin-activation.php:3520
+#, fuzzy, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s  نصب و فعال شد"
+
+#: framework/class/class-tgm-plugin-activation.php:3520
+#: framework/class/class-tgm-plugin-activation.php:3528
+msgid "Show Details"
+msgstr "نمایش جزئیات "
+
+#: framework/class/class-tgm-plugin-activation.php:3520
+#: framework/class/class-tgm-plugin-activation.php:3528
+msgid "Hide Details"
+msgstr "پنهان سازی جزئیات"
+
+#: framework/class/class-tgm-plugin-activation.php:3521
+#, fuzzy
+msgid "All installations and activations have been completed."
+msgstr "موفقیت در نصب و فعالسازی همه موارد."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class/class-tgm-plugin-activation.php:3523
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "نصب و فعالسازی افزونه %1$s (%2$d/%3$d)"
+
+#: framework/class/class-tgm-plugin-activation.php:3526
+#, fuzzy
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"عملیات نصب و فعالسازی شروع شد. .این عملیات ممکن است کمی طول بکشد پس لطفا کمی "
+"صبر کنید."
+
+#. translators: 1: plugin name.
+#: framework/class/class-tgm-plugin-activation.php:3528
+#, fuzzy, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s با موفقیت نصب شده است."
+
+#: framework/class/class-tgm-plugin-activation.php:3529
+#, fuzzy
+msgid "All installations have been completed."
+msgstr "موفقیت در نصب همه موارد."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class/class-tgm-plugin-activation.php:3531
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "نصب افزونه%1$s (%2$d/%3$d)"
+
+#: framework/function/breadcrumbs.php:19
+msgid "Home"
+msgstr "خانه"
+
+#: framework/function/breadcrumbs.php:97
+msgid "Search results for"
+msgstr "نتایج جستجو برای"
+
+#: framework/function/breadcrumbs.php:122
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "گالری ها "
+
+#: framework/function/breadcrumbs.php:124
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "تصاویر"
+
+#: framework/function/breadcrumbs.php:126
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "ویدیوها"
+
+#: framework/function/breadcrumbs.php:128
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "صدا"
+
+#: framework/function/breadcrumbs.php:135
+msgid "No breadcrumbs"
+msgstr "بدون مسیر سایت "
+
+#: framework/function/general-functions.php:90
+msgid "Please add your Google Maps API key"
+msgstr ""
+
+#: framework/function/general-functions.php:91
+#: theme-framework/theme-style/class/theme-widgets.php:1029
+#, fuzzy
+msgid "read more how"
+msgstr "|| بیشتر بخوانید"
+
+#: framework/function/general-functions.php:112
+msgid "Close"
+msgstr "بستن"
+
+#: framework/function/general-functions.php:113
+#, fuzzy
+msgid "Enter Fullscreen (Shift+Enter)"
+msgstr "کد تخفیف را وارد کنید"
+
+#: framework/function/general-functions.php:114
+msgid "Exit Fullscreen (Shift+Enter)"
+msgstr ""
+
+#: framework/function/general-functions.php:115
+msgid "Slideshow"
+msgstr "اسلایدشو"
+
+#: framework/function/general-functions.php:116
+#, fuzzy
+msgid "Next"
+msgstr "پسین"
+
+#: framework/function/general-functions.php:117
+#, fuzzy
+msgid "Previous"
+msgstr "صفحه قبل"
+
+#: framework/function/general-functions.php:118
+msgid "An error occurred when trying to load photo."
+msgstr ""
+
+#: framework/function/general-functions.php:119
+msgid "An error occurred when trying to load contents."
+msgstr ""
+
+#: framework/function/general-functions.php:120
+msgid ""
+"The content your are attempting to view requires the <a href='{pluginspage}' "
+"target='_blank'>{type} plugin<\\/a>."
+msgstr ""
+
+#: framework/function/general-functions.php:430
+msgid "Sidebar"
+msgstr "سایدبار"
+
+#: framework/function/general-functions.php:432
+msgid ""
+"Widgets in this area will be shown in all left and right sidebars till you "
+"don't use custom sidebar. To display the sidebar please choose the Right or "
+"Left Layout Type in the Theme Settings - General - Content options."
+msgstr ""
+
+#: framework/function/general-functions.php:444
+msgid ""
+"Widgets in this area will be shown at the bottom of middle block below the "
+"content and middle sidebar, but above footer. To display Bottom Sidebar "
+"please enable it in the Theme Settings - General - Content - Bottom Sidebar "
+"Visibility by Default. You can also display it on concrete page in the Page "
+"Layout options."
+msgstr ""
+
+#: framework/function/general-functions.php:454
+msgid "Archive Sidebar"
+msgstr "سایدبار بایگانی"
+
+#: framework/function/general-functions.php:456
+msgid ""
+"Widgets in this area will be shown in all left and right sidebars on "
+"archives pages. To display the sidebar please choose the Right or Left "
+"Layout Type in the Theme Settings - General - Content options."
+msgstr ""
+
+#: framework/function/general-functions.php:466
+msgid "Search Sidebar"
+msgstr "سایدبار جستجو"
+
+#: framework/function/general-functions.php:468
+msgid ""
+"Widgets in this area will be shown in left or right sidebar on search page. "
+"To display the sidebar please choose the Right or Left Layout Type in the "
+"Theme Settings - General - Content options."
+msgstr ""
+
+#: framework/function/general-functions.php:485
+msgid "Custom sidebar created with cmsmasters admin panel."
+msgstr ""
+
+#: framework/function/general-functions.php:1422
+#, fuzzy
+msgid "Default Logo Subtitle"
+msgstr "لوگو پیشفرض"
+
+#: framework/function/general-functions.php:1724
+msgid "comment"
+msgstr "نظر"
+
+#: framework/function/general-functions.php:1724
+msgid "comments"
+msgstr "دیدگاه‌"
+
+#: framework/function/general-functions.php:1731
+msgid "Comment on"
+msgstr "دیدگاه در"
+
+#: framework/function/general-functions.php:1936
+#: framework/function/likes.php:27
+#, fuzzy
+msgid "like"
+msgstr "Like"
+
+#: framework/function/general-functions.php:1936
+#: framework/function/likes.php:27
+#, fuzzy
+msgid "likes"
+msgstr "likes"
+
+#: framework/function/theme-categories-icon.php:23
+#: framework/function/theme-categories-icon.php:49
+msgid "Category Icon"
+msgstr "ایکون دسته"
+
+#: framework/function/theme-colored-categories.php:26
+#: framework/function/theme-colored-categories.php:51
+msgid "Category Color"
+msgstr "رنگ دسته"
+
+#: functions.php:43
+msgid "underline"
+msgstr "زیر خط دار"
+
+#: functions.php:44
+msgid "overline"
+msgstr "بالای خط"
+
+#: functions.php:45
+#, fuzzy
+msgid "line-through"
+msgstr "line-through"
+
+#: functions.php:59
+msgid "Custom 1"
+msgstr "سفارشی 1"
+
+#: functions.php:60
+msgid "Custom 2"
+msgstr "سفارشی 2"
+
+#: functions.php:61
+msgid "Custom 3"
+msgstr "سفارشی 3"
+
+#: functions.php:235
+#, fuzzy
+msgid "Header Top"
+msgstr "هدر بالا"
+
+#: image.php:26
+#, fuzzy
+msgid "Edit Media"
+msgstr "افزودن/ویرایش رسانه"
+
+#: image.php:28
+msgid "Published"
+msgstr "منتشر شده"
+
+#: image.php:28
+msgid "at"
+msgstr ""
+
+#: image.php:28
+msgid "in"
+msgstr ""
+
+#: search.php:40
+#, fuzzy
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"متاسفیم , چیزی مشابه با جست و جوی شما یافت نشد لطفا با برخی کلمات کلیدی دیگر "
+"امتحان کنید."
+
+#: sitemap.php:153
+#, fuzzy
+msgid "No tags"
+msgstr "برچسب‌ها: "
+
+#: theme-framework/theme-style/admin/theme-settings.php:22
+#, fuzzy
+msgid "Secondary Color"
+msgstr "رنگ فرعی"
+
+#: theme-framework/theme-style/admin/theme-settings.php:23
+#, fuzzy
+msgid "Secondary color for some elements"
+msgstr "فونت ثانویه المنتهای کدکوتاه"
+
+#: theme-framework/theme-style/admin/theme-settings.php:49
+#, fuzzy
+msgid "Header Search Middle"
+msgstr "هدر وسطی"
+
+#: theme-framework/theme-style/admin/theme-settings.php:58
+#, fuzzy
+msgid "Header Search Bottom"
+msgstr "جستجو در هدر تک صفحه ای "
+
+#: theme-framework/theme-style/admin/theme-settings.php:72
+msgid "Category Menu"
+msgstr "منوی دسته"
+
+#: theme-framework/theme-style/admin/theme-settings.php:81
+#, fuzzy
+msgid "Category Menu Title"
+msgstr "عنوان برای منوی \"فروش بواسطه دسته بندی\" در سربرگ"
+
+#: theme-framework/theme-style/admin/theme-settings.php:90
+#, fuzzy
+msgid "Category Menu Opened"
+msgstr ""
+"تنظیم اسلایدر برای جعبه ای (مفید اگر شما در حفظ \"فروش بر اساس طبقه بندی\" "
+"منو باز در هدر)."
+
+#: theme-framework/theme-style/class/theme-widgets.php:20
+#, fuzzy
+msgid "Your contact information"
+msgstr "اطلاعات تماس"
+
+#: theme-framework/theme-style/class/theme-widgets.php:27
+#: theme-framework/theme-style/class/theme-widgets.php:33
+#, fuzzy
+msgid "Contact Information"
+msgstr "اطلاعات تماس"
+
+#: theme-framework/theme-style/class/theme-widgets.php:211
+#: theme-framework/theme-style/cmsmasters-c-c/shortcodes/cmsmasters-client.php:19
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:76
+msgid "Name"
+msgstr "نام"
+
+#: theme-framework/theme-style/class/theme-widgets.php:216
+msgid "Website"
+msgstr "وب سایت"
+
+#: theme-framework/theme-style/class/theme-widgets.php:221
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:79
+msgid "Email"
+msgstr "ایمیل"
+
+#: theme-framework/theme-style/class/theme-widgets.php:226
+msgid "Phone"
+msgstr "تلفن"
+
+#: theme-framework/theme-style/class/theme-widgets.php:231
+#, fuzzy
+msgid "Address"
+msgstr "آدرس"
+
+#: theme-framework/theme-style/class/theme-widgets.php:236
+#, fuzzy
+msgid "City"
+msgstr "شهر"
+
+#: theme-framework/theme-style/class/theme-widgets.php:241
+#, fuzzy
+msgid "State"
+msgstr "استان"
+
+#: theme-framework/theme-style/class/theme-widgets.php:246
+#, fuzzy
+msgid "Zip"
+msgstr "کدپستی"
+
+#: theme-framework/theme-style/class/theme-widgets.php:251
+#, fuzzy
+msgid "Country"
+msgstr "کشور"
+
+#: theme-framework/theme-style/class/theme-widgets.php:256
+#, fuzzy
+msgid "Time"
+msgstr "Time"
+
+#: theme-framework/theme-style/class/theme-widgets.php:273
+msgid "Latest projects from your portfolio"
+msgstr "آخرین پروژه ها از نمونه شما"
+
+#: theme-framework/theme-style/class/theme-widgets.php:276
+#: theme-framework/theme-style/class/theme-widgets.php:282
+#, fuzzy
+msgid "Latest Projects"
+msgstr "projects"
+
+#: theme-framework/theme-style/class/theme-widgets.php:410
+#: theme-framework/theme-style/class/theme-widgets.php:592
+#, fuzzy
+msgid "Show Only from Projects Type"
+msgstr "نمایش فقط نوع پست"
+
+#: theme-framework/theme-style/class/theme-widgets.php:412
+#: theme-framework/theme-style/class/theme-widgets.php:594
+msgid "Show all projects"
+msgstr "نمایش همه ی پروژه ها"
+
+#: theme-framework/theme-style/class/theme-widgets.php:430
+msgid "Enter the number of latest projects you'd like to display"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:432
+#: theme-framework/theme-style/class/theme-widgets.php:614
+#: theme-framework/theme-style/class/theme-widgets.php:969
+#: theme-framework/theme-style/class/theme-widgets.php:1067
+#, fuzzy
+msgid "default is"
+msgstr "پیش فرض:"
+
+#: theme-framework/theme-style/class/theme-widgets.php:437
+#: theme-framework/theme-style/class/theme-widgets.php:619
+msgid "Autoplay"
+msgstr "پخش‌خودکار"
+
+#: theme-framework/theme-style/class/theme-widgets.php:452
+#, fuzzy
+msgid "Popular projects from your portfolio"
+msgstr "تمام پروژه های نمونه کار شما در این برگه نمایش داده شده است."
+
+#: theme-framework/theme-style/class/theme-widgets.php:455
+#: theme-framework/theme-style/class/theme-widgets.php:461
+msgid "Popular Projects"
+msgstr "پروژه های محبوب"
+
+#: theme-framework/theme-style/class/theme-widgets.php:612
+msgid "Enter the number of popular projects you'd like to display"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:634
+msgid "Latest, popular posts & recent comments"
+msgstr "نوشته های محبوب، دیدگاه و نوشته های اخیر."
+
+#: theme-framework/theme-style/class/theme-widgets.php:637
+msgid "Posts Tabs"
+msgstr "تب هی پست هاا"
+
+#: theme-framework/theme-style/class/theme-widgets.php:705
+#: theme-framework/theme-style/class/theme-widgets.php:723
+#, fuzzy
+msgid "Latest"
+msgstr "آخرین‌ها"
+
+#: theme-framework/theme-style/class/theme-widgets.php:711
+msgid "Popular"
+msgstr "محبوب"
+
+#: theme-framework/theme-style/class/theme-widgets.php:898
+msgid "on"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:900
+#: theme-framework/theme-style/class/theme-widgets.php:1022
+#, fuzzy
+msgid "ago"
+msgstr "قبل"
+
+#: theme-framework/theme-style/class/theme-widgets.php:956
+#, fuzzy
+msgid "Latest Posts"
+msgstr "آخرین نوشته ها"
+
+#: theme-framework/theme-style/class/theme-widgets.php:960
+#, fuzzy
+msgid "Popular Posts"
+msgstr "پست های محبوب"
+
+#: theme-framework/theme-style/class/theme-widgets.php:964
+msgid "Recent Comments"
+msgstr "دیدگاه های جدید"
+
+#: theme-framework/theme-style/class/theme-widgets.php:967
+msgid ""
+"Enter the number of recent comments, popular and latest posts you'd like to "
+"display"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:985
+msgid "Your Twitter account latest tweets"
+msgstr "آخرین توییت های اکانت توییتر شما"
+
+#: theme-framework/theme-style/class/theme-widgets.php:988
+#: theme-framework/theme-style/class/theme-widgets.php:994
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:448
+#, fuzzy
+msgid "Twitter"
+msgstr "توییتر"
+
+#: theme-framework/theme-style/class/theme-widgets.php:1029
+msgid "Please add your Twitter API keys"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:1060
+msgid "Twitter Username"
+msgstr "نام کاربری توئیتر"
+
+#: theme-framework/theme-style/class/theme-widgets.php:1065
+msgid "Enter the number of latest tweets you'd like to display"
+msgstr ""
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:33
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:52
+msgid "Logo Overlay"
+msgstr "پوشش لوگو"
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:34
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:53
+#, fuzzy
+msgid "Choose this client logo overlay"
+msgstr "افزودن لوگو مشتری"
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:36
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:55
+#, fuzzy
+msgid "Best Offer Border Color"
+msgstr "رنگ متن بهترین قیمت"
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:37
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:56
+msgid "Choose border color for this pricing table best offer"
+msgstr ""
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:40
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:58
+msgid "Shop products"
+msgstr "محصولات فروشگاه"
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:41
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:59
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:32
+msgid "Product Categories"
+msgstr "دسته بندی محصول"
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:42
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:60
+#, fuzzy
+msgid "Show product associated with certain categories"
+msgstr "نمايش گزينه هاي متا براي محصول (دسته بندي و برچسب ها)"
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:43
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:61
+msgid ""
+"If you dont choose any product categories, all your product will be shown"
+msgstr ""
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:44
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:62
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:45
+#, fuzzy
+msgid "Product Metadata"
+msgstr "متا دیتا"
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:45
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:63
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:46
+msgid "Choose product metadata you want to be shown"
+msgstr ""
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:46
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:64
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:48
+#, fuzzy
+msgid "Rating"
+msgstr "امتیازدهی"
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:47
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:65
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:49
+#, fuzzy
+msgid "Price"
+msgstr "قیمت"
+
+#: theme-framework/theme-style/function/single-comment.php:23
+msgid "Reply"
+msgstr "پاسخ"
+
+#: theme-framework/theme-style/function/single-comment.php:37
+msgid "Edit"
+msgstr "ویرایش"
+
+#: theme-framework/theme-style/function/single-comment.php:46
+msgid "Your comment is awaiting moderation."
+msgstr "نظر شما در انتظار تایید است."
+
+#: theme-framework/theme-style/function/template-functions-post.php:118
+#: theme-framework/theme-style/function/template-functions-post.php:128
+#: theme-framework/theme-style/function/template-functions-shortcodes.php:119
+#: theme-framework/theme-style/template/archive.php:84
+#, fuzzy
+msgid "Posts by"
+msgstr "ارسال توسط:"
+
+#: theme-framework/theme-style/function/template-functions-post.php:276
+#, fuzzy
+msgid "Read more..."
+msgstr "|| بیشتر بخوانید"
+
+#: theme-framework/theme-style/function/template-functions-profile.php:95
+#: theme-framework/theme-style/function/template-functions-project.php:97
+msgid "Categories"
+msgstr "دسته‌بندی‌ها"
+
+#: theme-framework/theme-style/function/template-functions-profile.php:128
+#: theme-framework/theme-style/function/template-functions-project.php:130
+#, fuzzy
+msgid "Likes"
+msgstr "علاقه مندی(لایک)"
+
+#: theme-framework/theme-style/function/template-functions-project.php:196
+msgid "Date"
+msgstr "تاریخ"
+
+#: theme-framework/theme-style/function/template-functions-project.php:223
+msgid "By"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions-project.php:224
+#: theme-framework/theme-style/function/template-functions-project.php:235
+#: theme-framework/theme-style/function/template-functions-shortcodes.php:123
+#, fuzzy
+msgid "Projects by"
+msgstr "پروژه توسط "
+
+#: theme-framework/theme-style/function/template-functions-project.php:233
+msgid "Author"
+msgstr "نویسنده"
+
+#: theme-framework/theme-style/function/template-functions-project.php:259
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: theme-framework/theme-style/function/template-functions-shortcodes.php:214
+#: theme-framework/theme-style/function/template-functions.php:779
+#, fuzzy
+msgid "Read more"
+msgstr "ادامه مطلب"
+
+#: theme-framework/theme-style/function/template-functions-single.php:111
+#, fuzzy
+msgid "website"
+msgstr "وب سایت"
+
+#: theme-framework/theme-style/function/template-functions-single.php:172
+#, fuzzy
+msgid "More items"
+msgstr "آیتم های بیشتر"
+
+#: theme-framework/theme-style/function/template-functions-single.php:243
+#, fuzzy
+msgid "Trackbacks and Pingbacks"
+msgstr "اشتراك  و دنبالك"
+
+#: theme-framework/theme-style/function/template-functions.php:212
+msgid "Search"
+msgstr "جستجو"
+
+#: theme-framework/theme-style/function/template-functions.php:444
+#, php-format
+msgid "%1$d search result for: %2$s"
+msgid_plural "%1$d search results for: %2$s"
+msgstr[0] ""
+
+#: theme-framework/theme-style/function/template-functions.php:446
+#, php-format
+msgid "0 search results for: %s"
+msgstr "0 نتیجه جستجو برای: %s"
+
+#: theme-framework/theme-style/function/template-functions.php:451
+#, fuzzy, php-format
+msgid "Author: %1$s (%2$s %3$s)"
+msgstr "استرداد #%1$s - %2$s توسط %3$s"
+
+#: theme-framework/theme-style/function/template-functions.php:453
+#, php-format
+msgid "Author: %s"
+msgstr "نویسنده: %s"
+
+#: theme-framework/theme-style/postType/blog/post-single.php:139
+#, fuzzy
+msgid "Like this post?"
+msgstr ""
+"<STRONG> طبقه بندی شده </ strong>: اضافه کردن یک لیست که با کاما از هم جدا "
+"از هر طبقه بندی ثبت شده مانند 'رده، post_tag. طبقه بندی جعبه، و طبقه بندی را "
+"انتخاب کنید: این تنها انواع گزینه های زیر را تحت تاثیر قرار دهد."
+
+#: theme-framework/theme-style/postType/blog/post-single.php:151
+#: theme-framework/theme-style/postType/portfolio/project-single.php:209
+#, fuzzy
+msgid "About author"
+msgstr "درباره نویسنده"
+
+#: theme-framework/theme-style/postType/blog/post-single.php:169
+msgid "More posts"
+msgstr "نوشته های بیشتر"
+
+#: theme-framework/theme-style/postType/portfolio/project-single.php:189
+#, fuzzy
+msgid "Like this project?"
+msgstr ""
+"اگر میخواهید پروژه را به جای خاصی لینک بدهید لینک را وارد کنید. http:// "
+"فراموش نشود"
+
+#: theme-framework/theme-style/postType/portfolio/project-single.php:228
+#, fuzzy
+msgid "More projects"
+msgstr "ارسال یک برچسب از دکمه ادامه (زمانی که پروژه بیشتر وجود دارد)."
+
+#: theme-framework/theme-style/postType/portfolio/project-single.php:229
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:704
+#, fuzzy
+msgid "No projects found"
+msgstr "هیچ پروزه ای وجود ندارد"
+
+#: theme-framework/theme-style/postType/profile/profile-single.php:146
+#, fuzzy
+msgid "Socials"
+msgstr "اجتماعی"
+
+#: theme-framework/theme-style/postType/profile/profile-single.php:156
+#, fuzzy
+msgid "Like this profile?"
+msgstr "پسندیدم"
+
+#: theme-framework/theme-style/template/404.php:25
+#, fuzzy
+msgid "We're sorry, but the page you were looking for doesn't exist."
+msgstr "متاسفانه صفحه ای پیدا نشد."
+
+#: theme-framework/theme-style/template/archive.php:91
+msgid "In"
+msgstr ""
+
+#: theme-framework/theme-style/template/header-bot.php:52
+#, fuzzy
+msgid "Menu"
+msgstr "فهرست"
+
+#: theme-framework/theme-style/theme-functions.php:74
+msgid "Primary Navigation"
+msgstr "ناوبری اصلی"
+
+#: theme-framework/theme-style/theme-functions.php:76
+#, fuzzy
+msgid "Top Line Navigation"
+msgstr "رنگ خط ناوبری"
+
+#: theme-framework/theme-style/theme-functions.php:77
+msgid "Category Navigation"
+msgstr "ناوبری دسته"
+
+#: theme-framework/theme-style/theme-functions.php:217
+#, fuzzy
+msgid "enter keywords"
+msgstr "وارد کردن کلید واژه"
+
+#: theme-vars/plugin-activator.php:21
+#, fuzzy
+msgid "CMSMasters Contact Form Builder"
+msgstr "سازنده فرم"
+
+#: theme-vars/plugin-activator.php:30
+#, fuzzy
+msgid "CMSMasters Content Composer"
+msgstr "مطالب"
+
+#: theme-vars/plugin-activator.php:39
+#, fuzzy
+msgid "CMSMasters Custom Fonts"
+msgstr "استفاده از فونت سفارشی برای بدنه؟"
+
+#: theme-vars/plugin-activator.php:48
+#, fuzzy
+msgid "CMSMasters Mega Menu"
+msgstr "(مگا منو)"
+
+#: theme-vars/plugin-activator.php:57
+#, fuzzy
+msgid "CMSMasters Importer"
+msgstr "اجرای درون‌ریزی"
+
+#: theme-vars/plugin-activator.php:66
+#, fuzzy
+msgid "LayerSlider WP"
+msgstr "ابزارک لایر اسلایدر"
+
+#: theme-vars/plugin-activator.php:75
+#, fuzzy
+msgid "Revolution Slider"
+msgstr "اسلایدر روولوشن"
+
+#: theme-vars/plugin-activator.php:84
+#, fuzzy
+msgid "Envato Market"
+msgstr "فروشگاه Envato "
+
+#: theme-vars/plugin-activator.php:90
+#, fuzzy
+msgid "GDPR Cookie Consent"
+msgstr "پیام برای موافقت کوکی"
+
+#: theme-vars/plugin-activator.php:95
+#, fuzzy
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: theme-vars/plugin-activator.php:100
+#, fuzzy
+msgid "YITH WooCommerce Compare"
+msgstr "YITH WooCommerce Compare"
+
+#: theme-vars/plugin-activator.php:105
+#, fuzzy
+msgid "Yith WooCommerce Quick View"
+msgstr "فعال سازی نمایش سریع محصول."
+
+#: theme-vars/plugin-activator.php:110
+#, fuzzy
+msgid "Yith WooCommerce Zoom Magnifier"
+msgstr "YITH WooCommerce Zoom Magnifier"
+
+#: theme-vars/plugin-activator.php:115
+#, fuzzy
+msgid "Contact Form 7"
+msgstr "فرم تماس7"
+
+#: theme-vars/plugin-activator.php:120
+#, fuzzy
+msgid "WordPress SEO by Yoast"
+msgstr "WordPress SEO توسط Yoast(پارسی سازی شده توسط وردپرس پارسی)"
+
+#: theme-vars/plugin-activator.php:125
+#, fuzzy
+msgid "MailPoet 3"
+msgstr "فعال کردن MailPoet"
+
+#: theme-vars/plugin-activator.php:135
+#, fuzzy
+msgid "YITH WooCommerce Product Countdown"
+msgstr "جستجو آژاکس ووکامرس"
+
+#: theme-vars/plugin-activator.php:150
+#, fuzzy
+msgid "YITH WooCommerce Wishlist"
+msgstr "YITH WooCommerce Wishlist"
+
+#: theme-vars/plugin-activator.php:160
+#, fuzzy
+msgid "YITH WooCommerce Ajax Search"
+msgstr ""
+"در حال حاضر، شما همه گزینه ها از خود افزونه پلاگین YIT منوی. \n"
+" هر زمان یکی از پلاگین ها ما به روز شده می توانید در از یک ورودی جدید به این "
+"منو. \n"
+" برای مثال، پس از بروز رسانی، پلاگین گزینه (مانند برای آرزوها WooCommerce "
+"YITH، YITH WooCommerce آژاکس جستجو، و غیره.) اضافه خواهد شد \n"
+" حرکت از محل قبلی به برگه پلاگین YIT."
+
+#: theme-vars/plugin-activator.php:173
+msgid "Theme Required & Recommended Plugins"
+msgstr "نصب افزونه های موردنیاز و پیشنهادی"
+
+#: theme-vars/plugin-activator.php:174
+msgid "Theme Plugins"
+msgstr "پلاگین های قالب"
+
+#: theme-vars/plugin-activator.php:175
+msgid "Return to Theme Required & Recommended Plugins"
+msgstr "بازگشت به نصب پلاگینهای ضروری و پیشنهادی"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:85
+#, fuzzy
+msgid "All Rights Reserved"
+msgstr "کلیه حقوق محفوظ است. "
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:445
+#, fuzzy
+msgid "Facebook"
+msgstr "فیسبوک"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:446
+#, fuzzy
+msgid "Google+"
+msgstr "+ Google به:"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:447
+msgid "Instagram"
+msgstr "ایسنتاگرام"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:449
+#, fuzzy
+msgid "YouTube"
+msgstr "YouTube"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:545
+#, fuzzy
+msgid "Project details"
+msgstr "جزئیات پروژه"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:566
+msgid "Profile details"
+msgstr "جزئیات پروفایل"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:632
+msgid "Square"
+msgstr "مربعی"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:638
+msgid "Masonry Blog"
+msgstr "بلاگ ماسونری"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:649
+#, fuzzy
+msgid "Masonry Project"
+msgstr "ماسونری"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:655
+msgid "Featured"
+msgstr "شاخص"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:660
+#, fuzzy
+msgid "Masonry"
+msgstr "ماسونری"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:666
+#, fuzzy
+msgid "Full"
+msgstr "کامل"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:672
+#, fuzzy
+msgid "Project Full"
+msgstr "پروژه های مشابه تمام عرض"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:677
+#, fuzzy
+msgid "Masonry Full"
+msgstr "وبلاگ پازلی تمام عرض"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:697
+#, fuzzy
+msgid "All Projects"
+msgstr "همه ی پروژه ها "
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:698
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:752
+#, fuzzy
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:699
+#, fuzzy
+msgid "Add New Project"
+msgstr "اضافه کردن پروژه جدید "
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:700
+msgid "Edit Project"
+msgstr "ویرایش پروژه "
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:701
+#, fuzzy
+msgid "New Project"
+msgstr "پروژه جدید "
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:703
+msgid "Search Projects"
+msgstr "جست و جوی پروژه ها"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:705
+#, fuzzy
+msgid "No projects found in Trash"
+msgstr "هیچ پروژه ای در زباله دان یافت نشد"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:719
+msgid "Project Category"
+msgstr "دسته پروژه"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:733
+#, fuzzy
+msgid "Project Tag"
+msgstr "project-tag"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:748
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:749
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:750
+msgid "Profiles"
+msgstr "پروفایل ها"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:751
+#, fuzzy
+msgid "All Profiles"
+msgstr ""
+"فعال یا غیر فعال کردن قابلیت مشاهده کاربران از پروفایل کاربر دیگر. کاربران "
+"مدیر همیشه می توانند پروفایل تمامی کاربران را مشاهده کنند."
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:753
+#, fuzzy
+msgid "Add New Profile"
+msgstr "اضافه کردن جدید پرسنل"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:754
+msgid "Edit Profile"
+msgstr "ویرایش پروفایل"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:755
+msgid "New Profile"
+msgstr "پروفایل جدید"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:756
+msgid "View Profile"
+msgstr "نمایش پروفایل"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:757
+#, fuzzy
+msgid "Search Profiles"
+msgstr "جستجو پروفایل"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:758
+#, fuzzy
+msgid "No Profiles found"
+msgstr "شبکه های اجتماعی"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:759
+msgid "No Profiles found in Trash"
+msgstr "نمونه کاری در زباله دان نیست"
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:773
+msgid "Profile Category"
+msgstr "دسته پروفایل"
+
+#: woocommerce/cmsmasters-framework/theme-style/admin/plugin-settings.php:19
+#, fuzzy
+msgid "Header WooCommerce Cart"
+msgstr "سبد خرید WooCommerce"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:27
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:51
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-ajax-search/templates/yith-woocommerce-ajax-search-wide.php:23
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-ajax-search/templates/yith-woocommerce-ajax-search.php:42
+msgid "Products"
+msgstr "محصولات"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:28
+#, fuzzy
+msgid "WooCommerce Shortcode"
+msgstr "انتخاب کد کوتاه ووکامرس"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:29
+#, fuzzy
+msgid "Choose a WooCommerce shortcode to use"
+msgstr "انتخاب کد کوتاه ووکامرس"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:30
+msgid "Recent Products"
+msgstr "محصولات اخیر"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:31
+msgid "Featured Products"
+msgstr "محصولات شاخص"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:33
+msgid "Sale Products"
+msgstr "محصولات حراج"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:34
+msgid "Best Selling Products"
+msgstr "پرفروش ترین محصولات"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:35
+msgid "Top Rated Products"
+msgstr "محصولات با بیشترین امتیاز"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:36
+#, fuzzy
+msgid "Small Product"
+msgstr "عکس کوچک"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:37
+#, fuzzy
+msgid "Full Product"
+msgstr "کامل"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:38
+#, fuzzy
+msgid "Choose your products 'order by' parameter"
+msgstr "انتخاب کنید محصولات شما بر چه اساسی مرتب شوند."
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:39
+#, fuzzy
+msgid "Sorting will not be applied for"
+msgstr "بدون مرتب سازی"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:40
+msgid "Number of Products"
+msgstr "تعداد محصولات"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:41
+#, fuzzy
+msgid "Enter the number of products for showing per page"
+msgstr "تنظیم تعداد محصولات در هر صفحه"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:42
+#, fuzzy
+msgid "Choose number of products per row"
+msgstr "تعداد محصول در هر ردیف را تغییر دهید."
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:43
+msgid "Selected Products"
+msgstr "محصولات انتخاب شده"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:44
+#, fuzzy
+msgid "Select Style"
+msgstr "انتخاب استایل"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:47
+#, fuzzy
+msgid "Description"
+msgstr "توصیف"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:50
+msgid "Single Products"
+msgstr "محصولات تکی"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:52
+#, fuzzy
+msgid "Choose products to be shown"
+msgstr "انتخاب محصولات"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:53
+#, fuzzy
+msgid "All products will be shown if empty"
+msgstr "صدور همه محصولات"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-plugin-functions.php:92
+msgid "Shop Sidebar"
+msgstr "ساید بار فروشگاه"
+
+#: woocommerce/cmsmasters-framework/theme-style/cmsmasters-plugin-functions.php:94
+msgid ""
+"Widgets in this area will be shown in left or right sidebar on shop page."
+msgstr ""
+
+#: woocommerce/cmsmasters-framework/theme-style/function/plugin-template-functions.php:34
+#, fuzzy
+msgid "Your Cart"
+msgstr "سبد خرید "
+
+#: woocommerce/cmsmasters-framework/theme-style/function/plugin-template-functions.php:131
+#: woocommerce/cmsmasters-framework/theme-style/function/plugin-template-functions.php:132
+#, fuzzy
+msgid "Add to Cart"
+msgstr "اضافه‌کردن به سبدخرید"
+
+#: woocommerce/cmsmasters-framework/theme-style/function/plugin-template-functions.php:134
+#: woocommerce/cmsmasters-framework/theme-style/function/plugin-template-functions.php:135
+msgid "View Cart"
+msgstr "نمایش سبدخرید"
+
+#: woocommerce/cmsmasters-framework/theme-style/function/plugin-template-functions.php:157
+#, fuzzy, php-format
+msgid "Rated %s out of 5"
+msgstr "امتیاز %s از 5"
+
+#: woocommerce/cmsmasters-framework/theme-style/function/plugin-template-functions.php:174
+msgid "out of 5"
+msgstr "بیش تر از 5"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/content-single-product.php:117
+#, fuzzy
+msgid "Share:"
+msgstr "به اشتراک بگذارید"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/frontend/category-timer.php:32
+#, fuzzy
+msgid "Sale ends in"
+msgstr "تاریخ پایان حراجی"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/frontend/category-timer.php:42
+#: woocommerce/cmsmasters-framework/theme-style/templates/frontend/single-product-timer.php:43
+#, fuzzy
+msgid "Day"
+msgstr "روز"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/frontend/category-timer.php:52
+#: woocommerce/cmsmasters-framework/theme-style/templates/frontend/single-product-timer.php:53
+#, fuzzy
+msgid "Hrs"
+msgstr "ساعت"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/frontend/category-timer.php:62
+#: woocommerce/cmsmasters-framework/theme-style/templates/frontend/single-product-timer.php:63
+#, fuzzy
+msgid "Min"
+msgstr "حداقل "
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/frontend/category-timer.php:72
+#: woocommerce/cmsmasters-framework/theme-style/templates/frontend/single-product-timer.php:73
+#, fuzzy
+msgid "Sec"
+msgstr "ثانیه"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/frontend/single-product-timer.php:33
+msgid "Hurry Up! Specials Offers"
+msgstr ""
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/product-searchform.php:12
+#, fuzzy
+msgid "Search products&hellip;"
+msgstr "جستجوی محصولات&hellip;"
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:22
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:25
+msgid "Reviews"
+msgstr "دیدگاه‌ها"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:55
+#, fuzzy
+msgid "There are no reviews yet."
+msgstr "هیچ دیدگاهی برای این محصول نوشته نشده است ."
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:68
+msgid "Add a review"
+msgstr "افزودن یک دیدگاه"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:68
+#, fuzzy, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "اولین کسی باشید که دیدگاهی می نویسد &ldquo;%s&rdquo;"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:69
+#, fuzzy, php-format
+msgid "Leave a Reply to %s"
+msgstr "ارسال یک پاسخ به %s"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:82
+#, fuzzy
+msgid "Submit"
+msgstr "ثبت"
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:90
+#, fuzzy
+msgid "You must be %slogged in%S to post a review."
+msgstr "شما برای ارسال دیدگاه باید %1$sوارد شوید%2$s ."
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:94
+#, fuzzy
+msgid "Your Rating"
+msgstr "امتیاز شما برای این محصول"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:95
+#, fuzzy
+msgid "Rate&hellip;"
+msgstr "امتیاز&hellip;"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:96
+#, fuzzy
+msgid "Perfect"
+msgstr "عالی"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:97
+#, fuzzy
+msgid "Good"
+msgstr "خوب"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:98
+msgid "Average"
+msgstr "میانگین"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:99
+msgid "Not that bad"
+msgstr "نه خیلی بد"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:100
+#, fuzzy
+msgid "Very Poor"
+msgstr "خیلی ضعیف"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:105
+msgid "Your Review"
+msgstr "دیدگاه شما"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product-reviews.php:115
+#, fuzzy
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+".فقط مشتریانی که این محصول را خریداری کرده اند و وارد سیستم شده اند میتوانند "
+"برای این محصول دیدگاه(نظر) ارسال کنند ."
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product/meta.php:19
+#, fuzzy
+msgid "SKU:"
+msgstr "شناسه محصول:"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product/meta.php:23
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product/meta.php:32
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product/meta.php:38
+msgid "Tag:</span>"
+msgid_plural "Tags:</span>"
+msgstr[0] ""
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product/product-image.php:75
+#, fuzzy
+msgid "Awaiting product image"
+msgstr "در انتظار تصویر محصول"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product/review.php:21
+#, fuzzy
+msgid "verified owner"
+msgstr "مالک تایید شده"
+
+#: woocommerce/cmsmasters-framework/theme-style/templates/single-product/review.php:37
+msgid "Your comment is awaiting approval"
+msgstr "نظر شما در انتظار تأیید است"
+
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-ajax-search/templates/yith-woocommerce-ajax-search-wide.php:24
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-ajax-search/templates/yith-woocommerce-ajax-search-wide.php:41
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-ajax-search/templates/yith-woocommerce-ajax-search.php:41
+#, fuzzy
+msgid "All"
+msgstr "همه"
+
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-ajax-search/templates/yith-woocommerce-ajax-search.php:28
+msgid "All Categories"
+msgstr "همه دسته‌ها"
+
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-compare/function/plugin-template-functions.php:25
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-compare/function/plugin-template-functions.php:30
+msgid "Compare"
+msgstr "مقایسه"
+
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/function/plugin-template-functions.php:66
+#, fuzzy
+msgid "Select a Wishlist"
+msgstr "لیست علاقه مندی "
+
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/function/plugin-template-functions.php:80
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/function/plugin-template-functions.php:93
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/function/plugin-template-functions.php:147
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/function/plugin-template-functions.php:151
+#, fuzzy
+msgid "Wishlist"
+msgstr "لیست علاقه مندی "
+
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/function/plugin-template-functions.php:103
+#, fuzzy
+msgid "My Wishlist"
+msgstr "لیست علاقه مندی های من"
+
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/function/plugin-template-functions.php:112
+msgid "Create a new list"
+msgstr "ایجاد لیست جدید"
+
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/function/plugin-template-functions.php:121
+msgid "Wishlist name"
+msgstr "نام لیست مورد علاقه من"
+
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/function/plugin-template-functions.php:126
+#, fuzzy
+msgid "Public"
+msgstr "عمومی"
+
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/function/plugin-template-functions.php:127
+msgid "Shared"
+msgstr "به اشتراک گذاشته شده"
+
+#: woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/function/plugin-template-functions.php:128
+msgid "Private"
+msgstr "خصوصی"
+
+#. Theme Name of the plugin/theme
+msgid "Devicer"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid "http://cmsmasters.net/devicer/"
+msgstr "HTTP"
+
+#. Author of the plugin/theme
+msgid "cmsmasters"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://cmsmasters.net/"
+msgstr "HTTP"

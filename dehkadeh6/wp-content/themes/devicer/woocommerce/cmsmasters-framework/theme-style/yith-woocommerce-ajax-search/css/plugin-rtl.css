@@ -1,0 +1,77 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Ajax Search RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+.yith_woocommerce_ajax_search > .yith-ajaxsearchform-container.cmsmasters_ajax_search_free input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]) {
+	background-position: 4% center;
+}
+
+.yith_woocommerce_ajax_search > .yith-ajaxsearchform-container.cmsmasters_ajax_search_free button:empty {
+	right: auto;
+	left: 2px;
+}
+
+.yith_woocommerce_ajax_search > .yith-ajaxsearchform-container.cmsmasters_ajax_search_premium input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]) {
+	background-position: 4% center;
+}
+
+.yith_woocommerce_ajax_search > .yith-ajaxsearchform-container.cmsmasters_ajax_search_premium button:empty {
+	right: auto;
+	left: 2px;
+}
+
+.yith_woocommerce_ajax_search > .yith-ajaxsearchform-container.cmsmasters_ajax_search_premium #yith-ajaxsearchform .yith-ajaxsearchform-select > .selectbox,
+.yith_woocommerce_ajax_search > .yith-ajaxsearchform-container.cmsmasters_ajax_search_premium .yith-ajaxsearchform_form .yith-ajaxsearchform-select > .selectbox {
+	float: right;
+}
+
+.autocomplete-suggestions .autocomplete-suggestion .yith_wcas_result_image.align-right {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.autocomplete-suggestions .autocomplete-suggestion .yith_wcas_result_image.align-right + .yith_wcas_result_content {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.autocomplete-suggestions .autocomplete-suggestion .yith_wcas_result_content .badges > span {
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.autocomplete-suggestions .autocomplete-suggestion .yith_wcas_result_content .badges > span:first-child {
+	margin-right: 0;
+}
+
+.cmsmasters_header_search_form .yith-ajaxsearchform-select {
+	float: right;
+}
+
+.cmsmasters_header_search_form .yith-ajaxsearchform-select .search_categories {
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-right-width: 0;
+	border-right-style: solid;
+	border-left-width: 1px;
+	border-left-style: solid;
+}
+
+#page #yith-ajaxsearchform select,
+#page .yith-ajaxsearchform_form select {
+	background-position: 10% center;
+}
+
+.cmsmasters_header_search_form .yith-ajaxsearchform-select .yit_wcas_post_type {
+	margin-right: -4px;
+	margin-left: 0;
+}
